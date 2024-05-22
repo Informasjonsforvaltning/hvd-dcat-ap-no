@@ -37,4 +37,6 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 
 :leveloffset: +1
 
-__#kommer ...#__
+include::Om_denne_versjonen.adoc[]
+
+__#mer er på vei#__
