@@ -33,9 +33,15 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 // *Veileder*: https://data.norge.no/guide/veileder-beskrivelse-av-datasett/ +
 *Valideringsverktøy*: https://data.norge.no/validator
 
+:leveloffset: +1
+
 include::Om_denne_versjonen.adoc[]
 
-:leveloffset: +1
+toc::[]
+
+// section number on
+:sectnums:
+:sectnumlevels: 5
 
 include::Om_denne_standarden.adoc[]
 
