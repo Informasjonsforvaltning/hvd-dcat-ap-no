@@ -515,29 +515,28 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Standard for beskrivelse av Høyverdidatasett (HVD-DCAT-AP-NO)</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Innholdsfortegnelse</div>
-<ul class="sectlevel0">
-<li><a href="#_om_denne_versjonen">Om denne versjonen</a>
 <ul class="sectlevel1">
-<li><a href="#_om_denne_standarden">Om denne standarden</a>
+<li><a href="#_om_denne_versjonen">Om denne versjonen</a></li>
+<li><a href="#_om_denne_standarden">1. Om denne standarden</a>
 <ul class="sectlevel2">
-<li><a href="#Innledning">Innledning</a></li>
-<li><a href="#Omfang-og-avgresing">Omfang og avgrensing</a></li>
-<li><a href="#Forvaltningsregime">Forvaltningsregime</a></li>
-<li><a href="#Om-kravene">Om kravnivåene i denne standarden</a></li>
-<li><a href="#Samsvarskrav">Krav til samsvar</a>
+<li><a href="#Innledning">1.1. Innledning</a></li>
+<li><a href="#Omfang-og-avgresing">1.2. Omfang og avgrensing</a></li>
+<li><a href="#Forvaltningsregime">1.3. Forvaltningsregime</a></li>
+<li><a href="#Om-kravene">1.4. Om kravnivåene i denne standarden</a></li>
+<li><a href="#Samsvarskrav">1.5. Krav til samsvar</a>
 <ul class="sectlevel3">
-<li><a href="#_krav_til_applikasjoner_som_leverer_metadata">Krav til applikasjoner som leverer metadata</a></li>
-<li><a href="#_krav_til_applikasjoner_som_mottar_metadata">Krav til applikasjoner som mottar metadata</a></li>
+<li><a href="#_krav_til_applikasjoner_som_leverer_metadata">1.5.1. Krav til applikasjoner som leverer metadata</a></li>
+<li><a href="#_krav_til_applikasjoner_som_mottar_metadata">1.5.2. Krav til applikasjoner som mottar metadata</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#_forenklet_fremstilling_av_kravene_i_hvd_dcat_ap_no">Forenklet fremstilling av kravene i HVD-DCAT-AP-NO</a></li>
-<li><a href="#_krav_til_rdf_representasjon_av_klassene_i_hvd_dcat_ap_no">Krav til RDF-representasjon av klassene i HVD-DCAT-AP-NO</a>
+<li><a href="#_forenklet_fremstilling_av_kravene_i_hvd_dcat_ap_no">2. Forenklet fremstilling av kravene i HVD-DCAT-AP-NO</a></li>
+<li><a href="#_krav_til_rdf_representasjon_av_klassene_i_hvd_dcat_ap_no">3. Krav til RDF-representasjon av klassene i HVD-DCAT-AP-NO</a>
 <ul class="sectlevel2">
-<li><a href="#Datasett">Klassen Datasett (dcat:Dataset)</a>
+<li><a href="#Datasett">3.1. Klassen Datasett (dcat:Dataset)</a>
 <ul class="sectlevel3">
-<li><a href="#Datasett-obligatoriske-egenskaper">Obligatoriske egenskaper for klassen <em>Datasett</em></a>
+<li><a href="#Datasett-obligatoriske-egenskaper">3.1.1. Obligatoriske egenskaper for klassen <em>Datasett</em></a>
 <ul class="sectlevel4">
 <li><a href="#Datasett-beskrivelse">Datasett – beskrivelse (dct:description)</a></li>
 <li><a href="#Datasett-kontaktpunkt">Datasett – kontaktpunkt (dcat:contactPoint)</a></li>
@@ -546,7 +545,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Datasett-utgiver">Datasett – utgiver (dct:publisher)</a></li>
 </ul>
 </li>
-<li><a href="#Datasett-anbefalte-egenskaper">Anbefalte egenskaper for klassen <em>Datasett</em></a>
+<li><a href="#Datasett-anbefalte-egenskaper">3.1.2. Anbefalte egenskaper for klassen <em>Datasett</em></a>
 <ul class="sectlevel4">
 <li><a href="#Datasett-begrep">Datasett – begrep (dct:subject)</a></li>
 <li><a href="#Datasett-bleGenerertVed">Datasett – ble generert ved (prov:wasGeneratedBy)</a></li>
@@ -558,7 +557,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Datasett-tilgangsrettigheter">Datasett – tilgangsrettigheter (dct:accessRights)</a></li>
 </ul>
 </li>
-<li><a href="#Datasett-valgfrie-egenskaper">Valgfrie egenskaper for klassen <em>Datasett</em></a>
+<li><a href="#Datasett-valgfrie-egenskaper">3.1.3. Valgfrie egenskaper for klassen <em>Datasett</em></a>
 <ul class="sectlevel4">
 <li><a href="#Datasett-annenIdentifikator">Datasett – annen identifikator (adms:identifier)</a></li>
 <li><a href="#Datasett-dokumentasjon">Datasett – dokumentasjon (foaf:page)</a></li>
@@ -594,16 +593,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#Datatjeneste">Klassen Datatjeneste (dcat:DataService)</a>
+<li><a href="#Datatjeneste">3.2. Klassen Datatjeneste (dcat:DataService)</a>
 <ul class="sectlevel3">
-<li><a href="#Datatjeneste-obligatoriske-egenskaper">Obligatoriske egenskaper for klassen <em>Datatjeneste</em></a>
+<li><a href="#Datatjeneste-obligatoriske-egenskaper">3.2.1. Obligatoriske egenskaper for klassen <em>Datatjeneste</em></a>
 <ul class="sectlevel4">
 <li><a href="#Datatjeneste-endepunktsurl">Datatjeneste – endepunktsURL (dcat:endpointURL)</a></li>
 <li><a href="#Datatjeneste-kontaktpunkt">Datatjeneste – kontaktpunkt (dcat:contactPoint)</a></li>
 <li><a href="#Datatjeneste-tittel">Datatjeneste – tittel (dct:title)</a></li>
 </ul>
 </li>
-<li><a href="#Datatjeneste-anbefalte-egenskaper">Anbefalte egenskaper for klassen <em>Datatjeneste</em></a>
+<li><a href="#Datatjeneste-anbefalte-egenskaper">3.2.2. Anbefalte egenskaper for klassen <em>Datatjeneste</em></a>
 <ul class="sectlevel4">
 <li><a href="#Datatjeneste-emneord">Datatjeneste – emneord (dcat:keyword)</a></li>
 <li><a href="#Datatjeneste-endepunktsbeskrivelse">Datatjeneste – endepunktsbeskrivelse (dcat:endpointDescription)</a></li>
@@ -615,7 +614,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Datatjeneste-utgiver">Datatjeneste – utgiver (dct:publisher)</a></li>
 </ul>
 </li>
-<li><a href="#Datatjeneste-valgfrie-egenskaper">Valgfrie egenskaper for klassen <em>Datatjeneste</em></a>
+<li><a href="#Datatjeneste-valgfrie-egenskaper">3.2.3. Valgfrie egenskaper for klassen <em>Datatjeneste</em></a>
 <ul class="sectlevel4">
 <li><a href="#Datatjeneste-beskrivelse">Datatjeneste – beskrivelse (dct:description)</a></li>
 <li><a href="#Datatjeneste-dokumentasjon">Datatjeneste – dokumentasjon (foaf:page)</a></li>
@@ -631,14 +630,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#Distribusjon">Klassen Distribusjon (dcat:Distribution)</a>
+<li><a href="#Distribusjon">3.3. Klassen Distribusjon (dcat:Distribution)</a>
 <ul class="sectlevel3">
-<li><a href="#Distribusjon-obligatoriske-egenskaper">Obligatoriske egenskaper for klassen <em>Distribusjon</em></a>
+<li><a href="#Distribusjon-obligatoriske-egenskaper">3.3.1. Obligatoriske egenskaper for klassen <em>Distribusjon</em></a>
 <ul class="sectlevel4">
 <li><a href="#Distribusjon-tilgangsurl">Distribusjon – tilgangsURL (dcat:accessURL)</a></li>
 </ul>
 </li>
-<li><a href="#Distribusjon-anbefalte-egenskaper">Anbefalte egenskaper for klassen <em>Distribusjon</em></a>
+<li><a href="#Distribusjon-anbefalte-egenskaper">3.3.2. Anbefalte egenskaper for klassen <em>Distribusjon</em></a>
 <ul class="sectlevel4">
 <li><a href="#Distribusjon-beskrivelse">Distribusjon – beskrivelse (dct:description)</a></li>
 <li><a href="#Distribusjon-format">Distribusjon – format (dct:format)</a></li>
@@ -647,7 +646,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Distribusjon-tilgjengelighet">Distribusjon – tilgjengelighet (dcatap:availability)</a></li>
 </ul>
 </li>
-<li><a href="#Distribusjon-valgfrie-egenskaper">Valgfrie egenskaper for klassen <em>Distribusjon</em></a>
+<li><a href="#Distribusjon-valgfrie-egenskaper">3.3.3. Valgfrie egenskaper for klassen <em>Distribusjon</em></a>
 <ul class="sectlevel4">
 <li><a href="#Distribusjon-dokumentasjon">Distribusjon – dokumentasjon (foaf:page)</a></li>
 <li><a href="#Distribusjon-endringsdato">Distribusjon – endringsdato (dct:modified)</a></li>
@@ -671,9 +670,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#Katalog">Klassen Katalog (dcat:Catalog)</a>
+<li><a href="#Katalog">3.4. Klassen Katalog (dcat:Catalog)</a>
 <ul class="sectlevel3">
-<li><a href="#Katalog-obligatoriske-egenskaper">Obligatoriske egenskaper for klassen <em>Katalog</em></a>
+<li><a href="#Katalog-obligatoriske-egenskaper">3.4.1. Obligatoriske egenskaper for klassen <em>Katalog</em></a>
 <ul class="sectlevel4">
 <li><a href="#Katalog-beskrivelse">Katalog – beskrivelse (dct:description)</a></li>
 <li><a href="#Katalog-kontaktpunkt">Katalog – kontaktpunkt (dcat:contactPoint)</a></li>
@@ -681,7 +680,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Katalog-utgiver">Katalog – utgiver (dct:publisher)</a></li>
 </ul>
 </li>
-<li><a href="#Katalog-anbefalte-egenskaper">Anbefalte egenskaper for klassen <em>Katalog</em></a>
+<li><a href="#Katalog-anbefalte-egenskaper">3.4.2. Anbefalte egenskaper for klassen <em>Katalog</em></a>
 <ul class="sectlevel4">
 <li><a href="#Katalog-datasett">Katalog – datasett (dcat:dataset)</a></li>
 <li><a href="#Katalog-datatjeneste">Katalog – datatjeneste (dcat:service)</a></li>
@@ -694,7 +693,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Katalog-utgivelsesdato">Katalog – utgivelsesdato (dct:issued)</a></li>
 </ul>
 </li>
-<li><a href="#Katalog-valgfrie-egenskaper">Valgfrie egenskaper for klassen <em>Katalog</em></a>
+<li><a href="#Katalog-valgfrie-egenskaper">3.4.3. Valgfrie egenskaper for klassen <em>Katalog</em></a>
 <ul class="sectlevel4">
 <li><a href="#Katalog-gjeldendeLovgivning">Katalog – gjeldende lovgivning (dcatap:applicableLegislation)</a></li>
 <li><a href="#Katalog-har-del">Katalog – har del (dct:hasPart)</a></li>
@@ -708,23 +707,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#KatalogisertRessurs">Klassen Katalogisert ressurs (dcat:Resource)</a></li>
-<li><a href="#Katalogpost">Klassen Katalogpost (dcat:CatalogRecord)</a>
+<li><a href="#KatalogisertRessurs">3.5. Klassen Katalogisert ressurs (dcat:Resource)</a></li>
+<li><a href="#Katalogpost">3.6. Klassen Katalogpost (dcat:CatalogRecord)</a>
 <ul class="sectlevel3">
-<li><a href="#Katalogpost-obligatoriske-egenskaper">Obligatoriske egenskaper for klassen <em>Katalogpost</em></a>
+<li><a href="#Katalogpost-obligatoriske-egenskaper">3.6.1. Obligatoriske egenskaper for klassen <em>Katalogpost</em></a>
 <ul class="sectlevel4">
 <li><a href="#Katalogpost-endringsdato">Katalogpost – endringsdato (dct:modified)</a></li>
 <li><a href="#Katalogpost-primærtema">Katalogpost – primærtema (foaf:primaryTopic)</a></li>
 </ul>
 </li>
-<li><a href="#Katalogpost-anbefalte-egenskaper">Anbefalte egenskaper for klassen <em>Katalogpost</em></a>
+<li><a href="#Katalogpost-anbefalte-egenskaper">3.6.2. Anbefalte egenskaper for klassen <em>Katalogpost</em></a>
 <ul class="sectlevel4">
 <li><a href="#Katalogpost-i-samsvar-med">Katalogpost – i samsvar med (dct:conformsTo)</a></li>
 <li><a href="#Katalogpost-status">Katalogpost – status (adms:status)</a></li>
 <li><a href="#Katalogpost-utgivelsesdato">Katalogpost – utgivelsesdato (dct:issued)</a></li>
 </ul>
 </li>
-<li><a href="#Katalogpost-valgfrie-egenskaper">Valgfrie egenskaper for klassen <em>Katalogpost</em></a>
+<li><a href="#Katalogpost-valgfrie-egenskaper">3.6.3. Valgfrie egenskaper for klassen <em>Katalogpost</em></a>
 <ul class="sectlevel4">
 <li><a href="#Katalogpost-beskrivelse">Katalogpost – beskrivelse (dct:description)</a></li>
 <li><a href="#Katalogpost-kilde">Katalogpost – kilde (dct:source)</a></li>
@@ -734,14 +733,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#Kontaktopplysning">Klassen Kontaktopplysning (vcard:Kind)</a>
+<li><a href="#Kontaktopplysning">3.7. Klassen Kontaktopplysning (vcard:Kind)</a>
 <ul class="sectlevel3">
-<li><a href="#Kontaktopplysning-obligatoriske-egenskaper">Obligatoriske egenskaper for klassen <em>Kontaktopplysning</em></a>
+<li><a href="#Kontaktopplysning-obligatoriske-egenskaper">3.7.1. Obligatoriske egenskaper for klassen <em>Kontaktopplysning</em></a>
 <ul class="sectlevel4">
 <li><a href="#Kontaktopplysning-navn">Kontaktopplysning – navn (vcard:fn)</a></li>
 </ul>
 </li>
-<li><a href="#Kontaktopplysning-anbefalte-egenskaper">Anbefalte egenskaper for klassen <em>Kontaktopplysning</em></a>
+<li><a href="#Kontaktopplysning-anbefalte-egenskaper">3.7.2. Anbefalte egenskaper for klassen <em>Kontaktopplysning</em></a>
 <ul class="sectlevel4">
 <li><a href="#Kontaktopplysning-harEPost">Kontaktopplysning – har e-post (vcard:hasEmail)</a></li>
 <li><a href="#Kontaktopplysning-kontaktside">Kontaktopplysning – har kontaktside (vcard:hasURL)</a></li>
@@ -751,9 +750,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#URIer-i-bruk">Vedlegg A - URIer som brukes i standarden</a></li>
-</ul>
-</li>
+<li><a href="#URIer-i-bruk">4. Vedlegg A - URIer som brukes i standarden</a></li>
 </ul>
 </div>
 </div>
@@ -814,9 +811,9 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 </div>
 </div>
-<h1 id="_om_denne_versjonen" class="sect0"><a class="anchor" href="#_om_denne_versjonen"></a>Om denne versjonen</h1>
-<div class="openblock partintro">
-<div class="content">
+<div class="sect1">
+<h2 id="_om_denne_versjonen"><a class="anchor" href="#_om_denne_versjonen"></a>Om denne versjonen</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Denne standarden, HVD-DCAT-AP-NO, er under utarbeidelse.</p>
 </div>
@@ -826,13 +823,14 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="paragraph">
 <p>Denne versjonen er basert på <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/" class="ext-link" target="_blank" rel="noopener">EUs utkast til DCAT-AP High Value Datasets &#x29C9;</a> som for tiden er <mark>under høring</mark>.</p>
 </div>
+<!-- toc disabled -->
 </div>
 </div>
 <div class="sect1">
-<h2 id="_om_denne_standarden"><a class="anchor" href="#_om_denne_standarden"></a>Om denne standarden</h2>
+<h2 id="_om_denne_standarden"><a class="anchor" href="#_om_denne_standarden"></a>1. Om denne standarden</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="Innledning"><a class="anchor" href="#Innledning"></a>Innledning</h3>
+<h3 id="Innledning"><a class="anchor" href="#Innledning"></a>1.1. Innledning</h3>
 <div class="paragraph">
 <p>Formålet med standarden er å legge til rette for utveksling av beskrivelser av datasett med høy verdi (på engelsk <em>High Value Dataset</em>), forkortet til HVD. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R013898" class="ext-link" target="_blank" rel="noopener">HVD-gjennomføringsforordningen &#x29C9;</a> som p.t. er under vurdering i EØS-EFTA, spesifiserer HVD innen følgende seks tematiske områder: geodata, jordobservasjoner og miljø, meteorologi, statistikk, selskaper og eierskap, mobilitet. Forordningen stiller også et minimumskrav til metadata i beskrivelser av HVD.</p>
 </div>
@@ -844,13 +842,13 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 </div>
 <div class="sect2">
-<h3 id="Omfang-og-avgresing"><a class="anchor" href="#Omfang-og-avgresing"></a>Omfang og avgrensing</h3>
+<h3 id="Omfang-og-avgresing"><a class="anchor" href="#Omfang-og-avgresing"></a>1.2. Omfang og avgrensing</h3>
 <div class="paragraph">
 <p>Standarden supplerer <a href="https://data.norge.no/specification/dcat-ap-no" class="ext-link" target="_blank" rel="noopener">Standard for beskrivelse av datasett</a>, og beskriver kun hvordan DCAT-AP-NO brukes til å tilfredsstille minimumskrav til metadata for HVD spesifisert i ovennevnte forordningen. Standarden er ikke tenkt brukt for å beskrive fagsystem.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="Forvaltningsregime"><a class="anchor" href="#Forvaltningsregime"></a>Forvaltningsregime</h3>
+<h3 id="Forvaltningsregime"><a class="anchor" href="#Forvaltningsregime"></a>1.3. Forvaltningsregime</h3>
 <div class="paragraph">
 <p>Dersom det oppdages mindre feil i standarden (stavefeil, upresis formulering etc.), vil ikke
 korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid dokumenteres.</p>
@@ -866,7 +864,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect2">
-<h3 id="Om-kravene"><a class="anchor" href="#Om-kravene"></a>Om kravnivåene i denne standarden</h3>
+<h3 id="Om-kravene"><a class="anchor" href="#Om-kravene"></a>1.4. Om kravnivåene i denne standarden</h3>
 <div class="paragraph">
 <p>Standarden bruker ordene «obligatorisk» («SKAL», «MÅ», <em>"mandatory"</em>, <em>"required"</em>, <em>"SHALL"</em>, <em>"MUST"</em>), «anbefalt» («BØR», <em>"recommended"</em>, <em>"SHOULD"</em>) og «valgfri» («KAN», <em>"optional"</em>, <em>"MAY"</em>) på tilsvarende måter som i EUs
 <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0/#conformance" class="ext-link" target="_blank" rel="noopener">DCAT-AP &#x29C9;</a> som følger <a href="https://www.rfc-editor.org/rfc/rfc2119" class="ext-link" target="_blank" rel="noopener">RFC2119 &#x29C9;</a>.</p>
@@ -892,25 +890,25 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect2">
-<h3 id="Samsvarskrav"><a class="anchor" href="#Samsvarskrav"></a>Krav til samsvar</h3>
+<h3 id="Samsvarskrav"><a class="anchor" href="#Samsvarskrav"></a>1.5. Krav til samsvar</h3>
 <div class="sect3">
-<h4 id="_krav_til_applikasjoner_som_leverer_metadata"><a class="anchor" href="#_krav_til_applikasjoner_som_leverer_metadata"></a>Krav til applikasjoner som leverer metadata</h4>
+<h4 id="_krav_til_applikasjoner_som_leverer_metadata"><a class="anchor" href="#_krav_til_applikasjoner_som_leverer_metadata"></a>1.5.1. Krav til applikasjoner som leverer metadata</h4>
 <div class="paragraph">
 <p>For å være i samsvar med denne standarden, SKAL en applikasjon som levere metadata:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Levere en beskrivelse av katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Katalog">Klassen Katalog (dcat:Catalog)</a>.</p>
+<p>Levere en beskrivelse av katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Katalog"> 3.4, &#8220;Klassen Katalog (dcat:Catalog)&#8221;</a>.</p>
 </li>
 <li>
-<p>Levere beskrivelser av datasettene som er i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Datasett">Klassen Datasett (dcat:Dataset)</a>.</p>
+<p>Levere beskrivelser av datasettene som er i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Datasett"> 3.1, &#8220;Klassen Datasett (dcat:Dataset)&#8221;</a>.</p>
 </li>
 <li>
-<p>Levere beskrivelser av distribusjoner, hvis noen, av datasett i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Distribusjon">Klassen Distribusjon (dcat:Distribution)</a>.</p>
+<p>Levere beskrivelser av distribusjoner, hvis noen, av datasett i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Distribusjon"> 3.3, &#8220;Klassen Distribusjon (dcat:Distribution)&#8221;</a>.</p>
 </li>
 <li>
-<p>Levere beskrivelser av datatjenester, hvis noen, i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Datatjeneste">Klassen Datatjeneste (dcat:DataService)</a>.</p>
+<p>Levere beskrivelser av datatjenester, hvis noen, i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Datatjeneste"> 3.2, &#8220;Klassen Datatjeneste (dcat:DataService)&#8221;</a>.</p>
 </li>
 <li>
 <p>Levere informasjon om alle organisasjoner/aktører som er involvert i beskrivelsene av katalogen, datasettene osv., som minimum med de obligatoriske egenskapene spesifisert i <a href="#Aktør">[Aktør]</a>.</p>
@@ -922,7 +920,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect3">
-<h4 id="_krav_til_applikasjoner_som_mottar_metadata"><a class="anchor" href="#_krav_til_applikasjoner_som_mottar_metadata"></a>Krav til applikasjoner som mottar metadata</h4>
+<h4 id="_krav_til_applikasjoner_som_mottar_metadata"><a class="anchor" href="#_krav_til_applikasjoner_som_mottar_metadata"></a>1.5.2. Krav til applikasjoner som mottar metadata</h4>
 <div class="paragraph">
 <p>For å være i samsvar med denne standarden, SKAL en applikasjon som mottar metadata:</p>
 </div>
@@ -944,7 +942,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect1">
-<h2 id="_forenklet_fremstilling_av_kravene_i_hvd_dcat_ap_no"><a class="anchor" href="#_forenklet_fremstilling_av_kravene_i_hvd_dcat_ap_no"></a>Forenklet fremstilling av kravene i HVD-DCAT-AP-NO</h2>
+<h2 id="_forenklet_fremstilling_av_kravene_i_hvd_dcat_ap_no"><a class="anchor" href="#_forenklet_fremstilling_av_kravene_i_hvd_dcat_ap_no"></a>2. Forenklet fremstilling av kravene i HVD-DCAT-AP-NO</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig kun kopiering fra DCAT-AP-NO</mark></em></p>
@@ -964,13 +962,13 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect1">
-<h2 id="_krav_til_rdf_representasjon_av_klassene_i_hvd_dcat_ap_no"><a class="anchor" href="#_krav_til_rdf_representasjon_av_klassene_i_hvd_dcat_ap_no"></a>Krav til RDF-representasjon av klassene i HVD-DCAT-AP-NO</h2>
+<h2 id="_krav_til_rdf_representasjon_av_klassene_i_hvd_dcat_ap_no"><a class="anchor" href="#_krav_til_rdf_representasjon_av_klassene_i_hvd_dcat_ap_no"></a>3. Krav til RDF-representasjon av klassene i HVD-DCAT-AP-NO</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em><mark>kommer</mark></em></p>
 </div>
 <div class="sect2">
-<h3 id="Datasett"><a class="anchor" href="#Datasett"></a>Klassen Datasett (dcat:Dataset)</h3>
+<h3 id="Datasett"><a class="anchor" href="#Datasett"></a>3.1. Klassen Datasett (dcat:Dataset)</h3>
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
 </div>
@@ -1009,9 +1007,9 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="Datasett-obligatoriske-egenskaper"><a class="anchor" href="#Datasett-obligatoriske-egenskaper"></a>Obligatoriske egenskaper for klassen <em>Datasett</em></h4>
+<h4 id="Datasett-obligatoriske-egenskaper"><a class="anchor" href="#Datasett-obligatoriske-egenskaper"></a>3.1.1. Obligatoriske egenskaper for klassen <em>Datasett</em></h4>
 <div class="sect4">
-<h5 id="Datasett-beskrivelse"><a class="anchor" href="#Datasett-beskrivelse"></a>Datasett – beskrivelse (dct:description)</h5>
+<h5 id="Datasett-beskrivelse"><a class="anchor" href="#Datasett-beskrivelse"></a>3.1.1.1. Datasett – beskrivelse (dct:description)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1047,7 +1045,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-kontaktpunkt"><a class="anchor" href="#Datasett-kontaktpunkt"></a>Datasett – kontaktpunkt (dcat:contactPoint)</h5>
+<h5 id="Datasett-kontaktpunkt"><a class="anchor" href="#Datasett-kontaktpunkt"></a>3.1.1.2. Datasett – kontaktpunkt (dcat:contactPoint)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1088,7 +1086,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-tema"><a class="anchor" href="#Datasett-tema"></a>Datasett – tema (dcat:theme)</h5>
+<h5 id="Datasett-tema"><a class="anchor" href="#Datasett-tema"></a>3.1.1.3. Datasett – tema (dcat:theme)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1136,7 +1134,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-tittel"><a class="anchor" href="#Datasett-tittel"></a>Datasett – tittel (dct:title)</h5>
+<h5 id="Datasett-tittel"><a class="anchor" href="#Datasett-tittel"></a>3.1.1.4. Datasett – tittel (dct:title)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1172,7 +1170,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-utgiver"><a class="anchor" href="#Datasett-utgiver"></a>Datasett – utgiver (dct:publisher)</h5>
+<h5 id="Datasett-utgiver"><a class="anchor" href="#Datasett-utgiver"></a>3.1.1.5. Datasett – utgiver (dct:publisher)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1219,9 +1217,9 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect3">
-<h4 id="Datasett-anbefalte-egenskaper"><a class="anchor" href="#Datasett-anbefalte-egenskaper"></a>Anbefalte egenskaper for klassen <em>Datasett</em></h4>
+<h4 id="Datasett-anbefalte-egenskaper"><a class="anchor" href="#Datasett-anbefalte-egenskaper"></a>3.1.2. Anbefalte egenskaper for klassen <em>Datasett</em></h4>
 <div class="sect4">
-<h5 id="Datasett-begrep"><a class="anchor" href="#Datasett-begrep"></a>Datasett – begrep (dct:subject)</h5>
+<h5 id="Datasett-begrep"><a class="anchor" href="#Datasett-begrep"></a>3.1.2.1. Datasett – begrep (dct:subject)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1262,7 +1260,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-bleGenerertVed"><a class="anchor" href="#Datasett-bleGenerertVed"></a>Datasett – ble generert ved (prov:wasGeneratedBy)</h5>
+<h5 id="Datasett-bleGenerertVed"><a class="anchor" href="#Datasett-bleGenerertVed"></a>3.1.2.2. Datasett – ble generert ved (prov:wasGeneratedBy)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1326,7 +1324,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect4">
-<h5 id="Datasett-datasettdistribusjon"><a class="anchor" href="#Datasett-datasettdistribusjon"></a>Datasett – datasettdistribusjon (dcat:distribution)</h5>
+<h5 id="Datasett-datasettdistribusjon"><a class="anchor" href="#Datasett-datasettdistribusjon"></a>3.1.2.3. Datasett – datasettdistribusjon (dcat:distribution)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1362,7 +1360,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-dekningsområde"><a class="anchor" href="#Datasett-dekningsområde"></a>Datasett – dekningsområde (dct:spatial)</h5>
+<h5 id="Datasett-dekningsområde"><a class="anchor" href="#Datasett-dekningsområde"></a>3.1.2.4. Datasett – dekningsområde (dct:spatial)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1405,7 +1403,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-emneord"><a class="anchor" href="#Datasett-emneord"></a>Datasett – emneord (dcat:keyword)</h5>
+<h5 id="Datasett-emneord"><a class="anchor" href="#Datasett-emneord"></a>3.1.2.5. Datasett – emneord (dcat:keyword)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1441,7 +1439,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-gjeldendeLovgivning"><a class="anchor" href="#Datasett-gjeldendeLovgivning"></a>Datasett – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
+<h5 id="Datasett-gjeldendeLovgivning"><a class="anchor" href="#Datasett-gjeldendeLovgivning"></a>3.1.2.6. Datasett – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1482,7 +1480,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-tidsrom"><a class="anchor" href="#Datasett-tidsrom"></a>Datasett – tidsrom (dct:temporal)</h5>
+<h5 id="Datasett-tidsrom"><a class="anchor" href="#Datasett-tidsrom"></a>3.1.2.7. Datasett – tidsrom (dct:temporal)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1518,7 +1516,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-tilgangsrettigheter"><a class="anchor" href="#Datasett-tilgangsrettigheter"></a>Datasett – tilgangsrettigheter (dct:accessRights)</h5>
+<h5 id="Datasett-tilgangsrettigheter"><a class="anchor" href="#Datasett-tilgangsrettigheter"></a>3.1.2.8. Datasett – tilgangsrettigheter (dct:accessRights)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1565,9 +1563,9 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect3">
-<h4 id="Datasett-valgfrie-egenskaper"><a class="anchor" href="#Datasett-valgfrie-egenskaper"></a>Valgfrie egenskaper for klassen <em>Datasett</em></h4>
+<h4 id="Datasett-valgfrie-egenskaper"><a class="anchor" href="#Datasett-valgfrie-egenskaper"></a>3.1.3. Valgfrie egenskaper for klassen <em>Datasett</em></h4>
 <div class="sect4">
-<h5 id="Datasett-annenIdentifikator"><a class="anchor" href="#Datasett-annenIdentifikator"></a>Datasett – annen identifikator (adms:identifier)</h5>
+<h5 id="Datasett-annenIdentifikator"><a class="anchor" href="#Datasett-annenIdentifikator"></a>3.1.3.1. Datasett – annen identifikator (adms:identifier)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1603,7 +1601,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-dokumentasjon"><a class="anchor" href="#Datasett-dokumentasjon"></a>Datasett – dokumentasjon (foaf:page)</h5>
+<h5 id="Datasett-dokumentasjon"><a class="anchor" href="#Datasett-dokumentasjon"></a>3.1.3.2. Datasett – dokumentasjon (foaf:page)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1639,7 +1637,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-eksempeldata"><a class="anchor" href="#Datasett-eksempeldata"></a>Datasett – eksempeldata (adms:sample)</h5>
+<h5 id="Datasett-eksempeldata"><a class="anchor" href="#Datasett-eksempeldata"></a>3.1.3.3. Datasett – eksempeldata (adms:sample)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1675,7 +1673,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-endringsdato"><a class="anchor" href="#Datasett-endringsdato"></a>Datasett – endringsdato (dct:modified)</h5>
+<h5 id="Datasett-endringsdato"><a class="anchor" href="#Datasett-endringsdato"></a>3.1.3.4. Datasett – endringsdato (dct:modified)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1716,7 +1714,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-erReferertAv"><a class="anchor" href="#Datasett-erReferertAv"></a>Datasett – er referert av (dct:isReferencedBy)</h5>
+<h5 id="Datasett-erReferertAv"><a class="anchor" href="#Datasett-erReferertAv"></a>3.1.3.5. Datasett – er referert av (dct:isReferencedBy)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1752,7 +1750,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-erstatter"><a class="anchor" href="#Datasett-erstatter"></a>Datasett – erstatter (dct:replaces)</h5>
+<h5 id="Datasett-erstatter"><a class="anchor" href="#Datasett-erstatter"></a>3.1.3.6. Datasett – erstatter (dct:replaces)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1788,7 +1786,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-forrige"><a class="anchor" href="#Datasett-forrige"></a>Datasett – forrige (dcat:prev)</h5>
+<h5 id="Datasett-forrige"><a class="anchor" href="#Datasett-forrige"></a>3.1.3.7. Datasett – forrige (dcat:prev)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1824,7 +1822,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-frekvens"><a class="anchor" href="#Datasett-frekvens"></a>Datasett – frekvens (dct:accrualPeriodicity)</h5>
+<h5 id="Datasett-frekvens"><a class="anchor" href="#Datasett-frekvens"></a>3.1.3.8. Datasett – frekvens (dct:accrualPeriodicity)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1865,7 +1863,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-harDel"><a class="anchor" href="#Datasett-harDel"></a>Datasett – har del (dct:hasPart)</h5>
+<h5 id="Datasett-harDel"><a class="anchor" href="#Datasett-harDel"></a>3.1.3.9. Datasett – har del (dct:hasPart)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1906,7 +1904,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-har-gebyr"><a class="anchor" href="#Datasett-har-gebyr"></a>Datasett – har gebyr (cv:hasCost)</h5>
+<h5 id="Datasett-har-gebyr"><a class="anchor" href="#Datasett-har-gebyr"></a>3.1.3.10. Datasett – har gebyr (cv:hasCost)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1942,7 +1940,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-harKvalitetsmerknad"><a class="anchor" href="#Datasett-harKvalitetsmerknad"></a>Datasett – har kvalitetsmerknad (dqv:hasQualityAnnotation)</h5>
+<h5 id="Datasett-harKvalitetsmerknad"><a class="anchor" href="#Datasett-harKvalitetsmerknad"></a>3.1.3.11. Datasett – har kvalitetsmerknad (dqv:hasQualityAnnotation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1996,7 +1994,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect4">
-<h5 id="Datasett-harMåleresultat"><a class="anchor" href="#Datasett-harMåleresultat"></a>Datasett – har måleresultat (dqv:hasQualityMeasurement)</h5>
+<h5 id="Datasett-harMåleresultat"><a class="anchor" href="#Datasett-harMåleresultat"></a>3.1.3.12. Datasett – har måleresultat (dqv:hasQualityMeasurement)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2047,7 +2045,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 </div>
 <div class="sect4">
-<h5 id="Datasett-harVersjon"><a class="anchor" href="#Datasett-harVersjon"></a>Datasett – har versjon (dcat:hasVersion)</h5>
+<h5 id="Datasett-harVersjon"><a class="anchor" href="#Datasett-harVersjon"></a>3.1.3.13. Datasett – har versjon (dcat:hasVersion)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2083,7 +2081,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-iSamsvarMed"><a class="anchor" href="#Datasett-iSamsvarMed"></a>Datasett – i samsvar med (dct:conformsTo)</h5>
+<h5 id="Datasett-iSamsvarMed"><a class="anchor" href="#Datasett-iSamsvarMed"></a>3.1.3.14. Datasett – i samsvar med (dct:conformsTo)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2119,7 +2117,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-iSerie"><a class="anchor" href="#Datasett-iSerie"></a>Datasett – i serie (dcat:inSeries)</h5>
+<h5 id="Datasett-iSerie"><a class="anchor" href="#Datasett-iSerie"></a>3.1.3.15. Datasett – i serie (dcat:inSeries)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2192,7 +2190,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect4">
-<h5 id="Datasett-identifikator"><a class="anchor" href="#Datasett-identifikator"></a>Datasett – identifikator (dct:identifier)</h5>
+<h5 id="Datasett-identifikator"><a class="anchor" href="#Datasett-identifikator"></a>3.1.3.16. Datasett – identifikator (dct:identifier)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2233,7 +2231,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-kilde"><a class="anchor" href="#Datasett-kilde"></a>Datasett – kilde (dct:source)</h5>
+<h5 id="Datasett-kilde"><a class="anchor" href="#Datasett-kilde"></a>3.1.3.17. Datasett – kilde (dct:source)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2269,7 +2267,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-kvalifisertKreditering"><a class="anchor" href="#Datasett-kvalifisertKreditering"></a>Datasett – kvalifisert kreditering (prov:qualifiedAttribution)</h5>
+<h5 id="Datasett-kvalifisertKreditering"><a class="anchor" href="#Datasett-kvalifisertKreditering"></a>3.1.3.18. Datasett – kvalifisert kreditering (prov:qualifiedAttribution)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2305,7 +2303,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-kvalifisertRelasjon"><a class="anchor" href="#Datasett-kvalifisertRelasjon"></a>Datasett – kvalifisert relasjon (dcat:qualifiedRelation)</h5>
+<h5 id="Datasett-kvalifisertRelasjon"><a class="anchor" href="#Datasett-kvalifisertRelasjon"></a>3.1.3.19. Datasett – kvalifisert relasjon (dcat:qualifiedRelation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2341,7 +2339,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-landingsside"><a class="anchor" href="#Datasett-landingsside"></a>Datasett – landingsside (dcat:landingPage)</h5>
+<h5 id="Datasett-landingsside"><a class="anchor" href="#Datasett-landingsside"></a>3.1.3.20. Datasett – landingsside (dcat:landingPage)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2377,7 +2375,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-opphav"><a class="anchor" href="#Datasett-opphav"></a>Datasett – opphav (dct:provenance)</h5>
+<h5 id="Datasett-opphav"><a class="anchor" href="#Datasett-opphav"></a>3.1.3.21. Datasett – opphav (dct:provenance)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2413,7 +2411,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-produsent"><a class="anchor" href="#Datasett-produsent"></a>Datasett – produsent (dct:creator)</h5>
+<h5 id="Datasett-produsent"><a class="anchor" href="#Datasett-produsent"></a>3.1.3.22. Datasett – produsent (dct:creator)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2449,7 +2447,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-relatertRessurs"><a class="anchor" href="#Datasett-relatertRessurs"></a>Datasett – relatert ressurs (dct:relation)</h5>
+<h5 id="Datasett-relatertRessurs"><a class="anchor" href="#Datasett-relatertRessurs"></a>3.1.3.23. Datasett – relatert ressurs (dct:relation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2485,7 +2483,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-romligOppløsning"><a class="anchor" href="#Datasett-romligOppløsning"></a>Datasett – romlig oppløsning (dcat:spatialResolutionInMeters)</h5>
+<h5 id="Datasett-romligOppløsning"><a class="anchor" href="#Datasett-romligOppløsning"></a>3.1.3.24. Datasett – romlig oppløsning (dcat:spatialResolutionInMeters)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2521,7 +2519,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-språk"><a class="anchor" href="#Datasett-språk"></a>Datasett – språk (dct:language)</h5>
+<h5 id="Datasett-språk"><a class="anchor" href="#Datasett-språk"></a>3.1.3.25. Datasett – språk (dct:language)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2562,7 +2560,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-tidsoppløsning"><a class="anchor" href="#Datasett-tidsoppløsning"></a>Datasett – tidsoppløsning (dcat:temporalResolution)</h5>
+<h5 id="Datasett-tidsoppløsning"><a class="anchor" href="#Datasett-tidsoppløsning"></a>3.1.3.26. Datasett – tidsoppløsning (dcat:temporalResolution)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2598,7 +2596,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-type"><a class="anchor" href="#Datasett-type"></a>Datasett – type (dct:type)</h5>
+<h5 id="Datasett-type"><a class="anchor" href="#Datasett-type"></a>3.1.3.27. Datasett – type (dct:type)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2657,7 +2655,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect4">
-<h5 id="Datasett-utgivelsesdato"><a class="anchor" href="#Datasett-utgivelsesdato"></a>Datasett – utgivelsesdato (dct:issued)</h5>
+<h5 id="Datasett-utgivelsesdato"><a class="anchor" href="#Datasett-utgivelsesdato"></a>3.1.3.28. Datasett – utgivelsesdato (dct:issued)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2698,7 +2696,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-versjon"><a class="anchor" href="#Datasett-versjon"></a>Datasett – versjon (dcat:version)</h5>
+<h5 id="Datasett-versjon"><a class="anchor" href="#Datasett-versjon"></a>3.1.3.29. Datasett – versjon (dcat:version)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2734,7 +2732,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datasett-versjonsmerknad"><a class="anchor" href="#Datasett-versjonsmerknad"></a>Datasett – versjonsmerknad (adms:versionNotes)</h5>
+<h5 id="Datasett-versjonsmerknad"><a class="anchor" href="#Datasett-versjonsmerknad"></a>3.1.3.30. Datasett – versjonsmerknad (adms:versionNotes)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2772,7 +2770,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect2">
-<h3 id="Datatjeneste"><a class="anchor" href="#Datatjeneste"></a>Klassen Datatjeneste (dcat:DataService)</h3>
+<h3 id="Datatjeneste"><a class="anchor" href="#Datatjeneste"></a>3.2. Klassen Datatjeneste (dcat:DataService)</h3>
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
 </div>
@@ -2811,9 +2809,9 @@ ex:budget-2020 a dcat:Dataset ;
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="Datatjeneste-obligatoriske-egenskaper"><a class="anchor" href="#Datatjeneste-obligatoriske-egenskaper"></a>Obligatoriske egenskaper for klassen <em>Datatjeneste</em></h4>
+<h4 id="Datatjeneste-obligatoriske-egenskaper"><a class="anchor" href="#Datatjeneste-obligatoriske-egenskaper"></a>3.2.1. Obligatoriske egenskaper for klassen <em>Datatjeneste</em></h4>
 <div class="sect4">
-<h5 id="Datatjeneste-endepunktsurl"><a class="anchor" href="#Datatjeneste-endepunktsurl"></a>Datatjeneste – endepunktsURL (dcat:endpointURL)</h5>
+<h5 id="Datatjeneste-endepunktsurl"><a class="anchor" href="#Datatjeneste-endepunktsurl"></a>3.2.1.1. Datatjeneste – endepunktsURL (dcat:endpointURL)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2854,7 +2852,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-kontaktpunkt"><a class="anchor" href="#Datatjeneste-kontaktpunkt"></a>Datatjeneste – kontaktpunkt (dcat:contactPoint)</h5>
+<h5 id="Datatjeneste-kontaktpunkt"><a class="anchor" href="#Datatjeneste-kontaktpunkt"></a>3.2.1.2. Datatjeneste – kontaktpunkt (dcat:contactPoint)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2895,7 +2893,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-tittel"><a class="anchor" href="#Datatjeneste-tittel"></a>Datatjeneste – tittel (dct:title)</h5>
+<h5 id="Datatjeneste-tittel"><a class="anchor" href="#Datatjeneste-tittel"></a>3.2.1.3. Datatjeneste – tittel (dct:title)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2932,9 +2930,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Datatjeneste-anbefalte-egenskaper"><a class="anchor" href="#Datatjeneste-anbefalte-egenskaper"></a>Anbefalte egenskaper for klassen <em>Datatjeneste</em></h4>
+<h4 id="Datatjeneste-anbefalte-egenskaper"><a class="anchor" href="#Datatjeneste-anbefalte-egenskaper"></a>3.2.2. Anbefalte egenskaper for klassen <em>Datatjeneste</em></h4>
 <div class="sect4">
-<h5 id="Datatjeneste-emneord"><a class="anchor" href="#Datatjeneste-emneord"></a>Datatjeneste – emneord (dcat:keyword)</h5>
+<h5 id="Datatjeneste-emneord"><a class="anchor" href="#Datatjeneste-emneord"></a>3.2.2.1. Datatjeneste – emneord (dcat:keyword)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2970,7 +2968,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-endepunktsbeskrivelse"><a class="anchor" href="#Datatjeneste-endepunktsbeskrivelse"></a>Datatjeneste – endepunktsbeskrivelse (dcat:endpointDescription)</h5>
+<h5 id="Datatjeneste-endepunktsbeskrivelse"><a class="anchor" href="#Datatjeneste-endepunktsbeskrivelse"></a>3.2.2.2. Datatjeneste – endepunktsbeskrivelse (dcat:endpointDescription)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2991,7 +2989,7 @@ ex:budget-2020 a dcat:Dataset ;
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi en beskrivelse av tjenestene som er tilgjengelige via endepunktene, inkludert deres operasjoner, parametere osv. Egenskapen gir spesifikke detaljer om de faktiske endepunkt-instansene, mens egenskapen <a href="#Datatjeneste-i-samsvar-med">Datatjeneste – i samsvar med (dct:conformsTo)</a> brukes til å indikere den generelle standarden eller spesifikasjonen som endepunktene implementerer.</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi en beskrivelse av tjenestene som er tilgjengelige via endepunktene, inkludert deres operasjoner, parametere osv. Egenskapen gir spesifikke detaljer om de faktiske endepunkt-instansene, mens egenskapen <a href="#Datatjeneste-i-samsvar-med"> 3.2.2.5, &#8220;Datatjeneste – i samsvar med (dct:conformsTo)&#8221;</a> brukes til å indikere den generelle standarden eller spesifikasjonen som endepunktene implementerer.</p>
 <p class="tableblock"><em>This property is used to specify a description of the services available via the end-points, including their operations, parameters etc. The property gives specific details of the actual endpoint instances, while the property application profile (dct:conformsTo) is used to indicate the general standard or specification that the endpoints implement.</em></p></td>
 </tr>
 <tr>
@@ -3006,7 +3004,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-format"><a class="anchor" href="#Datatjeneste-format"></a>Datatjeneste – format (dct:format)</h5>
+<h5 id="Datatjeneste-format"><a class="anchor" href="#Datatjeneste-format"></a>3.2.2.3. Datatjeneste – format (dct:format)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3052,7 +3050,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-gjeldendeLovgivning"><a class="anchor" href="#Datatjeneste-gjeldendeLovgivning"></a>Datatjeneste – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
+<h5 id="Datatjeneste-gjeldendeLovgivning"><a class="anchor" href="#Datatjeneste-gjeldendeLovgivning"></a>3.2.2.4. Datatjeneste – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3093,7 +3091,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-i-samsvar-med"><a class="anchor" href="#Datatjeneste-i-samsvar-med"></a>Datatjeneste – i samsvar med (dct:conformsTo)</h5>
+<h5 id="Datatjeneste-i-samsvar-med"><a class="anchor" href="#Datatjeneste-i-samsvar-med"></a>3.2.2.5. Datatjeneste – i samsvar med (dct:conformsTo)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3129,7 +3127,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-tema"><a class="anchor" href="#Datatjeneste-tema"></a>Datatjeneste – tema (dcat:theme)</h5>
+<h5 id="Datatjeneste-tema"><a class="anchor" href="#Datatjeneste-tema"></a>3.2.2.6. Datatjeneste – tema (dcat:theme)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3172,7 +3170,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-tilgjengeliggjor-datasett"><a class="anchor" href="#Datatjeneste-tilgjengeliggjor-datasett"></a>Datatjeneste – tilgjengeliggjør datasett (dcat:servesDataset)</h5>
+<h5 id="Datatjeneste-tilgjengeliggjor-datasett"><a class="anchor" href="#Datatjeneste-tilgjengeliggjor-datasett"></a>3.2.2.7. Datatjeneste – tilgjengeliggjør datasett (dcat:servesDataset)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3208,7 +3206,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-utgiver"><a class="anchor" href="#Datatjeneste-utgiver"></a>Datatjeneste – utgiver (dct:publisher)</h5>
+<h5 id="Datatjeneste-utgiver"><a class="anchor" href="#Datatjeneste-utgiver"></a>3.2.2.8. Datatjeneste – utgiver (dct:publisher)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3245,9 +3243,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Datatjeneste-valgfrie-egenskaper"><a class="anchor" href="#Datatjeneste-valgfrie-egenskaper"></a>Valgfrie egenskaper for klassen <em>Datatjeneste</em></h4>
+<h4 id="Datatjeneste-valgfrie-egenskaper"><a class="anchor" href="#Datatjeneste-valgfrie-egenskaper"></a>3.2.3. Valgfrie egenskaper for klassen <em>Datatjeneste</em></h4>
 <div class="sect4">
-<h5 id="Datatjeneste-beskrivelse"><a class="anchor" href="#Datatjeneste-beskrivelse"></a>Datatjeneste – beskrivelse (dct:description)</h5>
+<h5 id="Datatjeneste-beskrivelse"><a class="anchor" href="#Datatjeneste-beskrivelse"></a>3.2.3.1. Datatjeneste – beskrivelse (dct:description)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3283,7 +3281,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-dokumentasjon"><a class="anchor" href="#Datatjeneste-dokumentasjon"></a>Datatjeneste – dokumentasjon (foaf:page)</h5>
+<h5 id="Datatjeneste-dokumentasjon"><a class="anchor" href="#Datatjeneste-dokumentasjon"></a>3.2.3.2. Datatjeneste – dokumentasjon (foaf:page)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3324,7 +3322,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-identifikator"><a class="anchor" href="#Datatjeneste-identifikator"></a>Datatjeneste – identifikator (dct:identifier)</h5>
+<h5 id="Datatjeneste-identifikator"><a class="anchor" href="#Datatjeneste-identifikator"></a>3.2.3.3. Datatjeneste – identifikator (dct:identifier)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3360,7 +3358,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-landingsside"><a class="anchor" href="#Datatjeneste-landingsside"></a>Datatjeneste – landingsside (dcat:landingPage)</h5>
+<h5 id="Datatjeneste-landingsside"><a class="anchor" href="#Datatjeneste-landingsside"></a>3.2.3.4. Datatjeneste – landingsside (dcat:landingPage)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3396,7 +3394,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-lisens"><a class="anchor" href="#Datatjeneste-lisens"></a>Datatjeneste – lisens (dct:license)</h5>
+<h5 id="Datatjeneste-lisens"><a class="anchor" href="#Datatjeneste-lisens"></a>3.2.3.5. Datatjeneste – lisens (dct:license)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3437,7 +3435,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-medietype"><a class="anchor" href="#Datatjeneste-medietype"></a>Datatjeneste – medietype (dcat:mediaType)</h5>
+<h5 id="Datatjeneste-medietype"><a class="anchor" href="#Datatjeneste-medietype"></a>3.2.3.6. Datatjeneste – medietype (dcat:mediaType)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3478,7 +3476,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-tilgangsrettigheter"><a class="anchor" href="#Datatjeneste-tilgangsrettigheter"></a>Datatjeneste – tilgangsrettigheter (dct:accessRights)</h5>
+<h5 id="Datatjeneste-tilgangsrettigheter"><a class="anchor" href="#Datatjeneste-tilgangsrettigheter"></a>3.2.3.7. Datatjeneste – tilgangsrettigheter (dct:accessRights)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3519,7 +3517,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-type"><a class="anchor" href="#Datatjeneste-type"></a>Datatjeneste – type (dct:type)</h5>
+<h5 id="Datatjeneste-type"><a class="anchor" href="#Datatjeneste-type"></a>3.2.3.8. Datatjeneste – type (dct:type)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3555,7 +3553,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-versjon"><a class="anchor" href="#Datatjeneste-versjon"></a>Datatjeneste – versjon (dcat:version)</h5>
+<h5 id="Datatjeneste-versjon"><a class="anchor" href="#Datatjeneste-versjon"></a>3.2.3.9. Datatjeneste – versjon (dcat:version)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3591,7 +3589,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Datatjeneste-versjonsmerknad"><a class="anchor" href="#Datatjeneste-versjonsmerknad"></a>Datatjeneste – versjonsmerknad (adms:versionNotes)</h5>
+<h5 id="Datatjeneste-versjonsmerknad"><a class="anchor" href="#Datatjeneste-versjonsmerknad"></a>3.2.3.10. Datatjeneste – versjonsmerknad (adms:versionNotes)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3629,7 +3627,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect2">
-<h3 id="Distribusjon"><a class="anchor" href="#Distribusjon"></a>Klassen Distribusjon (dcat:Distribution)</h3>
+<h3 id="Distribusjon"><a class="anchor" href="#Distribusjon"></a>3.3. Klassen Distribusjon (dcat:Distribution)</h3>
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
 </div>
@@ -3664,9 +3662,9 @@ ex:budget-2020 a dcat:Dataset ;
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="Distribusjon-obligatoriske-egenskaper"><a class="anchor" href="#Distribusjon-obligatoriske-egenskaper"></a>Obligatoriske egenskaper for klassen <em>Distribusjon</em></h4>
+<h4 id="Distribusjon-obligatoriske-egenskaper"><a class="anchor" href="#Distribusjon-obligatoriske-egenskaper"></a>3.3.1. Obligatoriske egenskaper for klassen <em>Distribusjon</em></h4>
 <div class="sect4">
-<h5 id="Distribusjon-tilgangsurl"><a class="anchor" href="#Distribusjon-tilgangsurl"></a>Distribusjon – tilgangsURL (dcat:accessURL)</h5>
+<h5 id="Distribusjon-tilgangsurl"><a class="anchor" href="#Distribusjon-tilgangsurl"></a>3.3.1.1. Distribusjon – tilgangsURL (dcat:accessURL)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3703,9 +3701,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Distribusjon-anbefalte-egenskaper"><a class="anchor" href="#Distribusjon-anbefalte-egenskaper"></a>Anbefalte egenskaper for klassen <em>Distribusjon</em></h4>
+<h4 id="Distribusjon-anbefalte-egenskaper"><a class="anchor" href="#Distribusjon-anbefalte-egenskaper"></a>3.3.2. Anbefalte egenskaper for klassen <em>Distribusjon</em></h4>
 <div class="sect4">
-<h5 id="Distribusjon-beskrivelse"><a class="anchor" href="#Distribusjon-beskrivelse"></a>Distribusjon – beskrivelse (dct:description)</h5>
+<h5 id="Distribusjon-beskrivelse"><a class="anchor" href="#Distribusjon-beskrivelse"></a>3.3.2.1. Distribusjon – beskrivelse (dct:description)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3746,7 +3744,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-format"><a class="anchor" href="#Distribusjon-format"></a>Distribusjon – format (dct:format)</h5>
+<h5 id="Distribusjon-format"><a class="anchor" href="#Distribusjon-format"></a>3.3.2.2. Distribusjon – format (dct:format)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3787,7 +3785,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-lisens"><a class="anchor" href="#Distribusjon-lisens"></a>Distribusjon – lisens (dct:license)</h5>
+<h5 id="Distribusjon-lisens"><a class="anchor" href="#Distribusjon-lisens"></a>3.3.2.3. Distribusjon – lisens (dct:license)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3828,7 +3826,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-status"><a class="anchor" href="#Distribusjon-status"></a>Distribusjon – status (adms:status)</h5>
+<h5 id="Distribusjon-status"><a class="anchor" href="#Distribusjon-status"></a>3.3.2.4. Distribusjon – status (adms:status)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3874,7 +3872,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-tilgjengelighet"><a class="anchor" href="#Distribusjon-tilgjengelighet"></a>Distribusjon – tilgjengelighet (dcatap:availability)</h5>
+<h5 id="Distribusjon-tilgjengelighet"><a class="anchor" href="#Distribusjon-tilgjengelighet"></a>3.3.2.5. Distribusjon – tilgjengelighet (dcatap:availability)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3921,9 +3919,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Distribusjon-valgfrie-egenskaper"><a class="anchor" href="#Distribusjon-valgfrie-egenskaper"></a>Valgfrie egenskaper for klassen <em>Distribusjon</em></h4>
+<h4 id="Distribusjon-valgfrie-egenskaper"><a class="anchor" href="#Distribusjon-valgfrie-egenskaper"></a>3.3.3. Valgfrie egenskaper for klassen <em>Distribusjon</em></h4>
 <div class="sect4">
-<h5 id="Distribusjon-dokumentasjon"><a class="anchor" href="#Distribusjon-dokumentasjon"></a>Distribusjon – dokumentasjon (foaf:page)</h5>
+<h5 id="Distribusjon-dokumentasjon"><a class="anchor" href="#Distribusjon-dokumentasjon"></a>3.3.3.1. Distribusjon – dokumentasjon (foaf:page)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3959,7 +3957,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-endringsdato"><a class="anchor" href="#Distribusjon-endringsdato"></a>Distribusjon – endringsdato (dct:modified)</h5>
+<h5 id="Distribusjon-endringsdato"><a class="anchor" href="#Distribusjon-endringsdato"></a>3.3.3.2. Distribusjon – endringsdato (dct:modified)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4000,7 +3998,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-filstørrelse"><a class="anchor" href="#Distribusjon-filstørrelse"></a>Distribusjon – filstørrelse (dcat:byteSize)</h5>
+<h5 id="Distribusjon-filstørrelse"><a class="anchor" href="#Distribusjon-filstørrelse"></a>3.3.3.3. Distribusjon – filstørrelse (dcat:byteSize)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4036,7 +4034,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-gjeldendeLovgivning"><a class="anchor" href="#Distribusjon-gjeldendeLovgivning"></a>Distribusjon – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
+<h5 id="Distribusjon-gjeldendeLovgivning"><a class="anchor" href="#Distribusjon-gjeldendeLovgivning"></a>3.3.3.4. Distribusjon – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4072,7 +4070,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-i-samsvar-med"><a class="anchor" href="#Distribusjon-i-samsvar-med"></a>Distribusjon – i samsvar med (dct:conformsTo)</h5>
+<h5 id="Distribusjon-i-samsvar-med"><a class="anchor" href="#Distribusjon-i-samsvar-med"></a>3.3.3.5. Distribusjon – i samsvar med (dct:conformsTo)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4108,7 +4106,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-komprimeringsformat"><a class="anchor" href="#Distribusjon-komprimeringsformat"></a>Distribusjon – komprimeringsformat (dcat:compressFormat)</h5>
+<h5 id="Distribusjon-komprimeringsformat"><a class="anchor" href="#Distribusjon-komprimeringsformat"></a>3.3.3.6. Distribusjon – komprimeringsformat (dcat:compressFormat)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4151,7 +4149,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-medietype"><a class="anchor" href="#Distribusjon-medietype"></a>Distribusjon – medietype (dcat:mediaType)</h5>
+<h5 id="Distribusjon-medietype"><a class="anchor" href="#Distribusjon-medietype"></a>3.3.3.7. Distribusjon – medietype (dcat:mediaType)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4194,7 +4192,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-nedlastningslenke"><a class="anchor" href="#Distribusjon-nedlastningslenke"></a>Distribusjon – nedlastningslenke (dcat:downloadURL)</h5>
+<h5 id="Distribusjon-nedlastningslenke"><a class="anchor" href="#Distribusjon-nedlastningslenke"></a>3.3.3.8. Distribusjon – nedlastningslenke (dcat:downloadURL)</h5>
 <div class="paragraph">
 <p>f</p>
 </div>
@@ -4233,7 +4231,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-pakkeformat"><a class="anchor" href="#Distribusjon-pakkeformat"></a>Distribusjon – pakkeformat (dcat:packageFormat)</h5>
+<h5 id="Distribusjon-pakkeformat"><a class="anchor" href="#Distribusjon-pakkeformat"></a>3.3.3.9. Distribusjon – pakkeformat (dcat:packageFormat)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4276,7 +4274,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-policy"><a class="anchor" href="#Distribusjon-policy"></a>Distribusjon – policy (odrl:hasPolicy)</h5>
+<h5 id="Distribusjon-policy"><a class="anchor" href="#Distribusjon-policy"></a>3.3.3.10. Distribusjon – policy (odrl:hasPolicy)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4312,7 +4310,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-rettigheter"><a class="anchor" href="#Distribusjon-rettigheter"></a>Distribusjon – rettigheter (dct:rights)</h5>
+<h5 id="Distribusjon-rettigheter"><a class="anchor" href="#Distribusjon-rettigheter"></a>3.3.3.11. Distribusjon – rettigheter (dct:rights)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4348,7 +4346,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-romlig-oppløsning"><a class="anchor" href="#Distribusjon-romlig-oppløsning"></a>Distribusjon – romlig oppløsning (dcat:spatialResolutionInMeters)</h5>
+<h5 id="Distribusjon-romlig-oppløsning"><a class="anchor" href="#Distribusjon-romlig-oppløsning"></a>3.3.3.12. Distribusjon – romlig oppløsning (dcat:spatialResolutionInMeters)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4384,7 +4382,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-sjekksum"><a class="anchor" href="#Distribusjon-sjekksum"></a>Distribusjon – sjekksum (spdx:checksum)</h5>
+<h5 id="Distribusjon-sjekksum"><a class="anchor" href="#Distribusjon-sjekksum"></a>3.3.3.13. Distribusjon – sjekksum (spdx:checksum)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4420,7 +4418,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-språk"><a class="anchor" href="#Distribusjon-språk"></a>Distribusjon – språk (dct:language)</h5>
+<h5 id="Distribusjon-språk"><a class="anchor" href="#Distribusjon-språk"></a>3.3.3.14. Distribusjon – språk (dct:language)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4461,7 +4459,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-tidsoppløsning"><a class="anchor" href="#Distribusjon-tidsoppløsning"></a>Distribusjon – tidsoppløsning (dcat:temporalResolution)</h5>
+<h5 id="Distribusjon-tidsoppløsning"><a class="anchor" href="#Distribusjon-tidsoppløsning"></a>3.3.3.15. Distribusjon – tidsoppløsning (dcat:temporalResolution)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4497,7 +4495,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-tilganstjeneste"><a class="anchor" href="#Distribusjon-tilganstjeneste"></a>Distribusjon – tilgangstjeneste (dcat:accessService)</h5>
+<h5 id="Distribusjon-tilganstjeneste"><a class="anchor" href="#Distribusjon-tilganstjeneste"></a>3.3.3.16. Distribusjon – tilgangstjeneste (dcat:accessService)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4533,7 +4531,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-tittel"><a class="anchor" href="#Distribusjon-tittel"></a>Distribusjon – tittel (dct:title)</h5>
+<h5 id="Distribusjon-tittel"><a class="anchor" href="#Distribusjon-tittel"></a>3.3.3.17. Distribusjon – tittel (dct:title)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4569,7 +4567,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Distribusjon-utgivelsesdato"><a class="anchor" href="#Distribusjon-utgivelsesdato"></a>Distribusjon – utgivelsesdato (dct:issued)</h5>
+<h5 id="Distribusjon-utgivelsesdato"><a class="anchor" href="#Distribusjon-utgivelsesdato"></a>3.3.3.18. Distribusjon – utgivelsesdato (dct:issued)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4612,7 +4610,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect2">
-<h3 id="Katalog"><a class="anchor" href="#Katalog"></a>Klassen Katalog (dcat:Catalog)</h3>
+<h3 id="Katalog"><a class="anchor" href="#Katalog"></a>3.4. Klassen Katalog (dcat:Catalog)</h3>
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
 </div>
@@ -4647,9 +4645,9 @@ ex:budget-2020 a dcat:Dataset ;
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="Katalog-obligatoriske-egenskaper"><a class="anchor" href="#Katalog-obligatoriske-egenskaper"></a>Obligatoriske egenskaper for klassen <em>Katalog</em></h4>
+<h4 id="Katalog-obligatoriske-egenskaper"><a class="anchor" href="#Katalog-obligatoriske-egenskaper"></a>3.4.1. Obligatoriske egenskaper for klassen <em>Katalog</em></h4>
 <div class="sect4">
-<h5 id="Katalog-beskrivelse"><a class="anchor" href="#Katalog-beskrivelse"></a>Katalog – beskrivelse (dct:description)</h5>
+<h5 id="Katalog-beskrivelse"><a class="anchor" href="#Katalog-beskrivelse"></a>3.4.1.1. Katalog – beskrivelse (dct:description)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4685,7 +4683,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-kontaktpunkt"><a class="anchor" href="#Katalog-kontaktpunkt"></a>Katalog – kontaktpunkt (dcat:contactPoint)</h5>
+<h5 id="Katalog-kontaktpunkt"><a class="anchor" href="#Katalog-kontaktpunkt"></a>3.4.1.2. Katalog – kontaktpunkt (dcat:contactPoint)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4726,7 +4724,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-tittel"><a class="anchor" href="#Katalog-tittel"></a>Katalog – tittel (dct:title)</h5>
+<h5 id="Katalog-tittel"><a class="anchor" href="#Katalog-tittel"></a>3.4.1.3. Katalog – tittel (dct:title)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4762,7 +4760,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-utgiver"><a class="anchor" href="#Katalog-utgiver"></a>Katalog – utgiver (dct:publisher)</h5>
+<h5 id="Katalog-utgiver"><a class="anchor" href="#Katalog-utgiver"></a>3.4.1.4. Katalog – utgiver (dct:publisher)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4804,9 +4802,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Katalog-anbefalte-egenskaper"><a class="anchor" href="#Katalog-anbefalte-egenskaper"></a>Anbefalte egenskaper for klassen <em>Katalog</em></h4>
+<h4 id="Katalog-anbefalte-egenskaper"><a class="anchor" href="#Katalog-anbefalte-egenskaper"></a>3.4.2. Anbefalte egenskaper for klassen <em>Katalog</em></h4>
 <div class="sect4">
-<h5 id="Katalog-datasett"><a class="anchor" href="#Katalog-datasett"></a>Katalog – datasett (dcat:dataset)</h5>
+<h5 id="Katalog-datasett"><a class="anchor" href="#Katalog-datasett"></a>3.4.2.1. Katalog – datasett (dcat:dataset)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4842,7 +4840,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-datatjeneste"><a class="anchor" href="#Katalog-datatjeneste"></a>Katalog – datatjeneste (dcat:service)</h5>
+<h5 id="Katalog-datatjeneste"><a class="anchor" href="#Katalog-datatjeneste"></a>3.4.2.2. Katalog – datatjeneste (dcat:service)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4878,7 +4876,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-dekningsområde"><a class="anchor" href="#Katalog-dekningsområde"></a>Katalog – dekningsområde (dct:spatial)</h5>
+<h5 id="Katalog-dekningsområde"><a class="anchor" href="#Katalog-dekningsområde"></a>3.4.2.3. Katalog – dekningsområde (dct:spatial)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4921,7 +4919,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-endringsdato"><a class="anchor" href="#Katalog-endringsdato"></a>Katalog – endringsdato (dct:modified)</h5>
+<h5 id="Katalog-endringsdato"><a class="anchor" href="#Katalog-endringsdato"></a>3.4.2.4. Katalog – endringsdato (dct:modified)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4962,7 +4960,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-hjemmeside"><a class="anchor" href="#Katalog-hjemmeside"></a>Katalog – hjemmeside (foaf:homepage)</h5>
+<h5 id="Katalog-hjemmeside"><a class="anchor" href="#Katalog-hjemmeside"></a>3.4.2.5. Katalog – hjemmeside (foaf:homepage)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4998,7 +4996,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-lisens"><a class="anchor" href="#Katalog-lisens"></a>Katalog – lisens (dct:license)</h5>
+<h5 id="Katalog-lisens"><a class="anchor" href="#Katalog-lisens"></a>3.4.2.6. Katalog – lisens (dct:license)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5039,7 +5037,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-språk"><a class="anchor" href="#Katalog-språk"></a>Katalog – språk (dct:language)</h5>
+<h5 id="Katalog-språk"><a class="anchor" href="#Katalog-språk"></a>3.4.2.7. Katalog – språk (dct:language)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5080,7 +5078,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-temaer"><a class="anchor" href="#Katalog-temaer"></a>Katalog – temaer (dcat:themeTaxonomy)</h5>
+<h5 id="Katalog-temaer"><a class="anchor" href="#Katalog-temaer"></a>3.4.2.8. Katalog – temaer (dcat:themeTaxonomy)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5126,7 +5124,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-utgivelsesdato"><a class="anchor" href="#Katalog-utgivelsesdato"></a>Katalog – utgivelsesdato (dct:issued)</h5>
+<h5 id="Katalog-utgivelsesdato"><a class="anchor" href="#Katalog-utgivelsesdato"></a>3.4.2.9. Katalog – utgivelsesdato (dct:issued)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5168,9 +5166,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Katalog-valgfrie-egenskaper"><a class="anchor" href="#Katalog-valgfrie-egenskaper"></a>Valgfrie egenskaper for klassen <em>Katalog</em></h4>
+<h4 id="Katalog-valgfrie-egenskaper"><a class="anchor" href="#Katalog-valgfrie-egenskaper"></a>3.4.3. Valgfrie egenskaper for klassen <em>Katalog</em></h4>
 <div class="sect4">
-<h5 id="Katalog-gjeldendeLovgivning"><a class="anchor" href="#Katalog-gjeldendeLovgivning"></a>Katalog – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
+<h5 id="Katalog-gjeldendeLovgivning"><a class="anchor" href="#Katalog-gjeldendeLovgivning"></a>3.4.3.1. Katalog – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5206,7 +5204,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-har-del"><a class="anchor" href="#Katalog-har-del"></a>Katalog – har del (dct:hasPart)</h5>
+<h5 id="Katalog-har-del"><a class="anchor" href="#Katalog-har-del"></a>3.4.3.2. Katalog – har del (dct:hasPart)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5242,7 +5240,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-identifikator"><a class="anchor" href="#Katalog-identifikator"></a>Katalog – identifikator (dct:identifier)</h5>
+<h5 id="Katalog-identifikator"><a class="anchor" href="#Katalog-identifikator"></a>3.4.3.3. Katalog – identifikator (dct:identifier)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5278,7 +5276,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-katalog"><a class="anchor" href="#Katalog-katalog"></a>Katalog – katalog (dcat:catalog)</h5>
+<h5 id="Katalog-katalog"><a class="anchor" href="#Katalog-katalog"></a>3.4.3.4. Katalog – katalog (dcat:catalog)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5314,7 +5312,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-katalogpost"><a class="anchor" href="#Katalog-katalogpost"></a>Katalog – katalogpost (dcat:record)</h5>
+<h5 id="Katalog-katalogpost"><a class="anchor" href="#Katalog-katalogpost"></a>3.4.3.5. Katalog – katalogpost (dcat:record)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5350,7 +5348,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-produsent"><a class="anchor" href="#Katalog-produsent"></a>Katalog – produsent (dct:creator)</h5>
+<h5 id="Katalog-produsent"><a class="anchor" href="#Katalog-produsent"></a>3.4.3.6. Katalog – produsent (dct:creator)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5386,7 +5384,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-rettigheter"><a class="anchor" href="#Katalog-rettigheter"></a>Katalog – rettigheter (brukervilkår) (dct:rights)</h5>
+<h5 id="Katalog-rettigheter"><a class="anchor" href="#Katalog-rettigheter"></a>3.4.3.7. Katalog – rettigheter (brukervilkår) (dct:rights)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5422,7 +5420,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalog-tidsrom"><a class="anchor" href="#Katalog-tidsrom"></a>Katalog – tidsrom (dct:temporal)</h5>
+<h5 id="Katalog-tidsrom"><a class="anchor" href="#Katalog-tidsrom"></a>3.4.3.8. Katalog – tidsrom (dct:temporal)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5460,7 +5458,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect2">
-<h3 id="KatalogisertRessurs"><a class="anchor" href="#KatalogisertRessurs"></a>Klassen Katalogisert ressurs (dcat:Resource)</h3>
+<h3 id="KatalogisertRessurs"><a class="anchor" href="#KatalogisertRessurs"></a>3.5. Klassen Katalogisert ressurs (dcat:Resource)</h3>
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
 </div>
@@ -5494,14 +5492,14 @@ ex:budget-2020 a dcat:Dataset ;
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Dette er en abstrakt klasse. I en konkret anvendelse/serialisering BØR bare subklassene <a href="#Datasett">Klassen Datasett (dcat:Dataset)</a>, <a href="#Datasettserie">[Datasettserie]</a> eller <a href="#Datatjeneste">Klassen Datatjeneste (dcat:DataService)</a> brukes.</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dette er en abstrakt klasse. I en konkret anvendelse/serialisering BØR bare subklassene <a href="#Datasett"> 3.1, &#8220;Klassen Datasett (dcat:Dataset)&#8221;</a>, <a href="#Datasettserie">[Datasettserie]</a> eller <a href="#Datatjeneste"> 3.2, &#8220;Klassen Datatjeneste (dcat:DataService)&#8221;</a> brukes.</p>
 <p class="tableblock"><em>This class Catalogued Record is an abstract class for DCAT-AP. Therefore only subclasses dcat:Dataset, dcat:DatasetSeries or dcat:DataService SHOULD be used in a data exchange.</em></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="sect2">
-<h3 id="Katalogpost"><a class="anchor" href="#Katalogpost"></a>Klassen Katalogpost (dcat:CatalogRecord)</h3>
+<h3 id="Katalogpost"><a class="anchor" href="#Katalogpost"></a>3.6. Klassen Katalogpost (dcat:CatalogRecord)</h3>
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
 </div>
@@ -5536,9 +5534,9 @@ ex:budget-2020 a dcat:Dataset ;
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="Katalogpost-obligatoriske-egenskaper"><a class="anchor" href="#Katalogpost-obligatoriske-egenskaper"></a>Obligatoriske egenskaper for klassen <em>Katalogpost</em></h4>
+<h4 id="Katalogpost-obligatoriske-egenskaper"><a class="anchor" href="#Katalogpost-obligatoriske-egenskaper"></a>3.6.1. Obligatoriske egenskaper for klassen <em>Katalogpost</em></h4>
 <div class="sect4">
-<h5 id="Katalogpost-endringsdato"><a class="anchor" href="#Katalogpost-endringsdato"></a>Katalogpost – endringsdato (dct:modified)</h5>
+<h5 id="Katalogpost-endringsdato"><a class="anchor" href="#Katalogpost-endringsdato"></a>3.6.1.1. Katalogpost – endringsdato (dct:modified)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5579,7 +5577,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalogpost-primærtema"><a class="anchor" href="#Katalogpost-primærtema"></a>Katalogpost – primærtema (foaf:primaryTopic)</h5>
+<h5 id="Katalogpost-primærtema"><a class="anchor" href="#Katalogpost-primærtema"></a>3.6.1.2. Katalogpost – primærtema (foaf:primaryTopic)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5616,9 +5614,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Katalogpost-anbefalte-egenskaper"><a class="anchor" href="#Katalogpost-anbefalte-egenskaper"></a>Anbefalte egenskaper for klassen <em>Katalogpost</em></h4>
+<h4 id="Katalogpost-anbefalte-egenskaper"><a class="anchor" href="#Katalogpost-anbefalte-egenskaper"></a>3.6.2. Anbefalte egenskaper for klassen <em>Katalogpost</em></h4>
 <div class="sect4">
-<h5 id="Katalogpost-i-samsvar-med"><a class="anchor" href="#Katalogpost-i-samsvar-med"></a>Katalogpost – i samsvar med (dct:conformsTo)</h5>
+<h5 id="Katalogpost-i-samsvar-med"><a class="anchor" href="#Katalogpost-i-samsvar-med"></a>3.6.2.1. Katalogpost – i samsvar med (dct:conformsTo)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5654,7 +5652,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalogpost-status"><a class="anchor" href="#Katalogpost-status"></a>Katalogpost – status (adms:status)</h5>
+<h5 id="Katalogpost-status"><a class="anchor" href="#Katalogpost-status"></a>3.6.2.2. Katalogpost – status (adms:status)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5690,7 +5688,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalogpost-utgivelsesdato"><a class="anchor" href="#Katalogpost-utgivelsesdato"></a>Katalogpost – utgivelsesdato (dct:issued)</h5>
+<h5 id="Katalogpost-utgivelsesdato"><a class="anchor" href="#Katalogpost-utgivelsesdato"></a>3.6.2.3. Katalogpost – utgivelsesdato (dct:issued)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5732,9 +5730,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Katalogpost-valgfrie-egenskaper"><a class="anchor" href="#Katalogpost-valgfrie-egenskaper"></a>Valgfrie egenskaper for klassen <em>Katalogpost</em></h4>
+<h4 id="Katalogpost-valgfrie-egenskaper"><a class="anchor" href="#Katalogpost-valgfrie-egenskaper"></a>3.6.3. Valgfrie egenskaper for klassen <em>Katalogpost</em></h4>
 <div class="sect4">
-<h5 id="Katalogpost-beskrivelse"><a class="anchor" href="#Katalogpost-beskrivelse"></a>Katalogpost – beskrivelse (dct:description)</h5>
+<h5 id="Katalogpost-beskrivelse"><a class="anchor" href="#Katalogpost-beskrivelse"></a>3.6.3.1. Katalogpost – beskrivelse (dct:description)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5770,7 +5768,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalogpost-kilde"><a class="anchor" href="#Katalogpost-kilde"></a>Katalogpost – kilde (dct:source)</h5>
+<h5 id="Katalogpost-kilde"><a class="anchor" href="#Katalogpost-kilde"></a>3.6.3.2. Katalogpost – kilde (dct:source)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5806,7 +5804,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalogpost-språk"><a class="anchor" href="#Katalogpost-språk"></a>Katalogpost – språk (dct:language)</h5>
+<h5 id="Katalogpost-språk"><a class="anchor" href="#Katalogpost-språk"></a>3.6.3.3. Katalogpost – språk (dct:language)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5847,7 +5845,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Katalogpost-tittel"><a class="anchor" href="#Katalogpost-tittel"></a>Katalogpost – tittel (dct:title)</h5>
+<h5 id="Katalogpost-tittel"><a class="anchor" href="#Katalogpost-tittel"></a>3.6.3.4. Katalogpost – tittel (dct:title)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5885,7 +5883,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect2">
-<h3 id="Kontaktopplysning"><a class="anchor" href="#Kontaktopplysning"></a>Klassen Kontaktopplysning (vcard:Kind)</h3>
+<h3 id="Kontaktopplysning"><a class="anchor" href="#Kontaktopplysning"></a>3.7. Klassen Kontaktopplysning (vcard:Kind)</h3>
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
 </div>
@@ -5925,9 +5923,9 @@ ex:budget-2020 a dcat:Dataset ;
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="Kontaktopplysning-obligatoriske-egenskaper"><a class="anchor" href="#Kontaktopplysning-obligatoriske-egenskaper"></a>Obligatoriske egenskaper for klassen <em>Kontaktopplysning</em></h4>
+<h4 id="Kontaktopplysning-obligatoriske-egenskaper"><a class="anchor" href="#Kontaktopplysning-obligatoriske-egenskaper"></a>3.7.1. Obligatoriske egenskaper for klassen <em>Kontaktopplysning</em></h4>
 <div class="sect4">
-<h5 id="Kontaktopplysning-navn"><a class="anchor" href="#Kontaktopplysning-navn"></a>Kontaktopplysning – navn (vcard:fn)</h5>
+<h5 id="Kontaktopplysning-navn"><a class="anchor" href="#Kontaktopplysning-navn"></a>3.7.1.1. Kontaktopplysning – navn (vcard:fn)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5969,9 +5967,9 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect3">
-<h4 id="Kontaktopplysning-anbefalte-egenskaper"><a class="anchor" href="#Kontaktopplysning-anbefalte-egenskaper"></a>Anbefalte egenskaper for klassen <em>Kontaktopplysning</em></h4>
+<h4 id="Kontaktopplysning-anbefalte-egenskaper"><a class="anchor" href="#Kontaktopplysning-anbefalte-egenskaper"></a>3.7.2. Anbefalte egenskaper for klassen <em>Kontaktopplysning</em></h4>
 <div class="sect4">
-<h5 id="Kontaktopplysning-harEPost"><a class="anchor" href="#Kontaktopplysning-harEPost"></a>Kontaktopplysning – har e-post (vcard:hasEmail)</h5>
+<h5 id="Kontaktopplysning-harEPost"><a class="anchor" href="#Kontaktopplysning-harEPost"></a>3.7.2.1. Kontaktopplysning – har e-post (vcard:hasEmail)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -6012,7 +6010,7 @@ ex:budget-2020 a dcat:Dataset ;
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kontaktopplysning-kontaktside"><a class="anchor" href="#Kontaktopplysning-kontaktside"></a>Kontaktopplysning – har kontaktside (vcard:hasURL)</h5>
+<h5 id="Kontaktopplysning-kontaktside"><a class="anchor" href="#Kontaktopplysning-kontaktside"></a>3.7.2.2. Kontaktopplysning – har kontaktside (vcard:hasURL)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -6057,7 +6055,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 </div>
 <div class="sect1">
-<h2 id="URIer-i-bruk"><a class="anchor" href="#URIer-i-bruk"></a>Vedlegg A - URIer som brukes i standarden</h2>
+<h2 id="URIer-i-bruk"><a class="anchor" href="#URIer-i-bruk"></a>4. Vedlegg A - URIer som brukes i standarden</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em><mark>NB! Foreløpig ren kopiering fra DCAT-AP-NO, skal kortes ned</mark></em></p>
@@ -6186,7 +6184,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-05-22 12:23:13 UTC
+Sist oppdatert 2024-05-22 12:29:41 UTC
 </div>
 </div>
 </body>
