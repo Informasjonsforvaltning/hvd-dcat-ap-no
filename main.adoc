@@ -37,4 +37,6 @@ include::Om_denne_versjonen.adoc[]
 
 :leveloffset: +1
 
+include::Om_denne_standarden.adoc[]
+
 __#mer er på vei#__

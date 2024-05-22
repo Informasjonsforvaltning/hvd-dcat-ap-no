@@ -1,0 +1,12 @@
+= Om kravnivåene i denne standarden [[Om-kravene]]
+
+Standarden bruker ordene «obligatorisk» («SKAL», «MÅ», _"mandatory"_, _"required"_, _"SHALL"_, _"MUST"_), «anbefalt» («BØR», _"recommended"_, _"SHOULD"_) og «valgfri» («KAN», _"optional"_, _"MAY"_) på tilsvarende måter som i EUs 
+https://semiceu.github.io/DCAT-AP/releases/3.0.0/#conformance[DCAT-AP &#x29C9;, window="_blank", role="ext-link"] som følger https://www.rfc-editor.org/rfc/rfc2119[RFC2119 &#x29C9;, window="_blank", role="ext-link"]. 
+
+Følgende er en forenklet fornorsking av RFC2119 med betydning av ordene, bare når ordene er skrevet med store bokstaver: 
+
+SKAL, MÅ, tilsvarende engelsk SHALL, MUST::: et absolutt krav.
+BØR, tilsvarende engelsk SHOULD::: i spesielle tilfeller kan det være saklige grunner til å avvike fra kravet, men implikasjonene skal være forstått og nøye vurdert før man velger å avvike fra kravet. 
+KAN, tilsvarende engelsk MAY::: man kan velge helt fritt om kravet skal tilfredsstilles eller ikke.  
+
+
