@@ -67,4 +67,7 @@ include::Klasse_Kontaktopplysning.adoc[]
 
 :leveloffset: -1
 
+// Appendix, section number off
+:sectnums!:
+
 include::Oversikt_over_URIer.adoc[]
