@@ -1,32 +1,36 @@
-name: build adocs and publish to Github-Pages
+name: build adocs and publish to Github-pages
 
 on:
   push:
     branches:
-      - develop
+    - develop
     paths:
-      - docs/**
+    - docs/**
 
 jobs:
   adoc_build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     name: asciidoctor build
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Build html
-        id: adocbuild
-        uses: avattathil/asciidoctor-action@master
-        with:
+
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Build html
+      id: adocbuild_html
+      uses: tonynv/asciidoctor-action@master
+      with:
           program: "asciidoctor -D docs -o index.html -a lang=nb docs/main.adoc"
-      - name: Build pdf
-        id: adocbuild_pdf
-        uses: avattathil/asciidoctor-action@master
-        with:
-          program: "asciidoctor-pdf -D docs -o files/dcat-ap-no.pdf -a lang=nb docs/main.adoc"
-        continue-on-error: true
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+
+    - name: Build pdf
+      id: adocbuild_pdf
+      uses: tonynv/asciidoctor-action@master
+      with:
+          program: "asciidoctor-pdf -D docs -o files/cpsv-ap-no.pdf -a lang=nb docs/main.adoc"
+      continue-on-error: true
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
