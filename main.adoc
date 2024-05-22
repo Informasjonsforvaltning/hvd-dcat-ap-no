@@ -25,7 +25,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 
 *Lisens*: https://creativecommons.org/licenses/by/4.0/[CC-BY 4.0] +
 *Status*: #Redaktørens utkast# +
-*Versjon*: #Utkast til høringsversjon# (se <<Endringslogg>>) +
+*Versjon*: #Utkast til høringsversjon# +
 *Oppdatert*: #løpende oppdateres#  +
 *Gjeldende versjon*: ingen +
 *Forrige versjon*: ingen +
@@ -33,10 +33,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 // *Veileder*: https://data.norge.no/guide/veileder-beskrivelse-av-datasett/ +
 *Valideringsverktøy*: https://data.norge.no/validator
 
-
+include::Om_denne_versjonen.adoc[]
 
 :leveloffset: +1
-
-include::Om_denne_versjonen.adoc[]
 
 __#mer er på vei#__
