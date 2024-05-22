@@ -39,4 +39,26 @@ include::Om_denne_versjonen.adoc[]
 
 include::Om_denne_standarden.adoc[]
 
+include::Forenklet_fremstilling.adoc[]
+
+include::Spesifikasjon_per_klasse.adoc[]
+
+:leveloffset: +1
+
+include::Klasse_Datasett.adoc[]
+
+include::Klasse_Datatjeneste.adoc[]
+
+include::Klasse_Distribusjon.adoc[]
+
+include::Klasse_Katalog.adoc[]
+
+include::Klasse_Katalogisert_ressurs.adoc[]
+
+include::Klasse_Katalogpost.adoc[]
+
+include::Klasse_Kontaktopplysning.adoc[]
+
+:leveloffset: -1
+
 __#mer er på vei#__

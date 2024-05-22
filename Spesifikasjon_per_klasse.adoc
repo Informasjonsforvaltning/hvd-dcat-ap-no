@@ -1,0 +1,3 @@
+= Krav til RDF-representasjon av klassene i HVD-DCAT-AP-NO
+
+__#kommer#__
