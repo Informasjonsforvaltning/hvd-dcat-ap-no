@@ -1,0 +1,5 @@
+= Omfang og avgrensing [[Omfang-og-avgresing]]
+
+Standarden supplerer https://data.norge.no/specification/dcat-ap-no[Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO) &#x29C9;, window="_blank", role="ext-link"], og beskriver kun hvordan DCAT-AP-NO brukes til å tilfredsstille minimumskrav til metadata for HVD spesifisert i ovennevnte forordningen. Standarden er ikke tenkt brukt for å beskrive fagsystem. 
+
+
