@@ -62,5 +62,3 @@ include::Klasse_Kontaktopplysning.adoc[]
 :leveloffset: -1
 
 include::Oversikt_over_URIer.adoc[]
-
-__#mer er på vei#__
