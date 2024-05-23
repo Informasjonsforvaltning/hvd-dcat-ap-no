@@ -12,5 +12,3 @@ __#NB! Foreløpig kun kopiering fra DCAT-AP-NO#__
 image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[]
 
 :xrefstyle: full
-
-__#mer kommer#__

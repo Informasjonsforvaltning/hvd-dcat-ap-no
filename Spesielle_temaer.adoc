@@ -1,0 +1,4 @@
+= Noen spesielle temaer [[Spesielle_temaer]]
+
+include::Om_spesifikke_datakrav.adoc[]
+
