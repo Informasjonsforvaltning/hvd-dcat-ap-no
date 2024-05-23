@@ -815,10 +815,10 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <h2 id="_om_denne_versjonen"><a class="anchor" href="#_om_denne_versjonen"></a>Om denne versjonen</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Denne standarden, HVD-DCAT-AP-NO, er under utarbeidelse.</p>
+<p>Denne standarden, HVD-DCAT-AP-NO, er en ny standard som p.t. er <mark>under utarbeidelse</mark>.</p>
 </div>
 <div class="paragraph">
-<p>Dette er utkast til kommende høringsversjon til den HVD-DCAT-AP-NO.</p>
+<p>Dette er utkast til kommende høringsversjon til den nye HVD-DCAT-AP-NO.</p>
 </div>
 <div class="paragraph">
 <p>Denne versjonen er basert på <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/" class="ext-link" target="_blank" rel="noopener">EUs utkast til DCAT-AP High Value Datasets &#x29C9;</a> som for tiden er <mark>under høring</mark>.</p>
@@ -832,10 +832,10 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Innledning"><a class="anchor" href="#Innledning"></a>1.1. Innledning</h3>
 <div class="paragraph">
-<p>Formålet med standarden er å legge til rette for utveksling av beskrivelser av datasett med høy verdi (på engelsk <em>High Value Dataset</em>), forkortet til HVD. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R013898" class="ext-link" target="_blank" rel="noopener">HVD-gjennomføringsforordningen &#x29C9;</a> som p.t. er under vurdering i EØS-EFTA, spesifiserer HVD innen følgende seks tematiske områder: geodata, jordobservasjoner og miljø, meteorologi, statistikk, selskaper og eierskap, mobilitet. Forordningen stiller også et minimumskrav til metadata i beskrivelser av HVD.</p>
+<p>Formålet med standarden er å legge til rette for utveksling av beskrivelser av datasett med høy verdi (på engelsk <em>High Value Dataset</em>), forkortet til HVD. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138" class="ext-link" target="_blank" rel="noopener">HVD-forordningen (EU) 2023/138 &#x29C9;</a> som p.t. er under vurdering i EØS-EFTA, spesifiserer datasett av høy verdi innenfor følgende seks tematiske kategorier: (1) geodata, (2) jordobservasjon og miljø, (3) meteorologi, (4) statistikk, (5) selskaper og eierskap, og (6) mobilitet. Forordningen stiller også et minimumskrav til metadata i beskrivelser av HVD.</p>
 </div>
 <div class="paragraph">
-<p>Denne standarden supplerer <a href="https://data.norge.no/specification/dcat-ap-no" class="ext-link" target="_blank" rel="noopener">Standard for beskrivelse av datasett</a>, og beskriver hvordan DCAT-AP-NO brukes til å tilfredsstille minimumskrav til metadata for HVD spesifisert i ovennevnte forordningen.</p>
+<p>Denne standarden supplerer <a href="https://data.norge.no/specification/dcat-ap-no" class="ext-link" target="_blank" rel="noopener">Standard for beskrivelse av datasett</a>, og beskriver kun hvordan DCAT-AP-NO brukes til å implementere minimumskrav til metadata for HVD spesifisert i ovennevnte forordningen.</p>
 </div>
 <div class="paragraph">
 <p>Se ellers formålet med <a href="https://data.norge.no/specification/dcat-ap-no/#Innledning" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO  &#x29C9;</a> som også gjelder for denne standarden.</p>
@@ -844,7 +844,10 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Omfang-og-avgrensing"><a class="anchor" href="#Omfang-og-avgrensing"></a>1.2. Omfang og avgrensing</h3>
 <div class="paragraph">
-<p>Standarden supplerer <a href="https://data.norge.no/specification/dcat-ap-no" class="ext-link" target="_blank" rel="noopener">Standard for beskrivelse av datasett</a>, og inneholder kun spesifikasjon til hvordan DCAT-AP-NO brukes til å implementere minimumskrav til metadata for HVD spesifisert i ovennevnte HVD-gjennomføringsforordningen. Kravene ellers i DCAT-AP-NO gjelder også for HVD. Denne standarden skal derfor brukes sammen med, og ikke istedenfor, DCAT-AP-NO.</p>
+<p>Standarden inneholder kun spesifikasjon til hvordan DCAT-AP-NO brukes til å implementere minimumskrav til metadata for HVD spesifisert i ovennevnte HVD-forordningen. Kravene ellers i DCAT-AP-NO gjelder også for HVD. Denne standarden skal derfor brukes sammen med, og ikke istedenfor, DCAT-AP-NO.</p>
+</div>
+<div class="paragraph">
+<p>Standarden er ikke tenkt brukt for å beskrive fagsystem.</p>
 </div>
 </div>
 <div class="sect2">
@@ -857,7 +860,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 <p>Utarbeidelse av nye versjoner av denne standarden initieres av Digitaliseringsdirektoratet. Den primære kilden til nye versjoner vil være endringer i EU-standarden <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/" class="ext-link" target="_blank" rel="noopener">DCAT-AP High Value Datasets &#x29C9;</a> som denne standarden baseres på, og <a href="https://data.norge.no/specification/dcat-ap-no" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO &#x29C9;</a> som denne supplerer.</p>
 </div>
 <div class="paragraph">
-<p>Digitaliseringsdirektoratet vil i forbindelse med nye versjoner av ovennevnte bakenforliggende standarder avgjøre om endringene er så store at det bør nedsettes en egen arbeidsgruppe bestående av relevante aktører, eller om revisjonen kan utføres av Digitaliseringsdirektoratet selv. Forslaget til ny versjon sendes uansett på høring. De innkomne høringskommentarene behandles hos Digitaliseringsdirektoratet, og resulterer i et forslag som oversendes Arkitektur- og standardiseringsrådet.</p>
+<p>Digitaliseringsdirektoratet vil i forbindelse med nye versjoner av ovennevnte bakenforliggende standarder avgjøre om endringene er så store at det bør nedsettes en egen arbeidsgruppe bestående av relevante aktører, eller om revisjonen kan utføres av Digitaliseringsdirektoratet selv. Forslaget til ny versjon sendes uansett på høring. De innkomne høringskommentarene behandles hos Digitaliseringsdirektoratet, og resulterer i et forslag som oversendes <a href="https://www.digdir.no/standarder/arkitektur-og-standardiseringsradet/3918" class="ext-link" target="_blank" rel="noopener">Arkitektur- og standardiseringsrådet &#x29C9;</a>.</p>
 </div>
 <div class="paragraph">
 <p>Gjeldende og eventuelle tidligere versjoner av standarden skal være tilgjengelige på Digitaliseringsdirektoratets nettsider, slik at det er enkelt å finne ut når tidligere versjoner var gyldige, og hvilke endringer som er foretatt mellom to versjoner.</p>
@@ -899,22 +902,22 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 <div class="ulist">
 <ul>
 <li>
-<p>Levere en beskrivelse av katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Katalog"> 3.4, &#8220;Klassen Katalog (dcat:Catalog)&#8221;</a>.</p>
+<p>Levere en beskrivelse av katalogen, som minimum med de obligatoriske egenskapene spesifisert i klassen Katalog (dcat:Catalog) i <a href="#Katalog">denne standarden</a> og i <a href="https://informasjonsforvaltning.github.io/dcat-ap-no/#Katalog-obligatoriske-egenskaper" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO &#x29C9;</a>.</p>
 </li>
 <li>
-<p>Levere beskrivelser av datasettene som er i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Datasett"> 3.1, &#8220;Klassen Datasett (dcat:Dataset)&#8221;</a>.</p>
+<p>Levere beskrivelser av datasettene som er i katalogen, som minimum med de obligatoriske egenskapene spesifisert i klassen Datasett (dcat:Dataset) i  <a href="#Datasett">denne standarden</a> og i <a href="https://informasjonsforvaltning.github.io/dcat-ap-no/#Datasett-obligatoriske-egenskaper" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO &#x29C9;</a>.</p>
 </li>
 <li>
-<p>Levere beskrivelser av distribusjoner, hvis noen, av datasett i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Distribusjon"> 3.3, &#8220;Klassen Distribusjon (dcat:Distribution)&#8221;</a>.</p>
+<p>Levere beskrivelser av distribusjoner, hvis noen, av datasett i katalogen, som minimum med de obligatoriske egenskapene spesifisert i klassen Distribusjon (dcat:Distribution) i <a href="#Distribusjon">denne standarden</a> og i <a href="https://informasjonsforvaltning.github.io/dcat-ap-no/#Distribusjon-obligatoriske-egenskaper" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO &#x29C9;</a>.</p>
 </li>
 <li>
-<p>Levere beskrivelser av datatjenester, hvis noen, i katalogen, som minimum med de obligatoriske egenskapene spesifisert i <a href="#Datatjeneste"> 3.2, &#8220;Klassen Datatjeneste (dcat:DataService)&#8221;</a>.</p>
+<p>Levere beskrivelser av datatjenester, hvis noen, i katalogen, som minimum med de obligatoriske egenskapene spesifisert i klassen Datatjeneste (dcat:DataService) i <a href="#Datatjeneste">denne standarden</a> og i <a href="https://informasjonsforvaltning.github.io/dcat-ap-no/#Datatjeneste-obligatoriske-egenskaper" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO &#x29C9;</a>.</p>
 </li>
 <li>
-<p>Levere informasjon om alle organisasjoner/aktører som er involvert i beskrivelsene av katalogen, datasettene osv., som minimum med de obligatoriske egenskapene spesifisert i <a href="#Aktør">[Aktør]</a>.</p>
+<p>Levere informasjon om alle organisasjoner/aktører som er involvert i beskrivelsene av katalogen, datasettene osv., som minimum med de obligatoriske egenskapene spesifisert i klassen Aktør i <a href="https://informasjonsforvaltning.github.io/dcat-ap-no/#Akt%C3%B8r-obligatoriske-egenskaper" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO &#x29C9;</a>.</p>
 </li>
 <li>
-<p>Bruke de kontrollerte vokabularene som er beskrevet i Merknad til den enkelte egenskapen.</p>
+<p>Bruke de kontrollerte vokabularene som er beskrevet i Merknad til den enkelte egenskapen i denne standarden og i <a href="https://informasjonsforvaltning.github.io/dcat-ap-no/#Spesifikasjon-per-klasse" class="ext-link" target="_blank" rel="noopener">DCAT-AP-NO &#x29C9;</a>.</p>
 </li>
 </ul>
 </div>
@@ -6184,7 +6187,7 @@ ex:budget-2020 a dcat:Dataset ;
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-05-23 04:44:41 UTC
+Sist oppdatert 2024-05-23 05:12:56 UTC
 </div>
 </div>
 </body>
