@@ -142,7 +142,7 @@ _This property is used to refer to a collection of data that this data service c
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
 | Merknad / _Note_ | Selv om denne egenskapen er anbefalt og ikke obligatorisk, SKAL en datatjeneste i en HVD-katalog brukes til å gi tilgang til HVD-datasett. Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
 
-__Although this property is recommended and not mandatory, a Data service that is included in the HVD catalog MUST provide access to at least one HVD marked dataset. See  <<Spesielt_om_distribusjoner_datatjenester>> which is in Norwegian only.__
+__Although this property is recommended and not mandatory, a Data service that is included in the HVD catalog MUST provide access to at least one HVD marked dataset. See  <<Spesielt_om_distribusjoner_datatjenester>> (in Norwegian only).__
 |===
 
 == Valgfrie egenskaper for klassen _Datatjeneste_ [[Datatjeneste-valgfrie-egenskaper]]
