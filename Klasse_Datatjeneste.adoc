@@ -52,7 +52,9 @@ __Quality of service covers a broad spectrum of aspects. The HVD regulation does
 _This property is used to refer to the root location or primary endpoint of the service (an IRI)._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | 
+| Merknad / _Note_ | EndepunktsURLen BØR være persistent. Utgiveren bør derfor holde den vedlike og stabil.  
+
+__The endpoint URL SHOULD be persistent. This means that publishers should do everything in their power to maintain the value stable and existing.__
 |===
 
 === Datatjeneste – gjeldende lovgivning (dcatap:applicableLegislation) [[Datatjeneste-gjeldendeLovgivning]]
@@ -101,7 +103,9 @@ __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/
 _This property is used to specify contact information that can be used for sending comments about the Data Service._
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | 
+| Merknad / _Note_ | Denne egenskapen er obligatorisk i DCAT-AP-NO allerede. Artikkel 3.4 i HVD-forordningen krever at kontaktpunkt skal oppgis for API. 
+
+__Article 3.4 in HVD IR requires the designation of a point of contact for an API.__
 |===
 
 == Anbefalte egenskaper for klassen _Datatjeneste_ [[Datatjeneste-anbefalte-egenskaper]]
@@ -120,7 +124,7 @@ __The property is used to provide specific details of the actual endpoint instan
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
 | Merknad / _Note_ | Artikkel 3.3 i HVD-forordningen krever API-dokumentasjon i et EU- eller internasjonalt anerkjent og åpent, menneske- og maskinlesbart format.
 
-__Article 3.3 requires to provide API documentation in a Union or internationally recognised open, human-readable and machine-readable format.__
+__Article 3.3 in HVD IR requires to provide API documentation in a Union or internationally recognised open, human-readable and machine-readable format.__
 |===
 
 
@@ -136,7 +140,9 @@ __Article 3.3 requires to provide API documentation in a Union or internationall
 _This property is used to refer to a collection of data that this data service can distribute._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
-| Merknad / _Note_ | Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
+| Merknad / _Note_ | Se om denne egenskapen er anbefalt og ikke obligatorisk, SKAL en datatjeneste i en HVD-katalog brukes til å gi tilgang til HVD-datasett. Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
+
+__Although this property is recommended and not mandatory, a Data service that is included in the HVD catalog MUST provide access to at least one HVD marked dataset. See  <<Spesielt_om_distribusjoner_datatjenester>> which is in Norwegian only.__
 |===
 
 == Valgfrie egenskaper for klassen _Datatjeneste_ [[Datatjeneste-valgfrie-egenskaper]]
@@ -152,9 +158,9 @@ _This property is used to refer to a collection of data that this data service c
 _This property is used to refer to a licence under which the data service is made available._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Verdien SKAL velges fra EUs kontrollerte vokabular https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/licence[__Licence__ &#x29C9;, window="_blank", role="ext-link"].
+| Merknad / _Note_ | Artikkel 2.2. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet tilfredsstilles ved å referere til en lisens. Egenskapen <<Datatjeneste-rettigheter>> kan brukes som et alternativ. 
 
-__Norwegian extension: The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/licence[Licence &#x29C9;, window="_blank", role="ext-link"].__
+__Article 3.3 in HVD IR specifies that the terms of use should be provided. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referencing to a licence. As alternative the property dct:rights can be used.__
 |===
 
 === Datatjeneste – rettigheter (dct:rights) [[Datatjeneste-rettigheter]]
@@ -169,5 +175,7 @@ __Norwegian extension: The value MUST be chosen from EU's controlled vocabulary 
 _This property is used to refer to a statement that specifies rights associated with the Distribution._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | 
+| Merknad / _Note_ | Artikkel 2.2. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet tilfredsstilles ved å bruke egenskapen <<Datatjeneste-lisens>> til å referere til en lisens. Denne egenskapen kan brukes som et alternativ. 
+
+__Article 3.3 in HVD IR specifies that the terms of use should be provided. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referencing to a licence using the property <<Datatjeneste-lisens>>. This property can be used as an alternative.__
 |===
