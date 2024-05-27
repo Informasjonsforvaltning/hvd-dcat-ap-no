@@ -24,20 +24,6 @@ _This class is used to represent a conceptual entity that represents the informa
 
 == Obligatoriske egenskaper for klassen _Datasett_ [[Datasett-obligatoriske-egenskaper]]
  
-=== Datasett – datasettdistribusjon (dcat:distribution) [[Datasett-datasettdistribusjon]]
-
-[cols="30s,70"]
-|===
-| _English name_ | _dataset distribution_
-| URI | dcat:distribution
-| Verdiområde / _Range_ | dcat:Distribution
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.
-
-_This property is used to refer to an available Distribution for the Dataset._
-| Multiplisitet / _Multiplicity_ | 1..n
-| Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-|===
-
 === Datasett – gjeldende lovgivning (dcatap:applicableLegislation) [[Datasett-gjeldendeLovgivning]]
 
 [cols="30s,70"]
@@ -62,14 +48,33 @@ __For HVD the value MUST include the ELI http://data.europa.eu/eli/reg_impl/2023
 | _English name_ | _HVD category_
 | URI | dcatap:hvdCategory
 | Verdiområde / _Range_ | skos:Concept
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til ...
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til Egenskapen brukes til å referere til HVD kategorien som dette datasettet tilhører. 
 
-_This property is used to refer to ..._
+_This property is used to refer to HVD category to which this Dataset belongs.__
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
 | Merknad / _Note_ | Verdien SKAL hentes fra EUs kontrollerte vokabular  https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"]. 
 
 __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"].__
+|===
+
+== Anbefalte egenskaper for klassen _Datasett_ [[Datasett-anbefalte-egenskaper]]
+ 
+=== Datasett – datasettdistribusjon (dcat:distribution) [[Datasett-datasettdistribusjon]]
+
+[cols="30s,70"]
+|===
+| _English name_ | _dataset distribution_
+| URI | dcat:distribution
+| Verdiområde / _Range_ | dcat:Distribution
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.
+
+_This property is used to refer to an available Distribution for the Dataset._
+| Multiplisitet / _Multiplicity_ | 0..n
+| Kravnivå / _Requirement level_ | Anbefalte / _Recommended_
+| Merknad / _Note_ | Selv om kravnivået her er anbefalt (dermed multiplisiteten 0..n) som i DCAT-AP-NO, stiller HVD-forordningen eksplisitte krav til at flere kategorier av HVD SKAL være nedlastbare (dvs. som datasettdistribusjoner). Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
+
+__Although the requirement level here is recommended (thus the multiplicity 0..n) as in DCAT-AP-NO, the HVD IR sets explicit requirements that several categories of HVD MUST be made available as bulk download (i.e., as dataset distributions).__ 
 |===
 
 == Valgfrie egenskaper for klassen _Datasett_ [[Datasett-valgfrie-egenskaper]]
