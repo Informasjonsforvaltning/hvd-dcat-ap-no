@@ -65,6 +65,8 @@ include::Klasse_Katalogpost.adoc[]
 
 include::Klasse_Kontaktopplysning.adoc[]
 
+include::Spesielle_temaer.adoc[]
+
 :leveloffset: -1
 
 // Appendix, section number off
