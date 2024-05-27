@@ -1,4 +1,8 @@
 = Noen spesielle temaer [[Spesielle_temaer]]
 
-include::Om_spesifikke_datakrav.adoc[]
+include::Spesifikke_datakrav.adoc[]
+
+include::Spesielt_om_distribusjon_datatjeneste.adoc[]
+
+
 
