@@ -57,14 +57,6 @@ include::Klasse_Datatjeneste.adoc[]
 
 include::Klasse_Distribusjon.adoc[]
 
-include::Klasse_Katalog.adoc[]
-
-include::Klasse_Katalogisert_ressurs.adoc[]
-
-include::Klasse_Katalogpost.adoc[]
-
-include::Klasse_Kontaktopplysning.adoc[]
-
 include::Spesielle_temaer.adoc[]
 
 :leveloffset: -1
