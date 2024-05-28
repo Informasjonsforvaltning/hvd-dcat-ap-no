@@ -139,7 +139,7 @@ __Article 3.3 in HVD IR requires to provide API documentation in a Union or inte
 
 _This property is used to refer to a collection of data that this data service can distribute._
 | Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
+| Kravnivå / _Requirement level_ | Anbefalt / _Recommended_ #@@@@@@ NB! Sjekk hva EU lander på her#
 | Merknad / _Note_ | Selv om denne egenskapen er anbefalt og ikke obligatorisk, SKAL en datatjeneste i en HVD-katalog brukes til å gi tilgang til HVD-datasett. Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
 
 __Although this property is recommended and not mandatory, a Data service that is included in the HVD catalog MUST provide access to at least one HVD marked dataset. See  <<Spesielt_om_distribusjoner_datatjenester>> (in Norwegian only).__
@@ -158,7 +158,7 @@ __Although this property is recommended and not mandatory, a Data service that i
 _This property is used to refer to a licence under which the data service is made available._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Artikkel 2.2. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet tilfredsstilles ved å referere til en lisens. Egenskapen <<Datatjeneste-rettigheter>> kan brukes som et alternativ. 
+| Merknad / _Note_ | Artikkel 3.3. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å referere til en lisens. Egenskapen <<Datatjeneste-rettigheter>> kan brukes som et alternativ. 
 
 __Article 3.3 in HVD IR specifies that the terms of use should be provided. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referencing to a licence. As alternative the property dct:rights can be used.__
 |===
@@ -173,9 +173,9 @@ __Article 3.3 in HVD IR specifies that the terms of use should be provided. Acco
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en uttalelse som angir rettigheter knyttet til distribusjonen.
 
 _This property is used to refer to a statement that specifies rights associated with the Distribution._
-| Multiplisitet / _Multiplicity_ | 0..1
+| Multiplisitet / _Multiplicity_ | 0..1 #@@@@@@ NB! Sjekk hva EU lander på her#
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Artikkel 2.2. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet tilfredsstilles ved å bruke egenskapen <<Datatjeneste-lisens>> til å referere til en lisens. Denne egenskapen kan brukes som et alternativ. 
+| Merknad / _Note_ | Artikkel 2.2. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å bruke egenskapen <<Datatjeneste-lisens>> til å referere til en lisens. Denne egenskapen kan brukes som et alternativ. 
 
 __Article 3.3 in HVD IR specifies that the terms of use should be provided. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referencing to a licence using the property <<Datatjeneste-lisens>>. This property can be used as an alternative.__
 |===

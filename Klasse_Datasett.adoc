@@ -71,7 +71,7 @@ __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/
 
 _This property is used to refer to an available Distribution for the Dataset._
 | Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Anbefalte / _Recommended_
+| Kravnivå / _Requirement level_ | Anbefalte / _Recommended_ #@@@@@@ NB! Sjekk hva EU lander på her# 
 | Merknad / _Note_ | Selv om kravnivået her er anbefalt (dermed multiplisiteten 0..n) som i DCAT-AP-NO, stiller HVD-forordningen eksplisitte krav til at flere kategorier av HVD SKAL være nedlastbare (dvs. som datasettdistribusjoner). Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
 
 __Although the requirement level here is recommended (thus the multiplicity 0..n) as in DCAT-AP-NO, the HVD IR sets explicit requirements that several categories of HVD MUST be made available as bulk download (i.e., as dataset distributions).__ 
@@ -93,6 +93,6 @@ _This property is used to refer to an implementing rule or other specification._
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_ 
 | Merknad / _Note_ | Informasjonen som oppgis her bør gjøre det mulig å verifisere om detaljerte krav til den aktuelle kategori av HVD er tilfredsstilt. Se <<Spesifikke_datakrav>>. 
 
-__The provided information should enable to the verification whether the detailed information requirements by the HVD is satisfied.__ 
+__The provided information should enable to the verification whether the detailed information requirements by the HVD is satisfied. See <<Spesifikke_datakrav>> (in Norwegian only).__ 
 |===
 
