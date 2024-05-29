@@ -1,5 +1,5 @@
 include::locale/attributes.adoc[]
-= Standard for beskrivelse av Høyverdidatasett (HVD-DCAT-AP-NO)
+= Standard for beskrivelse av datasett med høy verdi (HVD-DCAT-AP-NO)
 :doctype: book
 :docinfo: shared
 :icons: font
