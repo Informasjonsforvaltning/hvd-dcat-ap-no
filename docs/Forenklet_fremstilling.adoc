@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-<<img-ForenkletModell>> viser en forenklet fremstilling av kravene i HVD-DCAT-AP-NO. Den viser kun de klassene som er spesifisert i denne standarden, dessuten med kun obligatoriske og anbefalte krav. HVD-DCAT-AP-NO må sees i sammenheng med DCAT-AP-NO, ettersom den supplerer DCAT-AP-NO. 
+<<img-ForenkletModell>> viser en forenklet fremstilling av kravene i HVD-DCAT-AP-NO. Den viser kun de klassene som er spesifisert i denne standarden, dessuten med kun obligatoriske og anbefalte krav. HVD-DCAT-AP-NO skal brukes sammen med DCAT-AP-NO, ettersom den supplerer DCAT-AP-NO. 
 
 Tegningen er ikke ment som en formell representasjon av standarden, men kun for å gi en visuell oversikt over noen av klassene og relasjoner mellom dem. Tekniske krav til hvordan klassene og de __HVD-spesifikke__ egenskapene/relasjoner skal uttrykkes i RDF er spesifisert videre i standarden. Før eventuell uoverensstemmelse mellom tegningen og den tekstlige spesifikasjonen blir rettet opp, har den tekstlige spesifikasjonen av klassene/egenskapene forrang. Samme forrang gjelder også når det gjelder eventuelle uoverensstemmelser mellom tekstlige spesifikasjoner og tegninger i resten av standarden. 
 
