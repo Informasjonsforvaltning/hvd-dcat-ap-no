@@ -15,7 +15,7 @@ image::images/Klassen-Datatjeneste.png[]
 |===
 | _English name_ | _Data service_
 | URI | dcat:DataService
-| Subklasse av / _Subclass of_ | dcat:Resource
+| Subklasse av / _Subclass of_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#KatalogisertRessurs[dcat:Resource &#x29C9;, window="_blank", role="ext-link"]
 | Beskrivelse | Klassen brukes til å representere en datatjeneste, dvs. en samling av operasjoner som gir tilgang til ett eller flere datasett eller databehandlingsfunksjoner.
 
 _This class is used to represent a data service, i.e., a collection of operations that provides access to one or more datasets or data processing functions._
@@ -63,7 +63,7 @@ __The endpoint URL SHOULD be persistent. This means that publishers should do ev
 |===
 | _English name_ | _applicable legislation_
 | URI | dcatap:applicableLegislation
-| Verdiområde / _Range_ | eli:LegalResource
+| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til lovgivningen som gir mandat til opprettelse eller forvaltning av datatjenesten.
 
 _This property is used to refer to the legislation that mandates the creation or management of the Data Service._
@@ -74,7 +74,7 @@ _This property is used to refer to the legislation that mandates the creation or
 __For HVD the value MUST include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.__
 |===
 
-=== Datatjeneste – HVD-kategori (dcatap:hvdCategory) [[Datatjeneste-gjeldendeLovgivning]]
+=== Datatjeneste – HVD-kategori (dcatap:hvdCategory) [[Datatjeneste-hvdKategori]]
 
 [cols="30s,70"]
 |===
@@ -97,7 +97,7 @@ __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/
 |===
 | _English name_ | _contact point_
 | URI | dcat:contactPoint
-| Verdiområde / _Range_ | vcard:Kind
+| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Kontaktopplysning[vcard:Kind &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til kontaktpunkt med kontaktopplysninger. Disse kan brukes til å sende kommentarer om datatjenesten.
 
 _This property is used to specify contact information that can be used for sending comments about the Data Service._
@@ -134,7 +134,7 @@ __Article 3.3 in HVD IR requires to provide API documentation in a Union or inte
 |===
 | _English name_ | _serves dataset_
 | URI | dcat:servesDataset
-| Verdiområde / _Range_ | dcat:Dataset
+| Verdiområde / _Range_ | <<Datasett, dcat:Dataset>>
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til datasett som datatjenesten kan distribuere.
 
 _This property is used to refer to a collection of data that this data service can distribute._
@@ -169,7 +169,7 @@ __Article 3.3 in HVD IR specifies that the terms of use should be provided. Acco
 |===
 | _English name_ | _rights_
 | URI | dct:rights
-| Verdiområde / _Range_ | odrs:RightsStatement
+| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Rettighetserkl%C3%A6ring[odrs:RightsStatement &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en uttalelse som angir rettigheter knyttet til distribusjonen.
 
 _This property is used to refer to a statement that specifies rights associated with the Distribution._

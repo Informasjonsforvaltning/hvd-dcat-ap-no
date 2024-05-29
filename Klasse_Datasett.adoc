@@ -15,7 +15,7 @@ image::images/Klassen-Datasett.png[]
 |===
 | _English name_ | _Dataset_
 | URI | dcat:Dataset
-| Subklasse av / _Subclass of_ | dcat:Resource
+| Subklasse av / _Subclass of_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#KatalogisertRessurs[dcat:Resource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Klassen brukes til å representere et datasett, dvs. en konseptuell entitet som representerer publisert informasjon.
 
 _This class is used to represent a conceptual entity that represents the information published._
@@ -30,7 +30,7 @@ _This class is used to represent a conceptual entity that represents the informa
 |===
 | _English name_ | _applicable legislation_
 | URI | dcatap:applicableLegislation
-| Verdiområde / _Range_ | eli:LegalResource
+| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til lovgivningen som gir mandat til opprettelse eller behandling av datasettet.
 
 _This property is used to refer to the legislation that mandates the creation or management of the Dataset._
@@ -41,7 +41,7 @@ _This property is used to refer to the legislation that mandates the creation or
 __For HVD the value MUST include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.__
 |===
 
-=== Datasett – HVD-kategori (dcatap:hvdCategory) [[Datasett-gjeldendeLovgivning]]
+=== Datasett – HVD-kategori (dcatap:hvdCategory) [[Datasett-hvdKategori]]
 
 [cols="30s,70"]
 |===
@@ -66,7 +66,7 @@ __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/
 |===
 | _English name_ | _dataset distribution_
 | URI | dcat:distribution
-| Verdiområde / _Range_ | dcat:Distribution
+| Verdiområde / _Range_ | <<Distribusjon, dcat:Distribution>>
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.
 
 _This property is used to refer to an available Distribution for the Dataset._
@@ -85,7 +85,7 @@ __Although the requirement level here is recommended (thus the multiplicity 0..n
 |===
 | _English name_ | _conforms to_
 | URI | dct:conformsTo
-| Verdiområde / _Range_ | dct:Standard
+| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Standard[dct:Standard &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en implementasjonsregel eller annen spesifikasjon, som ligger til grunn for opprettelsen av datasettet.
 
 _This property is used to refer to an implementing rule or other specification._
