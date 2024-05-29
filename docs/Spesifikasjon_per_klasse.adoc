@@ -1,3 +1,3 @@
 = Krav til RDF-representasjon av klassene i HVD-DCAT-AP-NO
 
-__#kommer#__
+HVD-DCAT-AP-NO supplerer DCAT-AP-NO, og spesifiserer hvordan DCAT-AP-NO brukes til å implementere kravene i HVD-forordningen. HVD-DCAT-AP-NO inneholder kun krav som er HVD-spesifikke. Kravene i DCAT-AP-NO som ikke er HVD-spesifikke, gjentas ikke i HVD-DCAT-AP-NO, men de gjelder også for HVD. HVD-DCAT-AP-NO må derfor brukes sammen med DCAT-AP-NO. 
