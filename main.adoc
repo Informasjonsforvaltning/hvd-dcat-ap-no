@@ -57,9 +57,9 @@ include::Klasse_Datatjeneste.adoc[]
 
 include::Klasse_Distribusjon.adoc[]
 
-include::Spesielle_temaer.adoc[]
-
 :leveloffset: -1
+
+include::Spesielle_temaer.adoc[]
 
 // Appendix, section number off
 :sectnums!:
