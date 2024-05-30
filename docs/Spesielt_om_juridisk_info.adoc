@@ -4,9 +4,9 @@ __Dette er en forkortet og fornorsket versjon av EUs https://semiceu.github.io/D
 
 HVD-forordningen krever høy metadatakvalitet for juridisk informasjon om datasett med høy verdi. Informasjonen bør være i både maskin- og menneskelesbart format, dessuten med en varig lenke. Videre bør det være mulig å vite om de juridiske betingelsene som er oppgitt, er like eller mer liberale enn https://creativecommons.org/licenses/by/4.0/[CC-BY 4.0 &#x29C9;, window="_blank", role="ext-link"].
 
-Vi anbefaler sterkt at datautgiverne bruker en av lisensene fra https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/licence[EUs kontrollerte vokabular for lisens &#x29C9;, window="_blank", role="ext-link"], f.eks. CC-BY 4.0 ved å bruke den varige lenken `\http://publications.europa.eu/resource/authority/licence/CC_BY_4_0`.
+Vi anbefaler sterkt at datasettutgiverne bruker en av lisensene fra https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/licence[EUs kontrollerte vokabular for lisens &#x29C9;, window="_blank", role="ext-link"], f.eks. CC-BY 4.0 ved å bruke den varige lenken `\http://publications.europa.eu/resource/authority/licence/CC_BY_4_0`.
 
-Katalogeierne anbefales til å evaluere den juridiske informasjonen oppgitt av datasettutgiverne i henhold til flytdiagrammene under, der "licence NAL" refererer til https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/licence[EUs kontrollerte vokabular for lisens &#x29C9;, window="_blank", role="ext-link"], og "NAL" står for "Named Authority List" (som vi oversetter til «kontrollert vokabular»).  
+Katalogeierne anbefales til å evaluere den juridiske informasjonen oppgitt av datasettutgiverne i henhold til flytdiagrammene under, der "licence NAL" refererer til ovennevnte EUs kontrollerte vokabular for lisens, og "NAL" står for "Named Authority List" (som vi oversetter til «kontrollert vokabular»).  
 
 :xrefstyle: short
 
