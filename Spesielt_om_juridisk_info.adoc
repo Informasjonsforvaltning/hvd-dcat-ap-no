@@ -22,4 +22,4 @@ image::images/flow-rights.png[]
 
 :xrefstyle: full
 
-Beslutningstrærne ovenfor kan brukes til å evaluere om noe ekstra skal gjøres eller ikke. For å gjøre det mulig for andre å evaluere om de oppgitte betingelsene er like eller mer liberale enn CC-BY 4.0, anbefales det å berike den maskinlesbare publiserte nasjonale eller lokale lisensen med mapping informasjon til ovennevnte EUs kontrollerte vokabular for lisens. Som mapping informasjon anbefales det å bruke, i den rekkefølge, mapping egenskapene i SKOS, `owl:sameAs` eller `rdfs:seeAlso.`  
+Beslutningstrærne ovenfor kan brukes til å evaluere om noe ekstra skal gjøres eller ikke. For å gjøre det mulig for andre å evaluere om de oppgitte betingelsene er like eller mer liberale enn CC-BY 4.0, anbefales det å berike den maskinlesbare publiserte nasjonale eller lokale lisensen med mapping informasjon til ovennevnte EUs kontrollerte vokabular for lisens. Som mapping informasjon anbefales det å bruke, i den rekkefølge, mapping egenskapene i SKOS (bl.a. `skos:exactMatch`), `owl:sameAs` eller `rdfs:seeAlso.`  
