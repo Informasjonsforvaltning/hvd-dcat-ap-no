@@ -1679,7 +1679,49 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 <div class="sect2">
 <h3 id="_spesielt_om_distribusjoner_ogeller_datatjenester_for_datasett_med_høy_verdi"><a class="anchor" href="#_spesielt_om_distribusjoner_ogeller_datatjenester_for_datasett_med_høy_verdi"></a>4.2. Spesielt om distribusjoner og/eller datatjenester for datasett med høy verdi<a id="Spesielt_om_distribusjoner_datatjenester"></a></h3>
 <div class="paragraph">
-<p><em><mark>kommer</mark></em></p>
+<p>HVD-forordningen krever at datasett med høy verdi skal være tilgjengelig.</p>
+</div>
+<div class="paragraph">
+<p>Forordningen setter dessuten eksplisitte krav til om et HVD skal være tilgjengelig som bulknedlasting og/eller via API, avhengig av kategorien datasettet tilhører:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>både via API og som bulknedlasting, f.eks. geodata (jf. Annex 1.2 i forordningen)</p>
+</li>
+<li>
+<p>bare via API, f.eks. "NWP model data" i kategori meteorologiske data (jf. Annex 3.2 i forordningen)</p>
+</li>
+<li>
+<p>enten via API eller som bulknedlasting, f.eks. historiske versjoner av data for jordobservasjon og vær (jf. Annex 2.2 i forordningen)</p>
+</li>
+</ul>
+</div>
+<div id="diagram-datasett-distribusjon-datatjeneste" class="imageblock">
+<div class="content">
+<a class="image" href="images/datasett-distribusjon-datatjeneste.png"><img src="images/datasett-distribusjon-datatjeneste.png" alt="datasett distribusjon datatjeneste"></a>
+</div>
+<div class="title">Figur 7. Datasett, Distribusjon og Datatjeneste.</div>
+</div>
+<div class="paragraph">
+<p><a href="#diagram-datasett-distribusjon-datatjeneste">Figur 7</a> illustrerer hvordan bulknedlastinger og API-tilgang skal beskrives:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Bulknedlastinger skal beskrives som distribusjoner, ved å bruke egenskapen <a href="#Datasett-datasettdistribusjon"> 3.1.2.1</a> fra datasettbeskrivelsen.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>En bulknedlasting kan gjøres tilgjengelig via API, ved å bruke egenskapen <a href="#Distribusjon-tilgangstjeneste">[Distribusjon-tilgangstjeneste]</a> fra distribusjonsbeskrivelsen.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>API-tilgang beskrives ved at det i beskrivelsen av det aktuelle APIet (datatjenesten) refereres til datasettet ved å bruke egenskapen <a href="#Datatjeneste-tilgjengeliggjor-datasett"> 3.2.2.2</a>.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
@@ -1764,7 +1806,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-05-30 07:32:35 UTC
+Sist oppdatert 2024-05-30 09:50:59 UTC
 </div>
 </div>
 </body>
