@@ -160,7 +160,7 @@ _This property is used to refer to a licence under which the data service is mad
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 | Merknad / _Note_ | Artikkel 3.3. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å referere til en lisens. Egenskapen <<Datatjeneste-rettigheter>> kan brukes som et alternativ. 
 
-__Article 3.3 in HVD IR specifies that the terms of use should be provided. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referring to a licence. As alternative the property dct:rights can be used.__
+__Article 3.3 in HVD IR specifies that the terms of use should be provided. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referring to a licence. As alternative the property <<Datatjeneste-rettigheter>> can be used.__
 |===
 
 === Datatjeneste – rettigheter (dct:rights) [[Datatjeneste-rettigheter]]
