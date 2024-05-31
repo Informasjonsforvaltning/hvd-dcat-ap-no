@@ -58,7 +58,7 @@ _This property is used to refer to a licence under which the Distribution is mad
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
 | Merknad / _Note_ | Artikkel 4.3. i HVD-forordningen spesifiserer at HVD bør gjøres tilgjengelig for viderebruk. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å referere til en lisens. Egenskapen <<Distribusjon-rettigheter>> kan brukes som et alternativ. 
 
-__Article 4.3 specifies that High-value datasets should be made available for reuse. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referencing to a licence. As alternative the property dct:rights can be used.__
+__Article 4.3 specifies that High-value datasets should be made available for reuse. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referencing to a licence. As alternative the property <<Distribusjon-rettigheter>> can be used.__
 |===
 
 == Valgfrie egenskaper for klassen _Distribusjon_ [[Distribusjon-valgfrie-egenskaper]]
@@ -92,7 +92,7 @@ __The provided information should enable to the verification whether the detaile
 _This property is used to refer to a statement that specifies rights associated with the Distribution._
 | Multiplisitet / _Multiplicity_ | 0..1 #@@@@@@ NB! Sjekk hva EU lander på her#
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Artikkel 4.3. i HVD-forordningen spesifiserer at HVD bør gjøres tilgjengelig for viderebruk. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å referere til en lisens. Egenskapen <<Distribusjon-lisens>> kan brukes som et alternativ. 
+| Merknad / _Note_ | Artikkel 4.3. i HVD-forordningen spesifiserer at HVD bør gjøres tilgjengelig for viderebruk. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å referere til en lisens. Denne egenskapen kan brukes som et alternativ. 
 
 __Article 4.3 specifies that High-value datasets should be made available for reuse. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referencing to a licence using the property <<Distribusjon-lisens>>. This property can be used as an alternative.__
 |===
