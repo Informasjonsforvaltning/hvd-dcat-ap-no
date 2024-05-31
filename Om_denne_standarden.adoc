@@ -1,4 +1,4 @@
-= Om denne standarden
+= Om denne standarden [[Om-denne-standarden]]
 
 :leveloffset: +1
 

@@ -1,4 +1,4 @@
-= Om denne versjonen
+= Om denne versjonen [[Om-denne-versjonen]]
 
 Denne standarden, HVD-DCAT-AP-NO, er en ny standard som p.t. er #under utarbeidelse#.
 

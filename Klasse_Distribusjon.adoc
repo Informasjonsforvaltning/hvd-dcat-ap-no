@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-<<diagram-Klassen-Distribusjon>> viser klassen Distribusjon og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Distribusjon[klassen Distribusjon (dcat:Distribution) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. 
+<<diagram-Klassen-Distribusjon>> viser klassen Distribusjon og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Distribusjon[klassen Distribusjon (dcat:Distribution) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. 
 
 [[diagram-Klassen-Distribusjon]]
 .Klassen Distribusjon og klassene den refererer til.
