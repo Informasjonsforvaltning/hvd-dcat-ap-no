@@ -1,4 +1,4 @@
-== Spesielt om distribusjoner og/eller datatjenester for datasett med høy verdi [[Spesielt_om_distribusjoner_datatjenester]]
+== Spesielt om distribusjoner og datatjenester for datasett med høy verdi [[Spesielt_om_distribusjoner_datatjenester]]
 
 HVD-forordningen krever at datasett med høy verdi skal være tilgjengelig. 
 

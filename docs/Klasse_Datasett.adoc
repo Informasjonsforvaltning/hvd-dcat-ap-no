@@ -74,7 +74,7 @@ _This property is used to refer to an available Distribution for the Dataset._
 | Kravnivå / _Requirement level_ | Anbefalte / _Recommended_ #@@@@@@ NB! Sjekk hva EU lander på her# 
 | Merknad / _Note_ | Selv om kravnivået her er anbefalt (dermed multiplisiteten 0..n) som i DCAT-AP-NO, stiller HVD-forordningen eksplisitte krav til at flere kategorier av HVD SKAL være nedlastbare (dvs. som datasettdistribusjoner). Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
 
-__Although the requirement level here is recommended (thus the multiplicity 0..n) as in DCAT-AP-NO, the HVD IR sets explicit requirements that several categories of HVD MUST be made available as bulk download (i.e., as dataset distributions).__ 
+__Although the requirement level here is recommended (thus the multiplicity 0..n) as in DCAT-AP-NO, the HVD IR sets explicit requirements that several categories of HVD MUST be made available as bulk download (i.e., as dataset distributions). See also <<Spesielt_om_distribusjoner_datatjenester>> (in Norwegian only).__ 
 |===
 
 == Valgfrie egenskaper for klassen _Datasett_ [[Datasett-valgfrie-egenskaper]]
