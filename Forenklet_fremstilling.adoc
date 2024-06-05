@@ -19,6 +19,6 @@ I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke
 
 * **Datasett** med høy verdi og relaterte **distribusjon**er og APIer (**datatjeneste**r) SKAL oppgi HVD-forordningen som *gjeldende lovgivning*.  
 
-* Det SKAL oppgis *HVD-kategori*(er) et **datasett** med høy verdi tilhører. Samme krav gjelder APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi. 
+* Det SKAL oppgis *HVD-kategori*(er) et **datasett** med høy verdi tilhører. Samme krav gjelder også APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi. 
 
 * Et API (en **datatjeneste**) som tilgjengeliggjør datasett med høy verdi, SKAL ha **dokumentasjon** som beskriver bl.a. tjenestekvalitet. 
