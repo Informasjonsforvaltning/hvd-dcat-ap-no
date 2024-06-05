@@ -19,7 +19,7 @@ image::images/datasett-distribusjon-datatjeneste.png[]
 
 :xrefstyle: full
 
-* Bulknedlastinger skal beskrives som distribusjoner, ved å bruke egenskapen <<Datasett-datasettdistribusjon>> fra datasettbeskrivelsen. 
+* Bulknedlastinger skal beskrives som **distribusjon**er, ved å bruke egenskapen <<Datasett-datasettdistribusjon>> fra datasettbeskrivelsen. 
 ** En bulknedlasting kan gjøres tilgjengelig via API, ved å bruke egenskapen https://informasjonsforvaltning.github.io/dcat-ap-no/#Distribusjon-tilganstjeneste[Distribusjon – tilgangstjeneste (dcat:accessService) &#x29C9;, window="_blank", role="ext-link"] fra distribusjonsbeskrivelsen. 
 
-* API-tilgang beskrives ved at det i beskrivelsen av det aktuelle APIet (datatjenesten) refereres til datasettet ved å bruke egenskapen <<Datatjeneste-tilgjengeliggjor-datasett>>. 
+* API-tilgang beskrives ved at det i beskrivelsen av det aktuelle APIet (**datatjenesten**) refereres til datasettet ved å bruke egenskapen <<Datatjeneste-tilgjengeliggjor-datasett>>. 
