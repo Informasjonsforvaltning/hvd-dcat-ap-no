@@ -43,7 +43,7 @@ __Quality of service covers a broad spectrum of aspects. The HVD regulation does
 Eksempel i RDF Turtle: 
 -----
 <anAPI> a dcat:DataService ; 
-   foaf:page <documentationOfAPI> ; . 
+   foaf:page <https://data.brreg.no/enhetsregisteret/api/dokumentasjon/> ; . 
 -----
 
 === Datatjeneste – gjeldende lovgivning (dcatap:applicableLegislation) [[Datatjeneste-gjeldendeLovgivning]]
