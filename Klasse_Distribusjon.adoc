@@ -92,6 +92,12 @@ _This property is used to refer to an established schema to which the described 
 __The provided information should enable to the verification whether the detailed information requirements by the HVD is satisfied. See <<Spesifikke_datakrav>> (in Norwegian only).__
 |===
 
+Eksempel i RDF Turtle:
+-----
+<aDistribution> a dcat:Distribution ; 
+   dct:conformsTo <https://stirdata.github.io/data-specification> ; .
+-----
+
 === Distribusjon – rettigheter (dct:rights) [[Distribusjon-rettigheter]]
 
 [cols="30s,70d"]
