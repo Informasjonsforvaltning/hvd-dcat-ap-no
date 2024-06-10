@@ -42,6 +42,12 @@ _This property is used to refer to the legislation that mandates the creation or
 __For HVD the value MUST include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.__
 |===
 
+Eksempel i RDF Turtle:
+-----
+<aDistribution> a dcat:Distribution ; 
+   dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ; .
+-----
+
 == Anbefalte egenskaper for klassen _Distribusjon_ [[Distribusjon-anbefalte-egenskaper]]
 
 === Distribusjon – lisens (dct:license) [[Distribusjon-lisens]]
@@ -60,6 +66,12 @@ _This property is used to refer to a licence under which the Distribution is mad
 
 __Article 4.3 specifies that High-value datasets should be made available for reuse. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referring to a licence using this property. As alternative the property <<Distribusjon-rettigheter>> can be used.__
 |===
+
+Eksempel i RDF Turtle: 
+-----
+<aDistribution> a dcat:Distribution ; 
+   dct:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ; .
+-----
 
 == Valgfrie egenskaper for klassen _Distribusjon_ [[Distribusjon-valgfrie-egenskaper]]
 

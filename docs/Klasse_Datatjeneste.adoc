@@ -40,6 +40,11 @@ _This property is used to refer to a page or a document that describes the data 
 __Quality of service covers a broad spectrum of aspects. The HVD regulation does not list any mandatory topic. Therefore quality of service information is considered part of the generic documentation of a Data Service.__
 |===
 
+Eksempel i RDF Turtle: 
+-----
+<anAPI> a dcat:DataService ; 
+   foaf:page <documentationOfAPI> ; . 
+-----
 
 === Datatjeneste – gjeldende lovgivning (dcatap:applicableLegislation) [[Datatjeneste-gjeldendeLovgivning]]
 
@@ -74,6 +79,12 @@ _This property is used to refer to HVD category to which this Data Service belon
 
 __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"].__
 |===
+
+Eksempel i RDF Turtle: 
+-----
+<anAPI> a dcat:DataService ; 
+   dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ; .
+-----
 
 == Anbefalte egenskaper for klassen _Datatjeneste_ [[Datatjeneste-anbefalte-egenskaper]]
 
@@ -112,6 +123,12 @@ _This property is used to refer to a collection of data that this data service c
 __Although this property is recommended and not mandatory, a Data service that is included in the HVD catalog MUST provide access to at least one HVD marked dataset. See  <<Spesielt_om_distribusjoner_datatjenester>> (in Norwegian only).__
 |===
 
+Eksempel i RDF Turtle: 
+-----
+<anAPI> a dcat:DataService ; 
+   dcat:servesDataset <aDataset> ; .
+-----
+
 == Valgfrie egenskaper for klassen _Datatjeneste_ [[Datatjeneste-valgfrie-egenskaper]]
 
 === Datatjeneste – lisens (dct:license) [[Datatjeneste-lisens]]
@@ -129,6 +146,12 @@ _This property is used to refer to a licence under which the data service is mad
 
 __Article 3.3 in HVD IR specifies that the terms of use should be provided. According to the guidelines under <<Spesielt_om_juridisk_info>> (in Norwegian only) this is fulfilled by referring to a licence using this property. As alternative the property <<Datatjeneste-rettigheter>> can be used.__
 |===
+
+Eksempel i RDF Turtle: 
+-----
+<anAPI> a dcat:DataService ; 
+   dct:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ; .
+-----
 
 === Datatjeneste – rettigheter (dct:rights) [[Datatjeneste-rettigheter]]
 
