@@ -1,5 +1,7 @@
 = Forenklet fremstilling av kravene i HVD-DCAT-AP-NO [[Forenklet-fremstilling-av-kravene]]
 
+== Minimumskrav
+
 :xrefstyle: short
 
 <<img-ForenkletModell>> viser en forenklet fremstilling av kravene i HVD-DCAT-AP-NO. Den viser kun de klassene som er spesifisert i denne standarden, dessuten med kun obligatoriske og anbefalte krav. HVD-DCAT-AP-NO skal brukes sammen med DCAT-AP-NO, ettersom den supplerer DCAT-AP-NO. HVD-spesifikke krav er markert i gult i tegningen. 
@@ -12,8 +14,6 @@ Tegningen er ikke ment som en formell representasjon av standarden, men kun for 
 image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[]
 
 :xrefstyle: full
-
-== Minimumskrav
 
 I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke gjentas i denne standarden, illustrerer figuren bl.a. følgende  obligatoriske krav som er HVD-spesifikke: 
 
