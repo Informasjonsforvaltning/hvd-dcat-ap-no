@@ -21,7 +21,7 @@ I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke
 
 * Et **datasett** med høy verdi SKAL gjøres tilgjengelig. Se HVD-forordningen om det aktuelle datasettet skal gjøres tilgjengelig både via API (**datatjeneste**) og som bulknedlasting (**distribusjon**), eller en av de to måtene. 
 
-* **Datasett** med høy verdi og relaterte **distribusjon**er og APIer (**datatjeneste**r) SKAL oppgi HVD-forordningen som *gjeldende lovgivning*.  
+* **Datasett** med høy verdi og relaterte **distribusjon**er og APIer (**datatjeneste**r) SKAL oppgi http://data.europa.eu/eli/reg_impl/2023/138/oj[HVD-forordningen &#x29C9;, window="_blank", role="ext-link"] som *gjeldende lovgivning*.  
 
 * Det SKAL oppgis *HVD-kategori*(er) et **datasett** med høy verdi tilhører. Samme krav gjelder også APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi. https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[EUs kontrollerte vokabularer for HVD-kategorier &#x29C9;, window="_blank", role="ext-link"] SKAL brukes. 
 
@@ -29,7 +29,7 @@ I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke
 
 == Eksempel på et HVD
 
-Eksemplet her er basert på datasettet https://data.norge.no/datasets/9b8fbdd7-7294-39e2-959b-24dc8ab0df4a[«Virksomhetsinformasjon - i henhold til STIRDatas modell» beskrevet i Felles datakatalog (data.norge.no) &#x29C9;, window="_blank", role="ext-link"]. Eksemplet er ikke komplett. Det inneholder kun noen av de opplysningene som det stilles krav til i denne standarden. Minimumsopplysninger er **uthevet**.  
+Eksemplet her er basert på datasettet https://data.norge.no/datasets/9b8fbdd7-7294-39e2-959b-24dc8ab0df4a[«Virksomhetsinformasjon - i henhold til STIRDatas modell» beskrevet i Felles datakatalog (data.norge.no) &#x29C9;, window="_blank", role="ext-link"]. Eksemplet har kun som hensikt å illustrere bruken av standarden, og gjenspeiler ikke nødvendigvis virkeligheten. Eksemplet er heller ikke komplett. Det inneholder kun noen av de opplysningene som det stilles krav til i denne standarden. Minimumsopplysninger er **uthevet**.
 
 * **gjeldende lovgivning**: HVD-forordningen (\http://data.europa.eu/eli/reg_impl/2023/138/oj )
 * **HVD-kategori**: selskaps- og eierskapsdata (\http://data.europa.eu/bna/c_a9135398)
@@ -39,7 +39,7 @@ Eksemplet her er basert på datasettet https://data.norge.no/datasets/9b8fbdd7-7
 ** lisens: CC BY 4.0 (\http://publications.europa.eu/resource/authority/licence/CC_BY_4_0)
 ** i samsvar med: STIRData business data model (\https://stirdata.github.io/data-specification/)
 * **datatjeneste (API)**:
-** **dokumentasjon**:
+** **dokumentasjon**: Enhetsregisterets dokumentasjon for åpne data (\https://data.brreg.no/enhetsregisteret/api/dokumentasjon/) 
 ** **gjeldende lovgivning**: HVD-forordningen (\http://data.europa.eu/eli/reg_impl/2023/138/oj)
 ** **HVD-kategori**: selskaps- og eierskapsdata (\http://data.europa.eu/bna/c_a9135398)
 ** lisens: CC BY 4.0 (\http://publications.europa.eu/resource/authority/licence/CC_BY_4_0)
