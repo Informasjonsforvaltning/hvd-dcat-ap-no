@@ -40,22 +40,6 @@ _This property is used to refer to a page or a document that describes the data 
 __Quality of service covers a broad spectrum of aspects. The HVD regulation does not list any mandatory topic. Therefore quality of service information is considered part of the generic documentation of a Data Service.__
 |===
 
-=== Datatjeneste – endepunktsURL (dcat:endpointURL) [[Datatjeneste-endepunktsurl]]
-
-[cols="30s,70d"]
-|===
-| _English name_ | _endpoint URL_
-| URI | dcat:endpointURL
-| Verdiområde / _Range_ | rdfs:Resource
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til rotplassering eller primært endepunkt for tjenesten (en URI).
-
-_This property is used to refer to the root location or primary endpoint of the service (an IRI)._
-| Multiplisitet / _Multiplicity_ | 1..1
-| Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | EndepunktsURLen BØR være persistent. Utgiveren bør derfor holde den vedlike og stabil.  
-
-__The endpoint URL SHOULD be persistent. This means that publishers should do everything in their power to maintain the value stable and existing.__
-|===
 
 === Datatjeneste – gjeldende lovgivning (dcatap:applicableLegislation) [[Datatjeneste-gjeldendeLovgivning]]
 
@@ -89,23 +73,6 @@ _This property is used to refer to HVD category to which this Data Service belon
 | Merknad / _Note_ | Verdien SKAL hentes fra EUs kontrollerte vokabular  https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"]. 
 
 __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"].__
-|===
-
-=== Datatjeneste – kontaktpunkt (dcat:contactPoint) [[Datatjeneste-kontaktpunkt]]
-
-[cols="30s,70d"]
-|===
-| _English name_ | _contact point_
-| URI | dcat:contactPoint
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Kontaktopplysning[vcard:Kind &#x29C9;, window="_blank", role="ext-link"]
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til kontaktpunkt med kontaktopplysninger. Disse kan brukes til å sende kommentarer om datatjenesten.
-
-_This property is used to specify contact information that can be used for sending comments about the Data Service._
-| Multiplisitet / _Multiplicity_ | 1..n
-| Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Denne egenskapen er obligatorisk i DCAT-AP-NO allerede. Artikkel 3.4 i HVD-forordningen krever at kontaktpunkt skal oppgis for API. 
-
-__Article 3.4 in HVD IR requires the designation of a point of contact for an API.__
 |===
 
 == Anbefalte egenskaper for klassen _Datatjeneste_ [[Datatjeneste-anbefalte-egenskaper]]
