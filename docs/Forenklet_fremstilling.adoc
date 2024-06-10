@@ -13,6 +13,8 @@ image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[]
 
 :xrefstyle: full
 
+== Minimumskrav
+
 I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke gjentas i denne standarden, illustrerer figuren bl.a. følgende  obligatoriske krav som er HVD-spesifikke: 
 
 * Et **datasett** med høy verdi SKAL gjøres tilgjengelig. Se HVD-forordningen om det aktuelle datasettet skal gjøres tilgjengelig både via API (**datatjeneste**) og som bulknedlasting (**distribusjon**), eller en av de to måtene. 
@@ -22,3 +24,22 @@ I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke
 * Det SKAL oppgis *HVD-kategori*(er) et **datasett** med høy verdi tilhører. Samme krav gjelder også APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi. 
 
 * Et API (en **datatjeneste**) som tilgjengeliggjør datasett med høy verdi, SKAL ha **dokumentasjon** som beskriver bl.a. tjenestekvalitet. 
+
+== Et eksempel
+
+Eksemplet her er basert på datasettet https://data.norge.no/datasets/9b8fbdd7-7294-39e2-959b-24dc8ab0df4a[«Virksomhetsinformasjon - i henhold til STIRDatas modell» beskrevet i Felles datakatalog (data.norge.no) &#x29C9;, window="_blank", role="ext-link"]. Eksemplet er ikke komplett. Det inneholder kun noen av de opplysningene som det stilles krav til i denne standarden. Minimumsopplysninger er **uthevet**.  
+
+* **gjeldende lovgivning**: HVD-forordningen (http://data.europa.eu/eli/reg_impl/2023/138/oj)
+* **HVD-kategori**: selskaper og eierskap (http://data.europa.eu/bna/c_a9135398)
+* i samsvar med: STIRData business data model (https://stirdata.github.io/data-specification/) 
+* **datasettdistribusjon (bulknedlasting)**: 
+** **gjeldende lovgivning**: HVD-forordningen (http://data.europa.eu/eli/reg_impl/2023/138/oj)
+** lisens: CC BY 4.0 (ttp://publications.europa.eu/resource/authority/licence/CC_BY_4_0)
+** i samsvar med: STIRData business data model (https://stirdata.github.io/data-specification/)
+* **datatjeneste (API)**:
+** **dokumentasjon**:
+** **gjeldende lovgivning**: HVD-forordningen (http://data.europa.eu/eli/reg_impl/2023/138/oj)
+** **HVD-kategori**: selskaper og eierskap (http://data.europa.eu/bna/c_a9135398)
+** lisens: CC BY 4.0 (ttp://publications.europa.eu/resource/authority/licence/CC_BY_4_0)
+
+
