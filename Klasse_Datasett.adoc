@@ -41,6 +41,12 @@ _This property is used to refer to the legislation that mandates the creation or
 __For HVD the value MUST include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.__
 |===
 
+Eksempel i RDF Turtle:
+-----
+<aDataset> a dcat:Dataset ; 
+   dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ; .
+-----
+
 === Datasett – HVD-kategori (dcatap:hvdCategory) [[Datasett-hvdKategori]]
 
 [cols="30s,70"]
@@ -57,6 +63,12 @@ __This property is used to refer to HVD category to which this Dataset belongs._
 
 __The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"].__
 |===
+
+Eksempel i RDF Turtle:
+-----
+<aDataset> a dcat:Dataset ; 
+   dcatap:hvdCategory <http://data.europa.eu/bna/c_a9135398> ; .
+-----
 
 == Anbefalte egenskaper for klassen _Datasett_ [[Datasett-anbefalte-egenskaper]]
  
@@ -77,6 +89,12 @@ _This property is used to refer to an available Distribution for the Dataset._
 __Although the requirement level here is recommended (thus the multiplicity 0..n) as in DCAT-AP-NO, the HVD IR sets explicit requirements that several categories of HVD MUST be made available as bulk download (i.e., as dataset distributions). See also <<Spesielt_om_distribusjoner_datatjenester>> (in Norwegian only).__ 
 |===
 
+Eksempel i RDF Turtle:
+-----
+<aDataset> a dcat:Dataset ; 
+   dcat:distribution <aDistribution> ; .
+-----
+
 == Valgfrie egenskaper for klassen _Datasett_ [[Datasett-valgfrie-egenskaper]]
 
 === Datasett – i samsvar med (dct:conformsTo) [[Datasett-iSamsvarMed]]
@@ -95,4 +113,10 @@ _This property is used to refer to an implementing rule or other specification._
 
 __The provided information should enable to the verification whether the detailed information requirements by the HVD is satisfied. See <<Spesifikke_datakrav>> (in Norwegian only).__ 
 |===
+
+Eksempel i RDF Turtle:
+-----
+<aDataset> a dcat:Dataset ; 
+   dct:conformsTo <https://stirdata.github.io/data-specification> ; .
+-----
 
