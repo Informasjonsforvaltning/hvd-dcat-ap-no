@@ -537,7 +537,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#Forenklet-fremstilling-av-kravene">2. Forenklet fremstilling av kravene i HVD-DCAT-AP-NO</a>
 <ul class="sectlevel2">
-<li><a href="#_hvd_spesifikke_minimumskrav">2.1. HVD-spesifikke minimumskrav</a></li>
+<li><a href="#_hvd_spesifikke_krav">2.1. HVD-spesifikke krav</a></li>
 <li><a href="#_eksempel_på_et_hvd">2.2. Eksempel på et HVD</a></li>
 </ul>
 </li>
@@ -696,7 +696,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Innledning"><a class="anchor" href="#Innledning"></a>1.1. Innledning</h3>
 <div class="paragraph">
-<p>Formålet med standarden er å legge til rette for utveksling av beskrivelser av datasett med høy verdi (på engelsk <em>High Value Dataset</em>), forkortet til HVD. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138" class="ext-link" target="_blank" rel="noopener">HVD-forordningen (EU) 2023/138 &#x29C9;</a> som p.t. er under vurdering i EØS-EFTA, spesifiserer datasett av høy verdi innenfor følgende seks tematiske kategorier: (1) geodata, (2) jordobservasjon og miljø, (3) meteorologi, (4) statistikk, (5) selskaper og eierskap, og (6) mobilitet. Forordningen stiller bl.a. også et minimumskrav til metadata i beskrivelser av HVD.</p>
+<p>Formålet med standarden er å legge til rette for utveksling av beskrivelser av datasett med høy verdi (på engelsk <em>High Value Dataset</em>), forkortet til HVD. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138" class="ext-link" target="_blank" rel="noopener">HVD-forordningen (EU) 2023/138 &#x29C9;</a> som p.t. er under vurdering i EØS-EFTA, spesifiserer datasett av høy verdi innenfor følgende seks tematiske kategorier: (1) geodata, (2) jordobservasjon og miljø, (3) meteorologi, (4) statistikk, (5) selskaps- og eierskapsdata, og (6) mobilitet. Forordningen stiller bl.a. også et minimumskrav til metadata i beskrivelser av HVD.</p>
 </div>
 <div class="paragraph">
 <p>Denne standarden supplerer <a href="https://data.norge.no/specification/dcat-ap-no" class="ext-link" target="_blank" rel="noopener">Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO) &#x29C9;</a>, og beskriver hvordan DCAT-AP-NO brukes til å implementere minimumskrav til metadata for HVD spesifisert i ovennevnte forordningen.</p>
@@ -791,8 +791,11 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 <div class="sect1">
 <h2 id="Forenklet-fremstilling-av-kravene"><a class="anchor" href="#Forenklet-fremstilling-av-kravene"></a>2. Forenklet fremstilling av kravene i HVD-DCAT-AP-NO</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>Denne standarden inneholder kun HVD-spesifikke krav. Kravene ellers i DCAT-AP-NO gjelder også for HVD. Denne standarden skal derfor brukes sammen med, og ikke istedenfor, DCAT-AP-NO.</p>
+</div>
 <div class="sect2">
-<h3 id="_hvd_spesifikke_minimumskrav"><a class="anchor" href="#_hvd_spesifikke_minimumskrav"></a>2.1. HVD-spesifikke minimumskrav</h3>
+<h3 id="_hvd_spesifikke_krav"><a class="anchor" href="#_hvd_spesifikke_krav"></a>2.1. HVD-spesifikke krav</h3>
 <div class="paragraph">
 <p><a href="#img-ForenkletModell">Figur 1</a> viser en forenklet fremstilling av kravene i HVD-DCAT-AP-NO. Den viser kun de klassene som er spesifisert i denne standarden, dessuten med kun obligatoriske og anbefalte krav. HVD-DCAT-AP-NO skal brukes sammen med DCAT-AP-NO, ettersom den supplerer DCAT-AP-NO. HVD-spesifikke krav er markert i gult i tegningen.</p>
 </div>
@@ -817,7 +820,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 <p><strong>Datasett</strong> med høy verdi og relaterte <strong>distribusjon</strong>er og APIer (<strong>datatjeneste</strong>r) SKAL oppgi HVD-forordningen som <strong>gjeldende lovgivning</strong>.</p>
 </li>
 <li>
-<p>Det SKAL oppgis <strong>HVD-kategori</strong>(er) et <strong>datasett</strong> med høy verdi tilhører. Samme krav gjelder også APIer (<strong>datatjeneste</strong>r) som tilgjengeliggjør datasett med høy verdi.</p>
+<p>Det SKAL oppgis <strong>HVD-kategori</strong>(er) et <strong>datasett</strong> med høy verdi tilhører. Samme krav gjelder også APIer (<strong>datatjeneste</strong>r) som tilgjengeliggjør datasett med høy verdi. <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category" class="ext-link" target="_blank" rel="noopener">EUs kontrollerte vokabularer for HVD-kategorier &#x29C9;</a> SKAL brukes.</p>
 </li>
 <li>
 <p>Et API (en <strong>datatjeneste</strong>) som tilgjengeliggjør datasett med høy verdi, SKAL ha <strong>dokumentasjon</strong> som beskriver bl.a. tjenestekvalitet.</p>
@@ -836,7 +839,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 <p><strong>gjeldende lovgivning</strong>: HVD-forordningen (http://data.europa.eu/eli/reg_impl/2023/138/oj )</p>
 </li>
 <li>
-<p><strong>HVD-kategori</strong>: selskaper og eierskap (http://data.europa.eu/bna/c_a9135398)</p>
+<p><strong>HVD-kategori</strong>: selskaps- og eierskapsdata (http://data.europa.eu/bna/c_a9135398)</p>
 </li>
 <li>
 <p>i samsvar med: STIRData business data model (https://stirdata.github.io/data-specification/)</p>
@@ -868,7 +871,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 <p><strong>gjeldende lovgivning</strong>: HVD-forordningen (http://data.europa.eu/eli/reg_impl/2023/138/oj)</p>
 </li>
 <li>
-<p><strong>HVD-kategori</strong>: selskaper og eierskap (http://data.europa.eu/bna/c_a9135398)</p>
+<p><strong>HVD-kategori</strong>: selskaps- og eierskapsdata (http://data.europa.eu/bna/c_a9135398)</p>
 </li>
 <li>
 <p>lisens: CC BY 4.0 (http://publications.europa.eu/resource/authority/licence/CC_BY_4_0)</p>
@@ -1915,7 +1918,7 @@ korrigering av disse utløse en ny versjon. Disse korrigeringene skal imidlertid
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-06-10 08:53:17 UTC
+Sist oppdatert 2024-06-10 10:17:05 UTC
 </div>
 </div>
 </body>
