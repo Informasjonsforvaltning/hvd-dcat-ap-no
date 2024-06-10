@@ -1,6 +1,6 @@
 = Forenklet fremstilling av kravene i HVD-DCAT-AP-NO [[Forenklet-fremstilling-av-kravene]]
 
-== Minimumskrav
+== HVD-spesifikke minimumskrav
 
 :xrefstyle: short
 
@@ -25,7 +25,7 @@ I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke
 
 * Et API (en **datatjeneste**) som tilgjengeliggjør datasett med høy verdi, SKAL ha **dokumentasjon** som beskriver bl.a. tjenestekvalitet. 
 
-== Et eksempel
+== Eksempel på et HVD
 
 Eksemplet her er basert på datasettet https://data.norge.no/datasets/9b8fbdd7-7294-39e2-959b-24dc8ab0df4a[«Virksomhetsinformasjon - i henhold til STIRDatas modell» beskrevet i Felles datakatalog (data.norge.no) &#x29C9;, window="_blank", role="ext-link"]. Eksemplet er ikke komplett. Det inneholder kun noen av de opplysningene som det stilles krav til i denne standarden. Minimumsopplysninger er **uthevet**.  
 
