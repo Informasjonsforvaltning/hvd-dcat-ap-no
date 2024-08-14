@@ -128,7 +128,7 @@ Eksempel i RDF Turtle:
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en uttalelse som angir rettigheter knyttet til distribusjonen.
 
 _This property is used to refer to a statement that specifies rights associated with the Distribution._
-| Multiplisitet / _Multiplicity_ | 0..n _#@@@@@@ NB! EU i sin HVD DCAT-AP har 0..n her, mens det er 0..1 i DCAT-AP!#_
+| Multiplisitet / _Multiplicity_ | 0..n #(@@@@@@ NB! EU i sin HVD DCAT-AP har 0..n her, mens det er 0..1 i DCAT-AP!)#
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 | Merknad / _Note_ | Artikkel 4.3. i HVD-forordningen spesifiserer at HVD bør gjøres tilgjengelig for viderebruk. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å bruke egenskapen <<Distribusjon-lisens>> til å referere til en lisens. Denne egenskapen kan brukes som et alternativ. 
 
