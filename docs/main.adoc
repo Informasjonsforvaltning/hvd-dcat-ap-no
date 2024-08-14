@@ -54,6 +54,8 @@ include::Spesifikasjon_per_klasse.adoc[]
 
 include::Klasse_Datasett.adoc[]
 
+include::Klasse_Datasettserie.adoc[]
+
 include::Klasse_Datatjeneste.adoc[]
 
 include::Klasse_Distribusjon.adoc[]
