@@ -17,6 +17,8 @@ image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[]
 
 :xrefstyle: full
 
+#@@@@@@ resten av teksten er ennå ikke justert iht. tegningen ovenfor#
+
 I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke gjentas i denne standarden, illustrerer figuren bl.a. følgende  obligatoriske krav som er HVD-spesifikke: 
 
 * Et **datasett** med høy verdi SKAL gjøres tilgjengelig. Se HVD-forordningen om det aktuelle datasettet skal gjøres tilgjengelig både via API (**datatjeneste**) og som bulknedlasting (**distribusjon**), eller en av de to måtene. 
