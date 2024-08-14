@@ -24,6 +24,26 @@ _This class is used to represent a conceptual entity that represents the informa
 
 == Obligatoriske egenskaper for klassen _Datasett_ [[Datasett-obligatoriske-egenskaper]]
  
+=== Datasett – datasettdistribusjon (dcat:distribution) [[Datasett-datasettdistribusjon]]
+
+[cols="30s,70"]
+|===
+| _English name_ | _dataset distribution_
+| URI | dcat:distribution
+| Verdiområde / _Range_ | <<Distribusjon, dcat:Distribution>>
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.
+
+_This property is used to refer to an available distribution for the dataset._
+| Multiplisitet / _Multiplicity_ | 1..n
+| Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_ 
+|===
+
+Eksempel i RDF Turtle:
+-----
+<aDataset> a dcat:Dataset ; 
+   dcat:distribution <aDistribution> ; .
+-----
+
 === Datasett – gjeldende lovgivning (dcatap:applicableLegislation) [[Datasett-gjeldendeLovgivning]]
 
 [cols="30s,70"]
@@ -33,7 +53,7 @@ _This class is used to represent a conceptual entity that represents the informa
 | Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til lovgivningen som gir mandat til opprettelse eller behandling av datasettet.
 
-_This property is used to refer to the legislation that mandates the creation or management of the Dataset._
+_This property is used to refer to the legislation that mandates the creation or management of the dataset._
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
 | Merknad / _Note_ | For HVD SKAL en av verdiene være http://data.europa.eu/eli/reg_impl/2023/138/oj.
@@ -54,9 +74,9 @@ Eksempel i RDF Turtle:
 | _English name_ | _HVD category_
 | URI | dcatap:hvdCategory
 | Verdiområde / _Range_ | skos:Concept
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til Egenskapen brukes til å referere til HVD kategorien som dette datasettet tilhører. 
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til HVD kategorien som dette datasettet tilhører. 
 
-__This property is used to refer to HVD category to which this Dataset belongs.__
+__This property is used to refer to HVD category to which this dataset belongs.__
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
 | Merknad / _Note_ | Verdien SKAL hentes fra EUs kontrollerte vokabular  https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"]. 
@@ -69,32 +89,7 @@ Eksempel i RDF Turtle:
 <aDataset> a dcat:Dataset ; 
    dcatap:hvdCategory <http://data.europa.eu/bna/c_a9135398> ; .
 -----
-
-== Anbefalte egenskaper for klassen _Datasett_ [[Datasett-anbefalte-egenskaper]]
  
-=== Datasett – datasettdistribusjon (dcat:distribution) [[Datasett-datasettdistribusjon]]
-
-[cols="30s,70"]
-|===
-| _English name_ | _dataset distribution_
-| URI | dcat:distribution
-| Verdiområde / _Range_ | <<Distribusjon, dcat:Distribution>>
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.
-
-_This property is used to refer to an available Distribution for the Dataset._
-| Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Anbefalte / _Recommended_ #@@@@@@ NB! Sjekk hva EU lander på her# 
-| Merknad / _Note_ | Selv om kravnivået her er anbefalt (dermed multiplisiteten 0..n) som i DCAT-AP-NO, stiller HVD-forordningen eksplisitte krav til at flere kategorier av HVD SKAL gjøres tilgjengelig som bulknedlastinger (dvs. datasettdistribusjoner). Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
-
-__Although the requirement level here is recommended (thus the multiplicity 0..n) as in DCAT-AP-NO, the HVD IR sets explicit requirements that several categories of HVD MUST be made available as bulk download (i.e., as dataset distributions). See also <<Spesielt_om_distribusjoner_datatjenester>> (in Norwegian only).__ 
-|===
-
-Eksempel i RDF Turtle:
------
-<aDataset> a dcat:Dataset ; 
-   dcat:distribution <aDistribution> ; .
------
-
 == Valgfrie egenskaper for klassen _Datasett_ [[Datasett-valgfrie-egenskaper]]
 
 === Datasett – i samsvar med (dct:conformsTo) [[Datasett-iSamsvarMed]]
