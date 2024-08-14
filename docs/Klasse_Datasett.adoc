@@ -34,7 +34,7 @@ _This class is used to represent a conceptual entity that represents the informa
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.
 
 _This property is used to refer to an available distribution for the dataset._
-| Multiplisitet / _Multiplicity_ | 1..n
+| Multiplisitet / _Multiplicity_ | 1..n (#@@@@@ NB! Inkonsistens i EUs DCAT-AP HVD, der multiplisiteten oppgis som 1..n, mens egenskapen er i Annex A kategorisert som Recommended#)
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_ 
 |===
 

@@ -73,6 +73,26 @@ Eksempel i RDF Turtle:
    dct:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ; .
 -----
 
+=== Distribusjon – tilgangstjeneste (dcat:accessService) [[Distribusjon-tilganstjeneste]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _access service_
+| URI | dcat:accessService
+| Verdiområde / _Range_ | <<Datatjeneste, dcat:DataService>>
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en datatjeneste som gir tilgang til distribusjonen av datasettet.
+
+_This property is used to refer to a data service that gives access to the distribution of the dataset._
+| Multiplisitet / _Multiplicity_ | 0..n
+| Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
+|===
+
+Eksempel i RDF Turtle:
+-----
+<aDistribution> a dcat:Distribution ; 
+   dcat:accessService <aDataService> ; .
+-----
+
 == Valgfrie egenskaper for klassen _Distribusjon_ [[Distribusjon-valgfrie-egenskaper]]
 
 === Distribusjon – i samsvar med (dct:conformsTo) [[Distribusjon-i-samsvar-med]]
