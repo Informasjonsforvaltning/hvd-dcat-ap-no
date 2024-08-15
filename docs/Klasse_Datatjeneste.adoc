@@ -163,7 +163,7 @@ Eksempel i RDF Turtle:
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en uttalelse som angir rettigheter knyttet til distribusjonen.
 
 _This property is used to refer to a statement that specifies rights associated with the data service._
-| Multiplisitet / _Multiplicity_ | 0..n #(@@@@@@ se tilsvarende merknad for Distribution)# 
+| Multiplisitet / _Multiplicity_ | 0..n #(@@@@@@ se kommentaren til den tilsvarende egenskapen i klassen dcat:Distribution. I DCAT-AP-NO er det nå 0..1)# 
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 | Merknad / _Note_ | Artikkel 2.2. i HVD-forordningen spesifiserer at brukervilkår bør oppgis. Som beskrevet under <<Spesielt_om_juridisk_info>> kan kravet oppfylles ved å bruke egenskapen <<Datatjeneste-lisens>> til å referere til en lisens. Denne egenskapen kan brukes som et alternativ. 
 
