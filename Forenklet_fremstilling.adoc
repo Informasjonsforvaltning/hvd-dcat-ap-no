@@ -6,9 +6,9 @@ Denne standarden inneholder kun HVD-spesifikke krav. Kravene ellers i DCAT-AP-NO
 
 :xrefstyle: short
 
-<<img-ForenkletModell>> viser en forenklet fremstilling av kravene i HVD-DCAT-AP-NO. Den viser kun de klassene som er spesifisert i denne standarden, dessuten med kun obligatoriske og anbefalte krav. HVD-DCAT-AP-NO skal brukes sammen med DCAT-AP-NO, ettersom den supplerer DCAT-AP-NO. HVD-spesifikke krav er markert i gult i tegningen. 
+<<img-ForenkletModell>> viser en forenklet fremstilling av kravene i HVD-DCAT-AP-NO. Den viser kun obligatoriske og anbefalte opplysninger som skal/bør tas med i beskrivelse av datasett, datasettserier, datatjenester og distribusjoner, i konteksten HVD. HVD-DCAT-AP-NO skal brukes sammen med DCAT-AP-NO, ettersom den supplerer DCAT-AP-NO. HVD-spesifikke krav er markert i gult i tegningen. 
 
-Tegningen er ikke ment som en formell representasjon av standarden, men kun for å gi en visuell oversikt over noen av klassene og relasjoner mellom dem. Tekniske krav til hvordan klassene og de __HVD-spesifikke__ egenskapene/relasjoner skal uttrykkes i RDF er spesifisert videre i standarden. Før eventuell uoverensstemmelse mellom tegningen og den tekstlige spesifikasjonen blir rettet opp, har den tekstlige spesifikasjonen av klassene/egenskapene forrang. Samme forrang gjelder også når det gjelder eventuelle uoverensstemmelser mellom tekstlige spesifikasjoner og tegninger i resten av standarden. 
+Tegningen er ikke ment som en formell representasjon av standarden, men kun for å gi en visuell oversikt over noen av kravene. Tekniske krav til hvordan  __HVD-spesifikke__ opplysninger skal uttrykkes i RDF er spesifisert videre i standarden. Før eventuell uoverensstemmelse mellom tegningen og den tekstlige spesifikasjonen blir rettet opp, har den tekstlige spesifikasjonen forrang. Samme forrang gjelder også når det gjelder eventuelle uoverensstemmelser mellom tekstlige spesifikasjoner og tegninger i resten av standarden. 
 
 [[img-ForenkletModell]]
 .Forenklet fremstilling av kravene i HVD-DCAT-AP-NO, med kun obligatoriske og anbefalte krav.
@@ -17,7 +17,7 @@ image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[]
 
 :xrefstyle: full
 
-I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke gjentas i denne standarden, illustrerer figuren bl.a. følgende  obligatoriske krav som er HVD-spesifikke: 
+I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke gjentas i denne standarden, illustrerer figuren bl.a. følgende obligatoriske krav som er HVD-spesifikke: 
 
 * Et **datasett** med høy verdi SKAL gjøres tilgjengelig. Se HVD-forordningen om det aktuelle datasettet skal gjøres tilgjengelig både via API (**datatjeneste**) og som bulknedlasting (**distribusjon**), eller en av de to måtene. 
 ** Et datasett kan inngå i en **datasettserie**. 
