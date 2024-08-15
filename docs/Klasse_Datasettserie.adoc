@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-<<diagram-Klassen-Datasettserie>> viser klassen Datasettserie og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Datasettserie[klassen Datasettserie (dcat:DatasetSeries) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. Se også https://informasjonsforvaltning.github.io/dcat-ap-no/#Om-Datasettserie[Om bruk av klassen Datasettserie (dcat:DatasetSeries) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"].
+<<diagram-Klassen-Datasettserie>> viser klassen Datasettserie og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Datasettserie[klassen Datasettserie (dcat:DatasetSeries) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. Se også https://informasjonsforvaltning.github.io/dcat-ap-no/#Om-Datasettserie[Om bruk av datasettserie i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"].
 
 [[diagram-Klassen-Datasettserie]]
 .Klassen Datasettserie og klassene den refererer til.
