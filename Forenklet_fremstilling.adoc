@@ -20,11 +20,11 @@ image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[]
 I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke gjentas i denne standarden, illustrerer figuren bl.a. følgende obligatoriske krav som er HVD-spesifikke: 
 
 * Et **datasett** med høy verdi SKAL gjøres tilgjengelig. Se HVD-forordningen om det aktuelle datasettet skal gjøres tilgjengelig både via API (**datatjeneste**) og som bulknedlasting (**distribusjon**), eller en av de to måtene. 
-** Et datasett kan inngå i en **datasettserie**. 
+** Et datasett kan inngå i en **datasettserie**. Se også https://informasjonsforvaltning.github.io/dcat-ap-no/#Om-Datasettserie[Om bruk av datasettserie i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"].
 
 * **Datasett** med høy verdi og relaterte **distribusjon**er og APIer (**datatjeneste**r), samt ev. **datasettserie**(r) som datasettet inngår i, SKAL oppgi http://data.europa.eu/eli/reg_impl/2023/138/oj[HVD-forordningen &#x29C9;, window="_blank", role="ext-link"] som *gjeldende lovgivning*.  
 
-* Det SKAL oppgis *HVD-kategori*(er) et **datasett(serie)** med høy verdi tilhører. Samme krav gjelder også APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi. https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[EUs kontrollerte vokabular for HVD-kategorier &#x29C9;, window="_blank", role="ext-link"] SKAL brukes. 
+* Det SKAL oppgis *HVD-kategori*(er) et **datasett** med høy verdi tilhører. Samme krav gjelder også APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi og ev. *datasettserie*(r) som et datasett med høy verdi inngår i. https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[EUs kontrollerte vokabular for HVD-kategorier &#x29C9;, window="_blank", role="ext-link"] SKAL brukes. 
 
 * Et API (en **datatjeneste**) som tilgjengeliggjør datasett med høy verdi, SKAL ha **dokumentasjon** som beskriver bl.a. tjenestekvalitet. 
 
