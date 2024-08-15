@@ -1,6 +1,6 @@
 = Om denne versjonen [[Om-denne-versjonen]]
 
-Dette er #utkast# til en høringsversjon til den nye HVD-DCAT-AP-NO. 
+Dette er høringsversjonen til den nye HVD-DCAT-AP-NO. 
 
 Denne versjonen er basert på https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/[EUs utkast til DCAT-AP High Value Datasets v.3 &#x29C9;, window="_blank", role="ext-link"] som for tiden er #under høring#. 
 
