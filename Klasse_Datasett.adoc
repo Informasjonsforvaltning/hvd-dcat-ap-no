@@ -24,26 +24,6 @@ _This class is used to represent a conceptual entity that represents the informa
 
 == Obligatoriske egenskaper for klassen _Datasett_ [[Datasett-obligatoriske-egenskaper]]
  
-=== Datasett – datasettdistribusjon (dcat:distribution) [[Datasett-datasettdistribusjon]]
-
-[cols="30s,70"]
-|===
-| _English name_ | _dataset distribution_
-| URI | dcat:distribution
-| Verdiområde / _Range_ | <<Distribusjon, dcat:Distribution>>
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.
-
-_This property is used to refer to an available distribution for the dataset._
-| Multiplisitet / _Multiplicity_ | 1..n #(@@@@@@ NB! Inkonsistens i EUs DCAT-AP HVD, der multiplisiteten oppgis som 1..n, mens egenskapen er i Annex A kategorisert som Recommended)#
-| Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_ 
-|===
-
-Eksempel i RDF Turtle:
------
-<aDataset> a dcat:Dataset ; 
-   dcat:distribution <aDistribution> ; .
------
-
 === Datasett – gjeldende lovgivning (dcatap:applicableLegislation) [[Datasett-gjeldendeLovgivning]]
 
 [cols="30s,70"]
@@ -90,6 +70,29 @@ Eksempel i RDF Turtle:
    dcatap:hvdCategory <http://data.europa.eu/bna/c_a9135398> ; .
 -----
  
+== Anbefalte egenskaper for klassen _Datasett_ [[Datasett-anbefalte-egenskaper]]
+
+
+=== Datasett – datasettdistribusjon (dcat:distribution) [[Datasett-datasettdistribusjon]]
+
+[cols="30s,70"]
+|===
+| _English name_ | _dataset distribution_
+| URI | dcat:distribution
+| Verdiområde / _Range_ | <<Distribusjon, dcat:Distribution>>
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet. Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
+
+_This property is used to refer to an available distribution for the dataset._
+| Multiplisitet / _Multiplicity_ | 0..n #(@@@@@@ NB! Inkonsistens i EUs DCAT-AP HVD, der multiplisiteten oppgis som 1..n, mens egenskapen er i Annex A kategorisert som Recommended)#
+| Kravnivå / _Requirement level_ | Anbefalt / _Recommended_ 
+|===
+
+Eksempel i RDF Turtle:
+-----
+<aDataset> a dcat:Dataset ; 
+   dcat:distribution <aDistribution> ; .
+-----
+
 == Valgfrie egenskaper for klassen _Datasett_ [[Datasett-valgfrie-egenskaper]]
 
 === Datasett – i samsvar med (dct:conformsTo) [[Datasett-iSamsvarMed]]

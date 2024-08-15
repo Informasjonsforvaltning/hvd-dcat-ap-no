@@ -547,12 +547,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#Datasett-obligatoriske-egenskaper">3.1.1. Obligatoriske egenskaper for klassen <em>Datasett</em></a>
 <ul class="sectlevel4">
-<li><a href="#Datasett-datasettdistribusjon">Datasett – datasettdistribusjon (dcat:distribution)</a></li>
 <li><a href="#Datasett-gjeldendeLovgivning">Datasett – gjeldende lovgivning (dcatap:applicableLegislation)</a></li>
 <li><a href="#Datasett-hvdKategori">Datasett – HVD-kategori (dcatap:hvdCategory)</a></li>
 </ul>
 </li>
-<li><a href="#Datasett-valgfrie-egenskaper">3.1.2. Valgfrie egenskaper for klassen <em>Datasett</em></a>
+<li><a href="#Datasett-anbefalte-egenskaper">3.1.2. Anbefalte egenskaper for klassen <em>Datasett</em></a>
+<ul class="sectlevel4">
+<li><a href="#Datasett-datasettdistribusjon">Datasett – datasettdistribusjon (dcat:distribution)</a></li>
+</ul>
+</li>
+<li><a href="#Datasett-valgfrie-egenskaper">3.1.3. Valgfrie egenskaper for klassen <em>Datasett</em></a>
 <ul class="sectlevel4">
 <li><a href="#Datasett-iSamsvarMed">Datasett – i samsvar med (dct:conformsTo)</a></li>
 </ul>
@@ -939,52 +943,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect3">
 <h4 id="Datasett-obligatoriske-egenskaper"><a class="anchor" href="#Datasett-obligatoriske-egenskaper"></a>3.1.1. Obligatoriske egenskaper for klassen <em>Datasett</em></h4>
 <div class="sect4">
-<h5 id="Datasett-datasettdistribusjon"><a class="anchor" href="#Datasett-datasettdistribusjon"></a>3.1.1.1. Datasett – datasettdistribusjon (dcat:distribution)</h5>
-<table class="tableblock frame-all grid-all stripes-even stretch">
-<colgroup>
-<col style="width: 30%;">
-<col style="width: 70%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>dataset distribution</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">dcat:distribution</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Distribusjon">dcat:Distribution</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet.</p>
-<p class="tableblock"><em>This property is used to refer to an available distribution for the dataset.</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1..n <mark>(@@@@@@ NB! Inkonsistens i EUs DCAT-AP HVD, der multiplisiteten oppgis som 1..n, mens egenskapen er i Annex A kategorisert som Recommended)</mark></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Obligatorisk / <em>Mandatory</em></p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>Eksempel i RDF Turtle:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>&lt;aDataset&gt; a dcat:Dataset ;
-   dcat:distribution &lt;aDistribution&gt; ; .</pre>
-</div>
-</div>
-</div>
-<div class="sect4">
-<h5 id="Datasett-gjeldendeLovgivning"><a class="anchor" href="#Datasett-gjeldendeLovgivning"></a>3.1.1.2. Datasett – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
+<h5 id="Datasett-gjeldendeLovgivning"><a class="anchor" href="#Datasett-gjeldendeLovgivning"></a>3.1.1.1. Datasett – gjeldende lovgivning (dcatap:applicableLegislation)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1034,7 +993,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 </div>
 <div class="sect4">
-<h5 id="Datasett-hvdKategori"><a class="anchor" href="#Datasett-hvdKategori"></a>3.1.1.3. Datasett – HVD-kategori (dcatap:hvdCategory)</h5>
+<h5 id="Datasett-hvdKategori"><a class="anchor" href="#Datasett-hvdKategori"></a>3.1.1.2. Datasett – HVD-kategori (dcatap:hvdCategory)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1085,9 +1044,57 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 </div>
 <div class="sect3">
-<h4 id="Datasett-valgfrie-egenskaper"><a class="anchor" href="#Datasett-valgfrie-egenskaper"></a>3.1.2. Valgfrie egenskaper for klassen <em>Datasett</em></h4>
+<h4 id="Datasett-anbefalte-egenskaper"><a class="anchor" href="#Datasett-anbefalte-egenskaper"></a>3.1.2. Anbefalte egenskaper for klassen <em>Datasett</em></h4>
 <div class="sect4">
-<h5 id="Datasett-iSamsvarMed"><a class="anchor" href="#Datasett-iSamsvarMed"></a>3.1.2.1. Datasett – i samsvar med (dct:conformsTo)</h5>
+<h5 id="Datasett-datasettdistribusjon"><a class="anchor" href="#Datasett-datasettdistribusjon"></a>3.1.2.1. Datasett – datasettdistribusjon (dcat:distribution)</h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>dataset distribution</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dcat:distribution</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Distribusjon">dcat:Distribution</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet. Se også <a href="#Spesielt_om_distribusjoner_datatjenester"> 4.2, &#8220;Spesielt om distribusjoner og datatjenester for datasett med høy verdi&#8221;</a>.</p>
+<p class="tableblock"><em>This property is used to refer to an available distribution for the dataset.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n <mark>(@@@@@@ NB! Inkonsistens i EUs DCAT-AP HVD, der multiplisiteten oppgis som 1..n, mens egenskapen er i Annex A kategorisert som Recommended)</mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anbefalt / <em>Recommended</em></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;aDataset&gt; a dcat:Dataset ;
+   dcat:distribution &lt;aDistribution&gt; ; .</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="Datasett-valgfrie-egenskaper"><a class="anchor" href="#Datasett-valgfrie-egenskaper"></a>3.1.3. Valgfrie egenskaper for klassen <em>Datasett</em></h4>
+<div class="sect4">
+<h5 id="Datasett-iSamsvarMed"><a class="anchor" href="#Datasett-iSamsvarMed"></a>3.1.3.1. Datasett – i samsvar med (dct:conformsTo)</h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1998,7 +2005,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="ulist">
 <ul>
 <li>
-<p>Bulknedlastinger skal beskrives som <strong>distribusjon</strong>er, ved å bruke egenskapen <a href="#Datasett-datasettdistribusjon"> 3.1.1.1, &#8220;Datasett – datasettdistribusjon (dcat:distribution)&#8221;</a> fra datasettbeskrivelsen.</p>
+<p>Bulknedlastinger skal beskrives som <strong>distribusjon</strong>er, ved å bruke egenskapen <a href="#Datasett-datasettdistribusjon"> 3.1.2.1, &#8220;Datasett – datasettdistribusjon (dcat:distribution)&#8221;</a> fra datasettbeskrivelsen.</p>
 <div class="ulist">
 <ul>
 <li>
@@ -2097,7 +2104,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-08-15 11:03:39 UTC
+Sist oppdatert 2024-08-15 12:30:56 UTC
 </div>
 </div>
 </body>
