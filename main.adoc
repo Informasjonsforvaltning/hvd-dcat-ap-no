@@ -25,8 +25,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 *Lisens*: https://creativecommons.org/licenses/by/4.0/[CC BY 4.0 &#x29C9;, window="_blank", role="ext-link"] +
 *Status*: #Til høring# +
 *Versjon*: #Høringsversjon til kommende v.1.0# +
-*Publisert*: #ikke ennå# + 
-*Oppdatert*: #løpende oppdateres før utsending av høringen# +
+*Publisert*: 2024-08-16 + 
+*Oppdatert*: 2024-08-16 +
 *Gjeldende versjon*: ingen +
 *Forrige versjon*: ingen +
 *Redaktørens utkast*: https://informasjonsforvaltning.github.io/hvd-dcat-ap-no/ +
