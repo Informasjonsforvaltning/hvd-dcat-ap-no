@@ -83,7 +83,7 @@ Eksempel i RDF Turtle:
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en tilgjengelig distribusjon for datasettet. Se også <<Spesielt_om_distribusjoner_datatjenester>>. 
 
 _This property is used to refer to an available distribution for the dataset._
-| Multiplisitet / _Multiplicity_ | 0..n #(@@@@@@ NB! Inkonsistens i EUs DCAT-AP HVD, der multiplisiteten oppgis som 1..n, mens egenskapen er i Annex A kategorisert som Recommended)#
+| Multiplisitet / _Multiplicity_ | 0..n 
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_ 
 |===
 
