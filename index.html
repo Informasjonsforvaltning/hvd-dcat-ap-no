@@ -1931,31 +1931,13 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Spesielt_om_juridisk_info"><a class="anchor" href="#Spesielt_om_juridisk_info"></a>4.1. Spesielt om juridisk informasjon om datasett med høy verdi</h3>
 <div class="paragraph">
-<p><em>Dette er en forkortet og fornorsket versjon av EUs <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c3" class="ext-link" target="_blank" rel="noopener">Legal information &#x29C9;</a> i DCAT-AP HVD.</em></p>
-</div>
-<div class="paragraph">
-<p>HVD-forordningen krever høy metadatakvalitet for juridisk informasjon om datasett med høy verdi. Informasjonen bør være i både maskin- og menneskelesbart format, dessuten med en varig lenke. Videre bør det være mulig å vite om de juridiske betingelsene som er oppgitt, er like eller mer liberale enn <a href="https://creativecommons.org/licenses/by/4.0/" class="ext-link" target="_blank" rel="noopener">CC BY 4.0 &#x29C9;</a>.</p>
+<p>HVD-forordningen krever høy metadatakvalitet for juridisk informasjon om datasett med høy verdi. Informasjonen bør være i både maskin- og menneskelesbart format, dessuten med en varig lenke.</p>
 </div>
 <div class="paragraph">
 <p>Vi anbefaler sterkt at datasettutgiverne bruker en av lisensene fra <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/licence" class="ext-link" target="_blank" rel="noopener">EUs kontrollerte vokabular for lisens &#x29C9;</a>, f.eks. CC BY 4.0 ved å bruke den varige lenken <code>http://publications.europa.eu/resource/authority/licence/CC_BY_4_0</code>. Regjeringens <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/" class="ext-link" target="_blank" rel="noopener">retningslinjer ved tilgjengeliggjøring av offentlige data  &#x29C9;</a>, under punkt 1 Bruk åpne standardlisenser, anbefaler også å bruke CC BY 4.0.</p>
 </div>
 <div class="paragraph">
-<p>Katalogeierne anbefales til å evaluere den juridiske informasjonen oppgitt av datasettutgiverne i henhold til flytdiagrammene under, der "licence NAL" refererer til ovennevnte EUs kontrollerte vokabular for lisens, "NAL" står for "<em>Named Authority List</em>" (som vi oversetter til «kontrollert vokabular»), og "MS" står for "<em>Member State</em>" («medlemsland»).</p>
-</div>
-<div id="diagram-flytdiagram-lisens" class="imageblock">
-<div class="content">
-<a class="image" href="images/flow-licenses.png"><img src="images/flow-licenses.png" alt="flow licenses"></a>
-</div>
-<div class="title">Figur 6. Beslutningstre for lisensinformasjon (<em>kilde: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#flow-licences" class="ext-link" target="_blank" rel="noopener">EUs DCAT-AP HVD &#x29C9;</a></em>).</div>
-</div>
-<div id="diagram-flytdiagram-rettigheter" class="imageblock">
-<div class="content">
-<a class="image" href="images/flow-rights.png"><img src="images/flow-rights.png" alt="flow rights"></a>
-</div>
-<div class="title">Figur 7. Beslutningstre for rettighetsinformasjon (<em>kilde: <a href="https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#flow-rights" class="ext-link" target="_blank" rel="noopener">EUs DCAT-AP HVD &#x29C9;</a></em>).</div>
-</div>
-<div class="paragraph">
-<p>Beslutningstrærne ovenfor kan brukes til å evaluere om noe ekstra skal gjøres eller ikke. For å gjøre det mulig for andre å evaluere om de oppgitte betingelsene er like eller mer liberale enn CC BY 4.0, anbefales det å berike den maskinlesbare publiserte nasjonale eller lokale lisensen med mapping informasjon til ovennevnte EUs kontrollerte vokabular for lisens. Som mapping informasjon anbefales det å bruke, i den rekkefølge, mapping egenskapene i SKOS (bl.a. <code>skos:exactMatch</code>), <code>owl:sameAs</code> eller <code>rdfs:seeAlso.</code></p>
+<p>For datasettutgivere som mot formodning ikke kan bruke en av lisensene fra ovennevnte EUs kontrollerte vokabular for lisens, se <a href="https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/3.0.0-hvd/#c3" class="ext-link" target="_blank" rel="noopener"><em>Legal information</em> &#x29C9;</a> i EUs DCAT-AP HVD.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1983,10 +1965,10 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/datasett-distribusjon-datatjeneste.png"><img src="images/datasett-distribusjon-datatjeneste.png" alt="datasett distribusjon datatjeneste"></a>
 </div>
-<div class="title">Figur 8. Datasett, Distribusjon og Datatjeneste.</div>
+<div class="title">Figur 6. Datasett, Distribusjon og Datatjeneste.</div>
 </div>
 <div class="paragraph">
-<p><a href="#diagram-datasett-distribusjon-datatjeneste">Figur 8</a> illustrerer hvordan bulknedlastinger og API-tilgang skal beskrives:</p>
+<p><a href="#diagram-datasett-distribusjon-datatjeneste">Figur 6</a> illustrerer hvordan bulknedlastinger og API-tilgang skal beskrives:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2090,7 +2072,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-11-06 06:09:29 UTC
+Sist oppdatert 2024-11-20 08:01:28 UTC
 </div>
 </div>
 </body>
