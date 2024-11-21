@@ -36,9 +36,9 @@ _This class is used to represent a conceptual entity that represents the informa
 _This property is used to refer to the legislation that mandates the creation or management of the dataset._
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | For HVD SKAL en av verdiene være http://data.europa.eu/eli/reg_impl/2023/138/oj.
+| Merknad / _Note_ | For HVD SKAL en av verdiene være `\http://data.europa.eu/eli/reg_impl/2023/138/oj`.
 
-__For HVD the value MUST include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.__
+__For HVD the value MUST include the ELI `\http://data.europa.eu/eli/reg_impl/2023/138/oj`.__
 |===
 
 Eksempel i RDF Turtle:
@@ -59,9 +59,9 @@ Eksempel i RDF Turtle:
 __This property is used to refer to HVD category to which this dataset belongs.__
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Verdien SKAL hentes fra EUs kontrollerte vokabular  https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"]. 
+| Merknad / _Note_ | Verdien SKAL hentes fra EUs kontrollerte vokabular  https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/bna/asd487ae75[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"]. 
 
-__The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"].__
+__The value MUST be chosen from EU's controlled vocabulary https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/bna/asd487ae75[High-value dataset categories  &#x29C9;, window="_blank", role="ext-link"].__
 |===
 
 Eksempel i RDF Turtle:
