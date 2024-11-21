@@ -14,7 +14,7 @@ For å være i samsvar med denne standarden, SKAL en applikasjon som levere meta
 
 * Levere informasjon om alle organisasjoner/aktører som er involvert i beskrivelsene av katalogen, datasettene osv., som minimum med de obligatoriske egenskapene spesifisert i klassen Aktør i https://informasjonsforvaltning.github.io/dcat-ap-no/#Akt%C3%B8r[DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"]. 
 
-* Bruke de kontrollerte vokabularene som er beskrevet i Merknad til den enkelte egenskapen i <<Spesifikasjon_per_klasse, denne standarden>> og i https://informasjonsforvaltning.github.io/dcat-ap-no/#Spesifikasjon-per-klasse[DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"]. 
+* Bruke de kontrollerte vokabularene som er beskrevet i Merknad til den enkelte egenskapen i <<Spesifikasjon-per-klasse, denne standarden>> og i https://informasjonsforvaltning.github.io/dcat-ap-no/#Spesifikasjon-per-klasse[DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"]. 
 
 == Krav til applikasjoner som mottar metadata
 
