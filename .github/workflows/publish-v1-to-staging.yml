@@ -37,7 +37,7 @@ jobs:
         id: upload-files
         with:
           ontology-type: "specification"
-          ontology: "hvd-dcat-ap-no"
+          ontology: "dcat-ap-no"
           host: "https://staging.fellesdatakatalog.digdir.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY_STAGING }}
           files: |
