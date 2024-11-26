@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-<<diagram-Klassen-Datatjeneste>> viser klassen Datatjeneste og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Datatjeneste[klassen Datatjeneste (dcat:DataService) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen.
+<<diagram-Klassen-Datatjeneste>> viser klassen Datatjeneste og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://data.norge.no/specification/dcat-ap-no/#Datatjeneste[klassen Datatjeneste (dcat:DataService) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen.
 
 [[diagram-Klassen-Datatjeneste]]
 .Klassen Datatjeneste og klassene den refererer til.
@@ -15,7 +15,7 @@ image::images/Klassen-Datatjeneste.png[]
 |===
 | _English name_ | _Data service_
 | URI | dcat:DataService
-| Subklasse av / _Subclass of_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#KatalogisertRessurs[dcat:Resource &#x29C9;, window="_blank", role="ext-link"]
+| Subklasse av / _Subclass of_ | https://data.norge.no/specification/dcat-ap-no/#KatalogisertRessurs[dcat:Resource &#x29C9;, window="_blank", role="ext-link"]
 | Beskrivelse | Klassen brukes til å representere en datatjeneste, dvs. en samling av operasjoner som gir tilgang til ett eller flere datasett eller databehandlingsfunksjoner.
 
 _This class is used to represent a data service, i.e., a collection of operations that provides access to one or more datasets or data processing functions._
@@ -52,7 +52,7 @@ Eksempel i RDF Turtle:
 |===
 | _English name_ | _applicable legislation_
 | URI | dcatap:applicableLegislation
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til lovgivningen som gir mandat til opprettelse eller forvaltning av datatjenesten.
 
 _This property is used to refer to the legislation that mandates the creation or management of the data service._
@@ -95,7 +95,7 @@ Eksempel i RDF Turtle:
 | _English name_ | _endpoint description_
 | URI | dcat:endpointDescription
 | Verdiområde / _Range_ | rdfs:Resource
-| Anvendelse / _Usage note_ | Egenskapen brukes til å oppgi en beskrivelse av tjenestene som er tilgjengelige via endepunktene, inkludert deres operasjoner, parametere osv. Egenskapen gir spesifikke detaljer om de faktiske endepunkt-instansene, mens egenskapen https://informasjonsforvaltning.github.io/dcat-ap-no/#Datatjeneste-i-samsvar-med[Datatjeneste – i samsvar med (dct:conformsTo) &#x29C9;, window="_blank", role="ext-link"] brukes til å indikere den generelle standarden eller spesifikasjonen som endepunktene implementerer.
+| Anvendelse / _Usage note_ | Egenskapen brukes til å oppgi en beskrivelse av tjenestene som er tilgjengelige via endepunktene, inkludert deres operasjoner, parametere osv. Egenskapen gir spesifikke detaljer om de faktiske endepunkt-instansene, mens egenskapen https://data.norge.no/specification/dcat-ap-no/#Datatjeneste-i-samsvar-med[Datatjeneste – i samsvar med (dct:conformsTo) &#x29C9;, window="_blank", role="ext-link"] brukes til å indikere den generelle standarden eller spesifikasjonen som endepunktene implementerer.
 
 __The property is used to provide specific details of the actual endpoint instances, while dct:conformsTo is used to indicate the general standard or specification that the endpoints implement.__
 | Multiplisitet / _Multiplicity_ | 0..n
@@ -159,7 +159,7 @@ Eksempel i RDF Turtle:
 |===
 | _English name_ | _rights_
 | URI | dct:rights
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Rettighetserkl%C3%A6ring[odrs:RightsStatement &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#Rettighetserkl%C3%A6ring[odrs:RightsStatement &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en uttalelse som angir rettigheter knyttet til distribusjonen.
 
 _This property is used to refer to a statement that specifies rights associated with the data service._
