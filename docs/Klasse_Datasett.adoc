@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-<<diagram-Klassen-Datasett>> viser klassen Datasett og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Datasett[klassen Datasett (dcat:Dataset) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen.
+<<diagram-Klassen-Datasett>> viser klassen Datasett og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://data.norge.no/specification/dcat-ap-no/#Datasett[klassen Datasett (dcat:Dataset) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen.
 
 [[diagram-Klassen-Datasett]]
 .Klassen Datasett og klassene den refererer til.
@@ -15,7 +15,7 @@ image::images/Klassen-Datasett.png[]
 |===
 | _English name_ | _Dataset_
 | URI | dcat:Dataset
-| Subklasse av / _Subclass of_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#KatalogisertRessurs[dcat:Resource &#x29C9;, window="_blank", role="ext-link"]
+| Subklasse av / _Subclass of_ | https://data.norge.no/specification/dcat-ap-no/#KatalogisertRessurs[dcat:Resource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Klassen brukes til å representere et datasett, dvs. en konseptuell entitet som representerer publisert informasjon.
 
 _This class is used to represent a conceptual entity that represents the information published._
@@ -30,7 +30,7 @@ _This class is used to represent a conceptual entity that represents the informa
 |===
 | _English name_ | _applicable legislation_
 | URI | dcatap:applicableLegislation
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til lovgivningen som gir mandat til opprettelse eller behandling av datasettet.
 
 _This property is used to refer to the legislation that mandates the creation or management of the dataset._
@@ -101,7 +101,7 @@ Eksempel i RDF Turtle:
 |===
 | _English name_ | _conforms to_
 | URI | dct:conformsTo
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Standard[dct:Standard &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#Standard[dct:Standard &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en implementasjonsregel eller annen spesifikasjon, som ligger til grunn for opprettelsen av datasettet.
 
 _This property is used to refer to an implementing rule or other specification._

@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-<<diagram-Klassen-Datasettserie>> viser klassen Datasettserie og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Datasettserie[klassen Datasettserie (dcat:DatasetSeries) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. Se også https://informasjonsforvaltning.github.io/dcat-ap-no/#Om-Datasettserie[Om bruk av datasettserie i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"].
+<<diagram-Klassen-Datasettserie>> viser klassen Datasettserie og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://data.norge.no/specification/dcat-ap-no/#Datasettserie[klassen Datasettserie (dcat:DatasetSeries) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. Se også https://data.norge.no/specification/dcat-ap-no/#Om-Datasettserie[Om bruk av datasettserie i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"].
 
 [[diagram-Klassen-Datasettserie]]
 .Klassen Datasettserie og klassene den refererer til.
@@ -31,7 +31,7 @@ _This class is used to represent a collection of datasets that are published sep
 |===
 | _English name_ | _applicable legislation_
 | URI | dcatap:applicableLegislation
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til lovgivningen som gir mandat til opprettelse eller behandling av datasettserien.
 
 _This property is used to refer to the legislation that mandates the creation or management of the dataset series._
