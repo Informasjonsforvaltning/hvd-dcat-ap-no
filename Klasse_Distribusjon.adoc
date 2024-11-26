@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-<<diagram-Klassen-Distribusjon>> viser klassen Distribusjon og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://informasjonsforvaltning.github.io/dcat-ap-no/#Distribusjon[klassen Distribusjon (dcat:Distribution) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. 
+<<diagram-Klassen-Distribusjon>> viser klassen Distribusjon og dens egenskaper, samt klassene den refererer til. I figuren er differansen mellom kravene i HVD-DCAT-AP-NO og DCAT-AP-NO markert i gult. Kun kravene som er spesifikke for HVD er videre spesifisert i dette kapittelet. Kravene ellers til https://data.norge.no/specification/dcat-ap-no/#Distribusjon[klassen Distribusjon (dcat:Distribution) i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"] gjelder også for denne klassen. 
 
 [[diagram-Klassen-Distribusjon]]
 .Klassen Distribusjon og klassene den refererer til.
@@ -31,7 +31,7 @@ __Bulk downloads should be encoded as a Distribution.__
 |===
 | _English name_ | _applicable legislation_
 | URI | dcatap:applicableLegislation
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#RegulativRessurs[eli:LegalResource &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til lovgivningen som gir mandat til opprettelse eller forvaltning av distribusjonen.
 
 _This property is used to refer to the legislation that mandates the creation or management of the Distribution._
@@ -101,7 +101,7 @@ Eksempel i RDF Turtle:
 |===
 | _English name_ | _linked schemas_
 | URI | dct:conformsTo
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Standard[dct:Standard &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#Standard[dct:Standard &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til et etablert skjema som distribusjonen er i samsvar med.
 
 _This property is used to refer to an established schema to which the described Distribution conforms._
@@ -124,7 +124,7 @@ Eksempel i RDF Turtle:
 |===
 | _English name_ | _rights_
 | URI | dct:rights
-| Verdiområde / _Range_ | https://informasjonsforvaltning.github.io/dcat-ap-no/#Rettighetserkl%C3%A6ring[odrs:RightsStatement &#x29C9;, window="_blank", role="ext-link"]
+| Verdiområde / _Range_ | https://data.norge.no/specification/dcat-ap-no/#Rettighetserkl%C3%A6ring[odrs:RightsStatement &#x29C9;, window="_blank", role="ext-link"]
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en uttalelse som angir rettigheter knyttet til distribusjonen.
 
 _This property is used to refer to a statement that specifies rights associated with the Distribution._
