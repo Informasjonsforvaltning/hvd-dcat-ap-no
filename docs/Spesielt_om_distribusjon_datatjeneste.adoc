@@ -13,7 +13,7 @@ Forordningen setter dessuten eksplisitte krav til om et HVD skal være tilgjenge
 [[diagram-datasett-distribusjon-datatjeneste]]
 .Datasett, Distribusjon og Datatjeneste.
 [link=images/datasett-distribusjon-datatjeneste.png]
-image::images/datasett-distribusjon-datatjeneste.png[]
+image::images/datasett-distribusjon-datatjeneste.png[alt="Tegning med tre klasser og relasjoner mellom dem. Innholdet er forklart i teksten."]
 
 <<diagram-datasett-distribusjon-datatjeneste>> illustrerer hvordan bulknedlastinger og API-tilgang skal beskrives: 
 

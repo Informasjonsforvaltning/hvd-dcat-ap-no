@@ -7,7 +7,7 @@
 [[diagram-Klassen-Datatjeneste]]
 .Klassen Datatjeneste og klassene den refererer til.
 [link=images/Klassen-Datatjeneste.png]
-image::images/Klassen-Datatjeneste.png[]
+image::images/Klassen-Datatjeneste.png[alt="Tegning med syv klasser og relasjoner mellom dem. Innholdet er forklart i teksten."]
 
 :xrefstyle: full
 
