@@ -7,7 +7,7 @@
 [[diagram-Klassen-Datasett]]
 .Klassen Datasett og klassene den refererer til.
 [link=images/Klassen-Datasett.png]
-image::images/Klassen-Datasett.png[]
+image::images/Klassen-Datasett.png[alt="Tegning med syv klasser og relasjoner mellom dem. Innholdet er forklart i teksten."]
 
 :xrefstyle: full
 

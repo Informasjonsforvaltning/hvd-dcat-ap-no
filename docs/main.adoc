@@ -24,9 +24,9 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 
 *Lisens*: https://creativecommons.org/licenses/by/4.0/[CC BY 4.0 &#x29C9;, window="_blank", role="ext-link"] +
 *Status*: Gjeldende fra 2025-01-01 +
-*Versjon*: v.1.0.0 +
-*Publisert*: 2024-11-26 + 
-*Oppdatert*: 2024-11-26 +
+*Versjon*: v.1.0.1 (se <<Endringslogg>>) +
+*Publisert*: 2024-11-26 (v.1.0.0) + 
+*Oppdatert*: 2024-12-04 (v.1.0.x) +
 *Gjeldende versjon*: https://data.norge.no/specification/hvd-dcat-ap-no/ +
 *Forrige versjon*: ingen +
 *Redaktørens utkast*: https://informasjonsforvaltning.github.io/hvd-dcat-ap-no/ +
