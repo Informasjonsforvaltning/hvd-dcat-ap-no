@@ -69,3 +69,5 @@ include::Spesielle_temaer.adoc[]
 :sectnums!:
 
 include::Navnerom.adoc[]
+
+include::Endringslogg.adoc[]
