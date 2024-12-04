@@ -13,7 +13,7 @@ Tegningen er ikke ment som en formell representasjon av standarden, men kun for 
 [[img-ForenkletModell]]
 .Forenklet fremstilling av kravene i HVD-DCAT-AP-NO, med kun obligatoriske og anbefalte krav.
 [link=images/HVD-DCAT-AP-NO-forenklet-fremstilling.png]
-image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[]
+image::images/HVD-DCAT-AP-NO-forenklet-fremstilling.png[alt="Tegning med fire klasser og relasjoner mellom dem. Innholdet er forklart i teksten."]
 
 :xrefstyle: full
 
