@@ -4,4 +4,6 @@
 
 Kun redaksjonelle justeringer: 
 
+* fra v.1.0.1 til 1.0.2: rettet opp lenker til et par EUs kontrollerte vokabularer. 
+
 * fra v.1.0.0 til 1.0.1: lagt inn alternativ tekst til figurene
