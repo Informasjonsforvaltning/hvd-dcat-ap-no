@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="generator" content="Asciidoctor 2.0.26">
 <meta name="author" content="Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency">
 <title>Standard for beskrivelse av datasett med høy verdi (HVD-DCAT-AP-NO)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -117,7 +117,6 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
@@ -220,6 +219,7 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
 .listingblock:hover code[data-lang]::before{display:block}
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
@@ -717,9 +717,9 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="paragraph">
 <p><strong>Lisens</strong>: <a href="https://creativecommons.org/licenses/by/4.0/" class="ext-link" target="_blank" rel="noopener">CC BY 4.0 &#x29C9;</a><br>
 <strong>Status</strong>: Gjeldende fra 2025-01-01<br>
-<strong>Versjon</strong>: v.1.0.1 (se <a href="#Endringslogg"><em>Endringslogg</em></a>)<br>
+<strong>Versjon</strong>: v.1.0.2 (se <a href="#Endringslogg"><em>Endringslogg</em></a>)<br>
 <strong>Publisert</strong>: 2024-11-26 (v.1.0.0)<br>
-<strong>Oppdatert</strong>: 2024-12-04 (v.1.0.x)<br>
+<strong>Oppdatert</strong>: 2025-12-05 (v.1.0.x)<br>
 <strong>Gjeldende versjon</strong>: <a href="https://data.norge.no/specification/hvd-dcat-ap-no/" class="bare">https://data.norge.no/specification/hvd-dcat-ap-no/</a><br>
 <strong>Forrige versjon</strong>: ingen<br>
 <strong>Redaktørens utkast</strong>: <a href="https://informasjonsforvaltning.github.io/hvd-dcat-ap-no/" class="bare">https://informasjonsforvaltning.github.io/hvd-dcat-ap-no/</a><br></p>
@@ -879,7 +879,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p><strong>Datasett</strong> med høy verdi og relaterte <strong>distribusjon</strong>er og APIer (<strong>datatjeneste</strong>r), samt ev. <strong>datasettserie</strong>(r) som datasettet inngår i, SKAL oppgi <a href="http://data.europa.eu/eli/reg_impl/2023/138/oj" class="ext-link" target="_blank" rel="noopener">HVD-forordningen &#x29C9;</a> som <strong>gjeldende lovgivning</strong>.</p>
 </li>
 <li>
-<p>Det SKAL oppgis <strong>HVD-kategori</strong>(er) et <strong>datasett</strong> med høy verdi tilhører. Samme krav gjelder også APIer (<strong>datatjeneste</strong>r) som tilgjengeliggjør datasett med høy verdi og ev. <strong>datasettserie</strong>(r) som et datasett med høy verdi inngår i. <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category" class="ext-link" target="_blank" rel="noopener">EUs kontrollerte vokabular for HVD-kategorier &#x29C9;</a> SKAL brukes.</p>
+<p>Det SKAL oppgis <strong>HVD-kategori</strong>(er) et <strong>datasett</strong> med høy verdi tilhører. Samme krav gjelder også APIer (<strong>datatjeneste</strong>r) som tilgjengeliggjør datasett med høy verdi og ev. <strong>datasettserie</strong>(r) som et datasett med høy verdi inngår i. <a href="http://data.europa.eu/bna/asd487ae75" class="ext-link" target="_blank" rel="noopener">EUs kontrollerte vokabular for HVD-kategorier &#x29C9;</a> SKAL brukes.</p>
 </li>
 <li>
 <p>Et API (en <strong>datatjeneste</strong>) som tilgjengeliggjør datasett med høy verdi, SKAL ha <strong>dokumentasjon</strong> som beskriver bl.a. tjenestekvalitet.</p>
@@ -1993,7 +1993,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p>HVD-forordningen krever høy metadatakvalitet for juridisk informasjon om datasett med høy verdi. Informasjonen bør være i både maskin- og menneskelesbart format, dessuten med en varig lenke.</p>
 </div>
 <div class="paragraph">
-<p>Vi anbefaler sterkt at datasettutgiverne bruker en av lisensene fra <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/licence" class="ext-link" target="_blank" rel="noopener">EUs kontrollerte vokabular for lisens &#x29C9;</a>, f.eks. CC BY 4.0 ved å bruke den varige lenken <code>http://publications.europa.eu/resource/authority/licence/CC_BY_4_0</code>. Regjeringens <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/" class="ext-link" target="_blank" rel="noopener">retningslinjer ved tilgjengeliggjøring av offentlige data  &#x29C9;</a>, under punkt 1 Bruk åpne standardlisenser, anbefaler også å bruke CC BY 4.0.</p>
+<p>Vi anbefaler sterkt at datasettutgiverne bruker en av lisensene fra <a href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/licence" class="ext-link" target="_blank" rel="noopener">EUs kontrollerte vokabular for lisens &#x29C9;</a>, f.eks. CC BY 4.0 ved å bruke den varige lenken <code>http://publications.europa.eu/resource/authority/licence/CC_BY_4_0</code>. Regjeringens <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/" class="ext-link" target="_blank" rel="noopener">retningslinjer ved tilgjengeliggjøring av offentlige data  &#x29C9;</a>, under punkt 1 Bruk åpne standardlisenser, anbefaler også å bruke CC BY 4.0.</p>
 </div>
 <div class="paragraph">
 <p>For datasettutgivere som mot formodning ikke kan bruke en av lisensene fra ovennevnte EUs kontrollerte vokabular for lisens, se <a href="https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/3.0.0-hvd/#c3" class="ext-link" target="_blank" rel="noopener"><em>Legal information</em> &#x29C9;</a> i EUs DCAT-AP HVD.</p>
@@ -2149,6 +2149,9 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="ulist">
 <ul>
 <li>
+<p>fra v.1.0.1 til 1.0.2: rettet opp lenker til et par EUs kontrollerte vokabularer.</p>
+</li>
+<li>
 <p>fra v.1.0.0 til 1.0.1: lagt inn alternativ tekst til figurene</p>
 </li>
 </ul>
@@ -2162,7 +2165,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2025-02-28 05:45:33 UTC
+Sist oppdatert 2025-12-05 12:33:19 UTC
 </div>
 </div>
 </body>

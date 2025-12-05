@@ -24,7 +24,7 @@ I tillegg til de ikke-HVD-spesifikke obligatoriske kravene i DCAT-AP-NO som ikke
 
 * **Datasett** med høy verdi og relaterte **distribusjon**er og APIer (**datatjeneste**r), samt ev. **datasettserie**(r) som datasettet inngår i, SKAL oppgi http://data.europa.eu/eli/reg_impl/2023/138/oj[HVD-forordningen &#x29C9;, window="_blank", role="ext-link"] som *gjeldende lovgivning*.  
 
-* Det SKAL oppgis *HVD-kategori*(er) et **datasett** med høy verdi tilhører. Samme krav gjelder også APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi og ev. *datasettserie*(r) som et datasett med høy verdi inngår i. https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category[EUs kontrollerte vokabular for HVD-kategorier &#x29C9;, window="_blank", role="ext-link"] SKAL brukes. 
+* Det SKAL oppgis *HVD-kategori*(er) et **datasett** med høy verdi tilhører. Samme krav gjelder også APIer (**datatjeneste**r) som tilgjengeliggjør datasett med høy verdi og ev. *datasettserie*(r) som et datasett med høy verdi inngår i. http://data.europa.eu/bna/asd487ae75[EUs kontrollerte vokabular for HVD-kategorier &#x29C9;, window="_blank", role="ext-link"] SKAL brukes. 
 
 * Et API (en **datatjeneste**) som tilgjengeliggjør datasett med høy verdi, SKAL ha **dokumentasjon** som beskriver bl.a. tjenestekvalitet. 
 
