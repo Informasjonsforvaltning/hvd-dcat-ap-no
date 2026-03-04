@@ -12,6 +12,8 @@ jobs:
   adoc_build:
     runs-on: ubuntu-latest
     name: asciidoctor build
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout code
